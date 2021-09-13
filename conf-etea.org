@@ -1,0 +1,448 @@
+#+TITLE: Archivo de configuración para la ETEA (etea.sty)
+#+AUTHOR: Antonio Moreno
+#+PROPERTY: header-args :tangle etea.sty :results silent
+#+OPTIONS: d:nil
+#+LANGUAGE: es
+#+OPTIONS: ':t
+#+OPTIONS: tags:nil
+#+OPTIONS: todo:nil
+# ------------------------------
+# Exportación a LaTeX
+# ------------------------------
+# #+LATEX_HEADER: \usepackage{minted}
+
+* Configuración general
+
+** base-ammz
+
+Los paquetes habituales: (babel, fontspec, graphics, graphicx, xcolor e hyperref) ya están cargados con base-ammz.sty
+
+** Paquetes
+
+*** Parte propositiva
+Estos paquetes solo serían necesarios para la parte propositiva
+
+#+begin_SRC latex
+  \RequirePackage{nextpage}           % ofrece \cleartoevenpage
+  \RequirePackage{eso-pic}            % cambios en el background (\AddToShipoutPictureBG)
+  \RequirePackage[section]{placeins}
+#+end_SRC
+
+** Disposición de la hoja
+
+*** Medidas
+
+#+begin_SRC latex
+  \setlength{\textwidth}{13cm}
+  \setlength{\textheight}{25cm}
+
+  \setlength{\oddsidemargin}{-.54cm}
+  \setlength{\evensidemargin}{3.46cm}
+  \setlength{\marginparwidth}{4.54cm}
+
+  \setlength{\topmargin}{-1.54cm}
+  \setlength{\headheight}{6mm}
+  \setlength{\headsep}{9mm}
+  \setlength{\topskip}{5mm}
+#+end_SRC
+
+*** Dos columnas
+
+#+begin_SRC latex
+  \RequirePackage{multicol}
+  \setlength{\columnsep}{.6cm}
+#+end_SRC
+
+** Tipos de letra
+
+*** Tipografía por defecto
+
+#+begin_SRC latex
+  \setmainfont{EB Garamond}
+  \setsansfont{PT Sans}
+#+end_SRC
+
+*** Colores
+
+#+begin_SRC latex
+  \definecolor{azulon}{cmyk}{0.76,0.31,0.04,0}
+  \definecolor{meta}{cmyk}{0.10,0.0,0.20,0}
+  \definecolor{linea}{cmyk}{0.02,0.75,0.97,0.06}
+
+  \definecolor{azulao}{rgb}{0.04,0.33,0.62}
+  \definecolor{morado}{rgb}{0.34,0.12,0.43}
+#+end_SRC
+
+*** Definición de nuevos tipos
+
+#+begin_SRC latex
+  \newfontfamily\nummeta[Scale=3.6]{Noto Sans}
+  \newfontfamily\texmeta[Scale=2]{Noto Sans}
+  \newfontfamily\numblo[Color=azulon,Scale=12.4]{Noto Sans}
+  \newfontfamily\texblo[Color=azulon,Scale=3]{Noto Sans}
+  \newfontfamily\meta[Color=azulon,Scale=1.4]{Noto Sans}
+  \newfontfamily\actua[Color=white,Scale=1.4]{Noto Sans}
+  \newfontfamily\fods[Color=white,Scale=0.9]{Noto Sans}
+  \newfontfamily\azul[Color=azulon]{Noto Serif}
+  \newfontfamily\linea[Color=linea,Scale=1.4]{Noto Sans}
+  \newfontfamily\cb[Color=azulao]{PT Sans}
+  \newfontfamily\fnotab{PT Sans}
+  \newfontfamily\fnota[Scale=0.95]{PT Sans}[
+    UprightFont={*},
+    ItalicFont={* Italic},
+    BoldFont={* Bold},
+    BoldItalicFont={* Bold Italic}]
+  #+end_SRC
+
+*** Formateo de caracteres
+
+#+begin_SRC latex
+\newcommand\destacado[1]{\textrm{\azul#1}}
+#+end_SRC
+
+** Cajas y otros efectos
+
+#+begin_SRC latex
+  \RequirePackage{tcolorbox}
+  \tcbuselibrary{breakable}
+  \tcbuselibrary{skins}
+  \RequirePackage{tikzpagenodes}
+#+end_SRC
+
+*** Caja coloreada y con alfeizar
+
+#+begin_SRC latex
+  \newtcolorbox{alfeizar}[2][]{%
+  enhanced,skin=enhancedlast jigsaw,
+  attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
+  fonttitle=\bfseries\sffamily,
+  colbacktitle=blue!45!white,colframe=red!50!black,
+  interior style={top color=blue!10!white,bottom color=red!10!white},
+  boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt},
+  underlay boxed title={
+  \fill[blue!45!white] (title.north west) -- (title.north east)
+  -- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm)
+  -- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm)
+  -- (title.south west) -- cycle;
+  \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west)
+  -- +(-0.4,0) -- +(0,-0.3) -- cycle;
+  \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east)
+  -- +(0,-0.3) -- +(0.4,0) -- cycle; },
+  title={#2},#1}
+#+end_SRC
+
+** Listas
+
+Para gestionar con más opciones las listas se incluye el paquete =enumitem=.
+
+#+begin_SRC latex
+  \RequirePackage{enumitem}
+#+end_SRC
+
+** Figuras
+
+Los títulos del gráfico van en la parte superior y las fuentes, notas,
+etc. se colocan en los laterales.
+
+#+begin_SRC latex
+  % \usepackage{showframe}
+  \RequirePackage{floatrow}
+
+  \DeclareFloatVCode{azulaoruleabove}%
+  {{\color{azulao}\par\rule\hsize{.8pt}\vskip4pt\par}}
+
+  \DeclareFloatVCode{azulaorulemid}%
+  {{\color{azulao}\vskip-12pt\rule\hsize{.2pt}\vskip10pt}}
+
+  \DeclareFloatVCode{azulaorulebelow}%
+  {{\color{azulao}\par\vskip4pt\rule\hsize{.2pt}}}
+
+  \DeclareFloatStyle{rayas}{%
+    capposition=top,
+    precode=azulaoruleabove,
+    midcode=azulaorulemid,
+    postcode=azulaorulebelow,
+    heightadjust=all}
+
+  \floatsetup[figure]{style=rayas,
+    facing=yes,
+    margins=hangoutside,
+  }
+
+  \RequirePackage{caption}
+  \captionsetup[figure]{%
+    singlelinecheck=off,
+    format=plain,
+    justification=raggedright,
+    labelfont={sf,scriptsize},
+    textfont={color={azulao},sf,bf,small},
+    labelsep=newline}
+
+  \RequirePackage[strict]{changepage}
+  \RequirePackage{ifthen}
+
+  \newcommand{\mysidelegend}[3]{%
+    \checkoddpage%
+    \ifoddpage%
+    \begin{minipage}[t]{\textwidth}
+      % \ffigbox[\FBwidth]
+      \ffigbox[\textwidth]
+      {\caption{#1}}
+      % {\includegraphics[width=\textwidth]{#2}}
+      {\includegraphics{#2}}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{4.4cm}
+      \raggedright\fnota\scriptsize%
+      #3
+    \end{minipage}
+    \else%
+    \hspace*{-4.8cm}
+    \begin{minipage}[b]{4.5cm}
+      \raggedleft\fnota\scriptsize%
+      #3
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{\textwidth}
+      % \ffigbox[\FBwidth]
+      \ffigbox[\textwidth]
+      {\caption{#1}}
+      % {\includegraphics[width=\textwidth]{#2}}
+      {\includegraphics{#2}}
+    \end{minipage}%
+    \fi%
+  }
+#+end_SRC
+
+** Cabecera y pie
+
+#+begin_SRC latex
+  \RequirePackage{fancyhdr}
+  \pagestyle{fancy}
+  \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+  \renewcommand{\sectionmark}[1]{\markright{#1}}
+  \fancyhf{}
+  \fancyhead[LE]{\sffamily\color{azulao}\scriptsize\nouppercase{\leftmark}}
+  \fancyhead[RO]{\sffamily\color{azulao}\scriptsize\nouppercase{\rightmark}}
+
+  % \fancyhead[LE]{\leavevmode\smash{\llap{\sffamily \bfseries \thepage\ \rule[-1em]{5pt}{2em}}}}
+  % \fancyhead[RO]{\leavevmode\smash{\rlap{\rule[-1em]{5pt}{2em}\ \sffamily \bfseries \thepage}}}
+
+  \fancyfoot[LE]{\sffamily\color{azulao} \bfseries\thepage\quad\quad\quad\mdseries ETEA 2021-2027}
+  \fancyfoot[RO]{\sffamily\color{azulao} ETEA 2021-2027\quad\quad\quad\bfseries\thepage}
+  \renewcommand{\headrulewidth}{0pt}%
+#+end_SRC
+
+** Estilos de capítulos, secciones y demás
+
+#+begin_SRC latex
+  \RequirePackage[rigidchapters]{titlesec}
+#+end_SRC
+
+*** Part
+
+*** Chapter
+
+**** Para resetear la numeración de los Capítulos en cada Parte.
+
+#+begin_SRC latex
+  \makeatletter
+  \@addtoreset{chapter}{part}
+  \makeatother
+#+end_SRC
+
+**** Estilo de los capítulos
+
+#+begin_SRC latex
+  \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+  \titleformat{\chapter}          % Comando de estructura
+  [block]                          % tipo
+  {\sffamily\Huge\color{morado}} % formato
+  {}                              % label
+  {0cm}                          % separación
+  {}                              % before-code
+  []                              % after-code
+
+  \titlespacing{\chapter}
+  {0pt}                           % left
+  {2cm}                           % before-sep
+  {3cm}                           % after-sep
+#+end_SRC
+
+*** Section / section*
+
+#+begin_SRC latex
+  \titleclass{\section}{straight}
+
+  \titleformat{name=\section,numberless}          % comando
+  [block]                                         % tipo
+  {\sffamily\bfseries\Large\color{morado}}        % format
+  {}                                              % label
+  {0mm}                                           % sep
+  {\leavevmode\smash{\llap{\rule{2mm}{2mm}\;\;}}} % before-code
+  []                                              % after-code
+
+  \titleformat{name=\section}              % comando
+  [hang]                                   % tipo
+  {\sffamily\bfseries\Large\color{morado}} % format
+  {\thesection}                            % label
+  {4mm}                                    % sep
+  {}                                       % before-code
+  []                                       % after-code
+
+  \titlespacing{\section}
+  {0pc}                           % left
+  {.7cm}                          % before-sep
+  {.3cm}                          % after-sep
+#+end_SRC
+
+*** Subsection
+
+#+begin_SRC latex
+  \titleclass{\subsection}{straight}
+
+  \titleformat{name=\subsection}     % comando
+  [block]                            % tipo
+  {\sffamily\bfseries\color{morado}} % format
+  {\thesection}                      % label
+  {0mm}                              % sep
+  {}                                 % before-code
+  []                                 % after-code
+
+  \titlespacing{\subsection}
+  {0pc}                           % left
+  {5mm}                           % before-sep
+  {2mm}                           % after-sep
+#+end_SRC
+
+* Configuración parte propositiva
+:PROPERTIES:
+:header-args+: :tangle propositiva.sty
+:END:
+
+** Cabecera
+
+#+begin_SRC latex
+  \renewcommand{\sectionmark}[1]{\markboth{\thesection\ #1}{}}
+  \renewcommand{\subsectionmark}[1]{\markright{#1}}
+  \fancyhead[LO]{\sffamily\color{azulao}\scriptsize\thesection}
+#+end_SRC
+** Chapter
+
+#+begin_SRC latex
+  \titleformat{\chapter}          % command
+  [display]                       % shape
+  {\sffamily\bfseries}            % format
+  {\centering\numblo\thechapter}  % label
+  {.5cm}                          % sep
+  {\centering\texblo}             % before-code
+  []                              % after-code
+
+  \titlespacing{\chapter}
+  {0pt}                           % left
+  {0cm}                           % before-sep
+  {8cm}                           % after-sep
+#+end_SRC
+
+** Section
+
+#+begin_SRC latex
+  \renewcommand{\sectionbreak}{\cleardoublepage}
+  \renewcommand{\thesection}{0\thechapter0\arabic{section}}
+#+end_SRC
+
+Con =\titleclass{\section}{top}= conseguimos que =\section= se
+comporte como =\chapter=, lo que permite que se le aplique la opción
+=[rigidchapters]= del paquete =\titlesec=, que fija la distancia del
+texto que sigue a la sección desde la parte superior de la página y no
+a partir de donde termina el título como es habitual.
+
+#+begin_SRC latex
+  \titleclass{\section}{top}
+  \titleformat{\section}             % command
+  [display]                          % shape
+  {\vspace{-10mm}\sffamily\bfseries} % format
+  {\nummeta\thesection}              % label
+  {.5cm}                             % sep
+  {\raggedright\texmeta}             % before-code
+  [\AddToShipoutPictureBG*{
+    \AtPageUpperLeft{%
+      \color{meta}%
+      \rule[-73mm]{21cm}{73mm}%
+    }
+  }
+  \thispagestyle{empty}]         % after-code
+
+  \titlespacing{\section}
+  {0pt}                           % left
+  {0pt}                           % before-sep
+  {5cm}                           % after-sep
+#+end_SRC
+
+Otra solución al problema descrito antes, pero que no uso.
+
+#+begin_SRC latex :tangle nil
+  \newcommand{\secformat}[1]{\texmeta\parbox[t][3.5cm][t]{16cm}{\raggedright #1}}
+
+  \titleformat{\section}          % command
+  [display]                       % shape
+  {\sffamily\bfseries}            % format
+  {\nummeta\thesection}           % label
+  {.5cm}                          % sep
+  {\secformat}                    % before-code
+  [\AddToShipoutPictureBG*{
+    \AtPageUpperLeft{%
+      \color{meta}%
+      \rule[-73mm]{21cm}{73mm}%
+    }
+  }\thispagestyle{empty}]         % after-code
+
+  \titlespacing{\section}
+  {20pt}                          % left
+  {0cm}                           % before-sep
+  {1cm}                           % after-sep
+#+end_SRC
+
+** Subsection
+
+Este formato coincide con el de las =section= que están en la parte no propositiva.
+
+*** FloatBarrier
+Para evitar que los gráficos se coloquen en la siguiente subsubsection usamos el paquete =placeins=. Sin embargo, para que afecte a las subsections tendremos que poner delante de cada una de ellas el comando =\FloatBarrier=.
+
+*** Formato
+
+#+begin_SRC latex
+  \renewcommand{\subsectionbreak}{\cleartoevenpage}
+
+  \titleformat{\subsection}                % comando
+  [block]                                  % tipo
+  {\sffamily\bfseries\Large\color{morado}} % format
+  {\thesubsection}                         % label
+  {0mm}                                    % sep
+  {\leavevmode\smash{\llap{\rule{2mm}{2mm}\;\;}}} % before-code
+  []                                              % after-code
+
+  \titlespacing{\subsection}
+  {0pc}                           % left
+  {.7cm}                          % before-sep
+  {.3cm}                          % after-sep
+#+end_SRC
+
+** Subsubsection
+
+#+begin_SRC latex
+  \titleformat{\subsubsection}    % command
+  [hang]                          % shape
+  {}      % format
+  {}                              % label
+  {0pt}                           % sep
+  {}                              % before-code
+  []                              % after-code
+
+  \titlespacing{\subsubsection}
+  {0pc}                           % left
+  {0cm}                           % before-sep
+  {0pc}                           % after-sep
+#+end_SRC
