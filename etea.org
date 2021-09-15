@@ -561,7 +561,7 @@ Estos resultados contrastan con lo observado en otras economías de referencia, 
 Así, y a partir de la información publicada por Eurostat y la base de datos de la Comisión Europea (AMECO), se observa que el crecimiento medio anual acumulativo en la UE entre 2000 y 2019 fue del 1,4%, como se ha comentado anteriormente, siendo la contribución del factor capital a este crecimiento de 0,5 puntos, de 0,2 puntos el factor trabajo, y el resto (0,7 puntos) a la productividad total de los factores; es decir, la mitad del crecimiento económico en la UE ha correspondido a la productividad total de los factores.
 
 :fig-d08:
-:F: INE; Eurostat; Comisión Europea (Base de datos AMECO).:F:
+:F: INE; IECA; Comisión Europea (Base de datos AMECO).:F:
 :U::U:
 :N: Tasas medias anuales acumulativas período 2000-2019:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
@@ -817,7 +817,7 @@ El Centro de Predicción Económica (CEPREDE) de la Universidad Autónoma de Mad
 :fig-d20:
 :F: INE; N-Economía (CEPREDE-UAM):F:
 :U::U:
-:N: * Datos CEPREDE, calculados con información disponibles en 2020.:N:
+:N: * Datos CEPREDE, calculados con información disponible en 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Innovación tecnológica y PIB per cápita en las CC.AA. españolas
 [[./graficos/diagnostico/d20.pdf]]
@@ -830,7 +830,7 @@ Con la última información disponible de este indicador de innovación tecnoló
 :fig-d21:
 :F: INE; N-Economía (CEPREDE-UAM):F:
 :U::U:
-:N: * Datos CEPREDE, calculados con información disponibles en 2020.:N:
+:N: * Datos CEPREDE, calculados con información disponible en 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Componentes del indicador de innovación tecnológica. Andalucía (España=100)
 [[./graficos/diagnostico/d21.pdf]]
@@ -851,7 +851,7 @@ En este sentido, en la mayor parte de Europa, los modelos de cualificación se a
 :fig-d22:
 :F: Eurostat.:F:
 :U::U:
-:N: % sobre el total población en edad de trabajar *15-64 años). Datos del año 2020.:N:
+:N: % sobre el total población en edad de trabajar (15-64 años). Datos del año 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Nivel educativo de la fuerza de trabajo en Andalucía, España y Europa
 [[./graficos/diagnostico/d22.pdf]]
@@ -868,7 +868,7 @@ Se podría pensar que esta situación es debido a la herencia histórica de una 
 :U::U:
 :N: Tasa de paro: % sobre población activa. Datos referidos al año 2020. \par Tasa de abandono educativo temprano: % población de 18 a 24 años que no ha completado el nivel de Educación Secundaria 2ª etapa y no sigue ningún tipo de educación-formación.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
-#+CAPTION: Tasa de abandono educativo y tasaa de paro. Año 2020
+#+CAPTION: Tasa de abandono educativo temprano y tasa de paro. Año 2020
 [[./graficos/diagnostico/d23.pdf]]
 :END:
 
