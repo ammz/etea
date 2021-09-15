@@ -4810,7 +4810,7 @@ En relación a los *bajos de niveles de formación*, que se tratan en otros apar
 
 La relación de la *formación educativa* con el desempleo es evidente, puesto que la tasa de paro de la población entre 25 y 64 años con menor nivel educativo (hasta la secundaria obligatoria) en Andalucía es más del doble (27,2%) que la de perfiles con educación superior (11,7%), por encima de las medias nacionales (18,9% vs 8,1%) y europeas (12,5% vs 4,0%).
 
-Además, en 2019, casi la mitad de la población activa andaluza (47,8%) cuenta solo con estudios primarios (primera etapa de educación secundaria o menos), frente al 38,7% y 17,4%, en España y Unión Europea, respectivamente.
+Además, en 2019, casi la mitad de la población activa andaluza (47,8%) cuenta solo con estudios primarios (primera etapa de educación secundaria o menos), frente al 38,7% y 17,4%, en España y Unión Europea, respectivamente. En este sentido, cabe destacar el positivo papel que pueden desempeñar las escuelas de segunda oportunidad, vinculada al aprendizaje de oficios y con titulaciones reconocida por la administración.
 
 Por su parte, *la formación de todas las personas durante toda su vida laboral es clave* para mejorar la empleabilidad, en un mercado laboral que debe dar respuesta a las nuevas necesidades provenientes de un proceso de cambio tecnológico, digital y productivo. En 2019, en España el 10,6 % de la población de 25 a 64 años participó en alguna actividad de formación, siendo la participación de las mujeres superior a la de los hombres en dos puntos, 11,7 % y 9,5 % respectivamente. Los mayores porcentajes de participación se producen en Comunidad Foral de Navarra y País Vasco (ambas 13,0 %), mientras que en Andalucía solo se alcanza el 9,6%. En 2019, en la Unión Europea, el 11,3 % de la población entre 25 y 64 años ha participado en actividades de formación, no alcanzándose todavía el porcentaje del 15% propuesto como objetivo para 2020, en la Estrategia Europa 2020.
 
@@ -4878,7 +4878,7 @@ Un eje de actuación prioritario para facilitar el acceso al empleo tiene que ve
 
 En este terreno, el *Servicio Andaluz de Empleo (SAE), con una limitada capacidad y eficacia*, muestra un desempeño mejorable. El SAE tan solo participa en el 2,7% del total de contrataciones realizadas en Andalucía. Esta cifra se reduce aún más al observar que, en su enorme mayoría, estas contrataciones son de carácter público (96% del total), lo que denota una alta desconexión del mismo respecto del sector privado. Además, las empresas andaluzas recurren al SAE para cubrir preferentemente vacantes de escasa cualificación. Por el lado de la oferta, más de la mitad de las personas desempleadas andaluzas no considera el SAE como instrumento útil para buscar y encontrar un puesto de trabajo y no acuden a su red de oficinas para acabar con su situación de desempleo.
 
-Por ello, es necesario cambiar el modelo de gestión del SAE a partir de una visión integral y analítica del proceso de encuadramiento, orientación e intermediación, utilizando la formación como una de sus principales bazas.
+Por ello, es necesario cambiar el modelo de gestión del SAE a partir de una visión integral y analítica del proceso de encuadramiento, orientación e intermediación, con una colaboración más estrecha y efectiva entre los servicios de empleo y los servicios sociales, utilizando la formación como una de sus principales bazas.
 
 
 :fig-0401C1:
@@ -5179,6 +5179,15 @@ Las innovaciones tecnológicas, la progresiva automatización de los procesos pr
 
 En la mayoría de los países europeos, entre ellos Alemania, Francia, Austria o Reino Unido, la mayor parte de la población tiene un nivel intermedio de cualificación. Sin embargo, como se ha comentado, España y Andalucía constituyen excepciones a este modelo, teniendo un esquema de formación de la población polarizado, con una combinación de cualificaciones bajas y superiores. En concreto, en 2019, en España el 38,7% de la población entre 25 y 64 años ha completado como máximo hasta la enseñanza secundaria obligatoria (ESO), porcentaje que se eleva hasta el 47,8% en el caso de Andalucía. La población de dicha edad con estudios superiores supone el 38,6% del total en España, peso superior a la media europea (31,6%), que es similar al nivel en Andalucía (31,2%). Mientras, en el estrato de población con formación intermedia, es decir, bachillerato y formación profesional de grado medio, se concentra en torno a la cuarta parte (22,7% en España; 21,0% en Andalucía), ratios muy inferiores al de la UE (46,8%).
 
+:fig-0402C1:
+:F:  Eurostat y Ministerio de Educación y Formación Profesional:F:
+:U::U:
+:N::N:
+:E::E:
+#+CAPTION: Distribución de la población (25-64 años) según nivel de formación. 2019
+[[./graficos/0402C1.pdf]]
+:END:
+
 Analizando las tasas brutas de titulación por comunidad autónoma (relación entre el alumnado que termina y el total de la población de la “edad teórica” de comienzo del último curso de esa enseñanza), se observa que en Grado Medio las más altas corresponden a Galicia (27,6 %) y Cantabria (27,3 %) y en Grado Superior a País Vasco (45,0 %), seguida de Cantabria (37,1 %), siendo las tasas en Andalucía del 21,3% y 26,5%, respectivamente. Por su parte en la FP Básica las tasas más altas corresponden a La Rioja (9,1 %) y País Vasco (7,6 %), siendo la andaluza del 3,8%.
 
 Especialmente importante es la Formación Profesional Dual, programa de formación en régimen de alternancia con el empleo que ofrece, mediante un contrato para la formación y el aprendizaje, la posibilidad de obtener uno o varios certificados de profesionalidad a la vez que se desarrolla una actividad laboral retribuida relacionada con la formación impartida. Con este programa se pretende tanto reducir el desempleo juvenil como atender la demanda de mano de obra cualificada.
@@ -5188,16 +5197,6 @@ Los estudios prospectivos del Centro Europeo para el Desarrollo de la Formación
 La administración andaluza debe tratar de mejorar la correspondencia entre la formación profesional media y las necesidades del mercado de trabajo mediante una mayor participación del sector empresarial en la revisión del marco de titulaciones.
 
 Además, en coordinación con el Gobierno central, y con el resto de Comunidades Autónomas, así como con los interlocutores sociales y otras partes interesadas, se debe ir avanzando en el desarrollo y actualización del sistema de formación profesional dual (así como de los títulos de enseñanzas profesionales de artes plásticas y diseño) en Andalucía, cumpliendo con los estándares clave de la formación profesional dual señalados por la OCDE.
-
-
-:fig-0402C1:
-:F:  Eurostat y Ministerio de Educación y Formación Profesional:F:
-:U::U:
-:N::N:
-:E::E:
-#+CAPTION: Distribución de la población (25-64 años) según nivel de formación. 2019
-[[./graficos/0402C1.pdf]]
-:END:
 
 :fig-0402C2:
 :F:  Sistema Estatal de Indicadores de la Educación 2020. Ministerio de Educación y Formación Profesional.:F:
@@ -5327,9 +5326,8 @@ En este sentido se requiere actuar sobre los siguientes ámbitos:
 
 #+ATTR_LATEX: :options [nosep]
 - Riesgo de pobreza o exclusión social
-- Inclusión social
-- Protección Social
-- Dependencia
+- Inclusión y protección social
+- Dependencia y mayores
 
 ****** Objetivo                                                 :ignore:
 :PROPERTIES:
@@ -5348,16 +5346,12 @@ Extender el Sistema de Protección Social a todas las personas vulnerables, actu
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0403-01
 :END:
 
 La magnitud de la desigualdad y el riesgo de exclusión social en Andalucía se ven reflejados con claridad en los últimos datos de la Encuesta de Condiciones de Vida (ECV) del INE. *La tasa de riesgo de pobreza o exclusión social* (indicador AROPE /“At Risk Of Poverty and/or Exclusion”[fn:35]/) en Andalucía muestra en la comparativa con España y la UE que, a pesar de la reducción de la pobreza andaluza, el nivel de población bajo estos umbrales de pobreza y marginalidad *se mantiene por encima de los niveles anteriores a la crisis de 2008-2013*. En concreto, la proporción de personas en riesgo de pobreza, que constituye una medida de pobreza relativa, era en Andalucía del 27,8% en 2019, una proporción preocupante, aunque se haya reducido respecto al nivel de 2014 (cuando alcanzó el máximo del 33,7%). Por su parte, en España este porcentaje es del 25,3%, por encima de la media de la UE (20,9%). Las mayores diferencias entre hombres y mujeres se encuentran en el grupo de personas con 65 años o más, que es además el grupo con más alta tasa de pobreza, la cual afecta al 31,8% de mujeres mayores, frente al 26,7% de los hombres.
-
-Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “con mucha dificultad” o “con dificultad” a final de mes* es superior en Andalucía que en el conjunto del país, observándose una diferencia superior a seis puntos, concretamente el 27,4% de los hogares tienen dificultades para llegar a fin de mes frente al 21,0% de la media española.
-
 
 :fig-0403A1:
 :F:  Eurostat, INE  e IECA (Encuesta de Condiciones de Vida):F:
@@ -5367,6 +5361,8 @@ Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “co
 #+CAPTION: Tasa de riesgo de pobreza o exclusión social. Andalucía-España-UE
 [[./graficos/0403A1.pdf]]
 :END:
+
+Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “con mucha dificultad” o “con dificultad” a final de mes* es superior en Andalucía que en el conjunto del país, observándose una diferencia superior a seis puntos, concretamente el 27,4% de los hogares tienen dificultades para llegar a fin de mes frente al 21,0% de la media española.
 
 :fig-0403A2:
 :F:  INE (Encuesta de Condiciones de Vida):F:
@@ -5386,7 +5382,7 @@ Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “co
 
 2. Desarrollar políticas económicas que hagan posible una distribución de la renta más justa, como los sistemas de ingresos mínimos de inserción social o favorecer el incremento de la renta neta disponible de los hogares, especialmente de aquellos con menores, evitando la persistencia de círculos viciosos de exclusión.
 
-3. Intervenir en zonas desfavorecidas (ZD), con elevados niveles de pobreza y desigualdad, ampliando los servicios asistenciales en las mismas, siempre con transparencia y, sobre todo, con evaluación externa de las mencionadas intervenciones buscando primar la eficacia frente a la eficiencia.
+3. Intervenir en zonas desfavorecidas (ZD), con elevados niveles de pobreza y desigualdad, ampliando los servicios asistenciales en las mismas.
 
 4. Fomentar medidas que contribuyan a la erradicación de la infravivienda y del chabolismo temporal o permanente y su no reproducción a largo plazo, favoreciendo el alquiler social.
 
@@ -5395,11 +5391,10 @@ Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “co
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-**** Inclusión social
+**** Inclusión y protección social
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0403-04
@@ -5411,18 +5406,7 @@ Según la Estrategia Regional Andaluza para la Cohesión e Inclusión Social (ER
 
 Las Zonas Desfavorecidas en Andalucía concentran casi el 25% de la vivienda en edificios en estado ruinoso, malo o deficiente de la región y en ellas residen casi el 17,4% de la población sin estudios o analfabeta y solo el 6,4% de la población universitaria. Otros indicadores que caracterizan a estas zonas son el porcentaje de población inmigrante y el de personas perceptoras del Ingreso Mínimo de Solidaridad. En ambos casos, en las Zonas Desfavorecidas se registra más del 20% del total regional.
 
-Además, en ellas se registran problemas graves de convivencia, como por ejemplo en los asentamientos chabolistas ligados a las personas temporeras, un problema crónico en provincias como Almería y Huelva.
-
-Por otro lado, las *mujeres que son víctimas de violencia de género, ejercen la prostitución o están inmersas en la pobreza* son un colectivo excluido socialmente sobre el cual debe ponerse el foco y actuar de una manera global y estructurada a fin de trabajar por el objetivo general de promover su integración social.
-
-En las primeras etapas de la vida se pueden acumular desigualdades sociales que repercuten en la morbilidad, mortalidad y el bienestar en la edad madura y la vejez. En Andalucía, según un estudio de Save the Children, a finales de 2021 la *pobreza infantil* alcanzará el 22,1%. Esta pobreza repercute en las tasas de abandono escolar, de desempleo y de baja emancipación que requieren de medidas específicas que actúen en los primeros estadíos de la vida, evitando la exclusión social.
-
-El porcentaje de población que tiene alguna discapacidad es superior en Andalucía que en España. Además, no todos ellos tienen el reconocimiento del grado de discapacidad, necesario para recibir las ayudas existentes. A 31 de diciembre de 2020 había en Andalucía 570.506 personas con discapacidad reconocida con grado igual o superior al 33%, el 6,7% de la población andaluza en 2020, existiendo una ligera mayoría de hombres (17.760 más).
-
-Se necesitan actuaciones para prevenir las causas y para promover la autonomía personal (al menos la mitad de las personas con discapacidad en Andalucía tienen dificultades de movilidad en las vías públicas), la participación social, la calidad de vida y la no discriminación de este colectivo.
-
-El panorama de las drogodependencias y adicciones es una realidad que evoluciona, surgen nuevas sustancias y conductas adictivas y cambian tanto los patrones de consumo como el perfil de las personas consumidoras. Por todo ello, los problemas derivados del uso de sustancias y las demandas y necesidades planteadas son también aspectos dinámicos a los que es preciso adaptar las respuestas ofrecidas desde las instituciones y administraciones competentes.
-
+Además, en ellas se registran problemas graves de convivencia, como por ejemplo en los *asentamientos chabolistas* ligados a las personas temporeras, un problema crónico en provincias como Almería y Huelva.
 
 :fig-0403D1:
 :F:  Estrategia Regional Andaluza para la Cohesión e Inclusión Social (ERACIS). Consejería de Igualdad, Políticas Sociales y Conciliación Publicado en 2018.:F:
@@ -5433,6 +5417,12 @@ El panorama de las drogodependencias y adicciones es una realidad que evoluciona
 [[./graficos/0403D1.pdf]]
 :END:
 
+Por otro lado, *diversos colectivos de mujeres*, como las que están bajo el umbral de riesgo de pobreza y sufren carencias materiales severas o aquellas que padecen explotación sexual, delitos de trata o prostitución, constituyen grupos de exclusión sobre el cual debe ponerse el foco, de forma específica, diferencial y estructurada, a fin de alcanzar su integración social.
+
+En las primeras etapas de la vida se pueden acumular desigualdades sociales que repercuten en la morbilidad, mortalidad y el bienestar en la edad madura y la vejez. En Andalucía, según un estudio de Save the Children, a finales de 2021 la *pobreza infantil* alcanzará el 22,1%. Esta pobreza repercute en las tasas de abandono escolar, de desempleo y de baja emancipación que requieren de medidas específicas que actúen en los primeros estadíos de la vida, evitando la exclusión social.
+
+El porcentaje de *población que tiene alguna discapacidad* es superior en Andalucía que en España. Además, no todos ellos tienen el reconocimiento del grado de discapacidad, necesario para recibir las ayudas existentes. A 31 de diciembre de 2020 había en Andalucía 570.506 personas con discapacidad reconocida con grado igual o superior al 33%, el 6,7% de la población andaluza en 2020, existiendo una ligera mayoría de hombres (17.760 más).
+
 :fig-0403D2:
 :F:  Sistema Integrado de Servicios Sociales. Consejería de Igualdad, Políticas Sociales y Conciliación.:F:
 :U::U:
@@ -5441,6 +5431,44 @@ El panorama de las drogodependencias y adicciones es una realidad que evoluciona
 #+CAPTION: Número de personas reconocidas por los centros de Valoración y Orientación de Andalucía con un grado de discapacidad igual o superior al 33%
 [[./graficos/0403D2.pdf]]
 :END:
+
+Se necesitan actuaciones para prevenir las causas y para promover la autonomía personal (al menos la mitad de las personas con discapacidad en Andalucía tienen dificultades de movilidad en las vías públicas), la participación social, la calidad de vida y la no discriminación de este colectivo.
+
+El panorama de las *drogodependencias y adicciones* es una realidad que evoluciona, surgen nuevas sustancias y conductas adictivas y cambian tanto los patrones de consumo como el perfil de las personas consumidoras. Por todo ello, los problemas derivados del uso de sustancias y las demandas y necesidades planteadas son también aspectos dinámicos a los que es preciso adaptar las respuestas ofrecidas desde las instituciones y administraciones competentes.
+
+Los servicios sociales andaluces han pasado de ser un modelo asistencial a estar basado en el *reconocimiento y garantía de derechos*, que abarca desde la protección a las víctimas de violencia de género, a los menores y adolescentes, a los colectivos LGTBI hasta a las personas inmigrantes, entre otras.
+
+Por otra parte, se necesita seguir avanzando para garantizar el derecho universal de todas las personas a las prestaciones y servicios sociales.
+
+Para ello, es fundamental alcanzar una *cobertura total y una adecuación* de las prestaciones sociales actualmente limitadas. En este sentido, desde los sistemas de protección social se establecen mecanismos, como las pensiones no contributivas y asistenciales, que resguarden y proporcionen seguridad, con el objetivo de garantizar unos ingresos mínimos que permitan a las personas con rentas más bajas mejorar su poder adquisitivo.
+
+A fecha 1 de julio de 2020, el total de *pensiones contributivas* del sistema de Seguridad Social en Andalucía era de 1.581.630, con una pensión media de 905,79 €/mes. Según el régimen, las más numerosas eran las pensiones de jubilación (903.560), seguida de las pensiones de viudedad (391.329) y las pensiones de incapacidad permanente (206.203). La pensión media de jubilación en Andalucía superaba el umbral de los mil euros, 1.048,99 €/mes, frente a los 1.162,97 €/mes de la media Estatal.
+
+Respecto a las *pensiones no contributivas*, en Andalucía hay 100.462 personas beneficiarias. La mayoría corresponden a la modalidad de jubilación con 55.070 personas beneficiarias, de las cuales el 78,9% corresponden a mujeres, seguida de las pensiones de invalidez que ascienden a 45.392.
+
+:fig-0403C1:
+:F:  Dirección General de Personas Mayores y Pensiones no contributivas. Consejería de Igualdad, Políticas Sociales y Conciliación.:F:
+:U::U:
+:N: (1) Prestaciones Sociales para Personas con Discapacidad (PSPD), antes denominado Ley de Integración Social de Minusválidos (LISMI) \par (2) Fondo de Asistencia Social:N:
+:E::E:
+#+CAPTION: Personas que reciben Prestaciones sociales en Andalucía por sexo. 2019
+[[./graficos/0403C1.pdf]]
+:END:
+
+Son importantes también las *prestaciones por desempleo*, siendo Andalucía la región con mayor número de beneficiarios (733.460 en 2020), lo que representa el 24,7% del total nacional. Por sexo, en nuestra región el 53,2% de los beneficiarios son mujeres. Distinguiendo por tipo, las prestaciones por desempleo más numerosas son las contributivas (329.620) y los subsidios por desempleo (207.534).
+
+:fig-0403C2:
+:F: Servicio Público de Empleo Estatal (SEPE):F:
+:U::U:
+:N::N:
+:E::E:
+#+CAPTION: Beneficiarios de Prestaciones por Desempleo por CCAA. Media 2020.
+[[./graficos/0403C2.pdf]]
+:END:
+
+Por su parte, el ingreso mínimo vital, que es una *prestación que garantiza un nivel mínimo de renta* a quienes se encuentren en situación de vulnerabilidad económica, se ha puesto en marcha en septiembre de 2020 y se espera que llegue a 850.000 hogares en riesgo de pobreza a nivel nacional. Esta prestación de ámbito estatal se complementa con la Renta Mínima de Inserción Social de Andalucía (RMISA) de las que se concidieron 35.711 en 2020.
+
+Para que sean efectivas todas las prestaciones sociales se deben reducir los obstáculos para acceder a las mismas y simplificar todos los trámites administrativos.
 
 ***** Actuaciones
 :PROPERTIES:
@@ -5453,104 +5481,69 @@ El panorama de las drogodependencias y adicciones es una realidad que evoluciona
 
 3. Desarrollar políticas así como reforzar programas y actuaciones que fomenten la integración educativa, social, laboral y económica de los inmigrantes y aquellas que fomenten su desarrollo personal, profesional y social.
 
-4. Articular programas para la erradicación de la pobreza femenina, la violencia contra las mujeres, incluidas las víctimas de trata y explotación sexual.
+4. Articular programas para la erradicación de la pobreza femenina, incluidas las víctimas de trata y explotación sexual.
 
 5. Desarrollar medidas de lucha contra la discriminación de los colectivos más desfavorecidos, especialmente en el acceso a la educación, al mercado de trabajo, a la justicia y a los servicios sociales y sanitarios.
 
-6. Establecer programas para paliar los efectos de la pobreza infantil.
+6. Desarrollar plenamente lo dispuesto en la Ley de Infancia y Adolescencia de Andalucía, para garantizar una protección a la infancia y adolescencia, prestando especial atención a las situaciones de riesgo y a las personas menores en situación de mayor vulnerabilidad.
 
-7. Impulsar el emprendimiento juvenil, la mejora de las posibilidades de autoempleo y el fomento del cooperativismo entre la juventud.
+7. Establecer programas para paliar los efectos de la pobreza infantil.
 
-8. Mejorar la calidad de los servicios y prestaciones a las personas con discapacidad.
+8. Impulsar el emprendimiento juvenil, la mejora de las posibilidades de autoempleo y el fomento del cooperativismo entre la juventud.
 
-9. Potenciar la coordinación interna de la Red para la Atención a las Drogodependencias y Adicciones, la coordinación interinstitucional y con las entidades sociales que trabajan en el ámbito de las drogas y adicciones.
+9. Mejorar la calidad de los servicios y prestaciones a las personas con discapacidad.
 
-10. Impulsar el Observatorio Andaluz sobre Drogas y Adicciones, para concienciar y gestionar el conocimiento en materia de drogas y adicciones.
+10. Potenciar la coordinación interna de la Red para la Atención a las Drogodependencias y Adicciones, la coordinación interinstitucional y con las entidades sociales que trabajan en el ámbito de las drogas y adicciones.
 
-11. Fomentar la Red de Comunidades de Aprendizaje (CdA) y difundir las buenas prácticas inclusivas en los centros educativos, es decir, actuaciones educativas de éxito de las comunidades de aprendizaje y proyectos de aprendizaje-servicio (ApS).
+11. Impulsar el Observatorio Andaluz sobre Drogas y Adicciones, para concienciar y gestionar el conocimiento en materia de drogas y adicciones.
 
-12. Fomentar el desarrollo de programas y proyectos de innovación social y educativa, especialmente centrados en enseñanzas artísticas, comunicación y emprendimiento, que tengan un impacto contrastado en las personas (jóvenes o adultas) en riesgo de exclusión.
+12. Fomentar la Red de Comunidades de Aprendizaje (CdA) y difundir las buenas prácticas inclusivas en los centros educativos, es decir, actuaciones educativas de éxito de las comunidades de aprendizaje y proyectos de aprendizaje-servicio (ApS).
 
-13. Realizar campañas de divulgación y formación en el sector empresarial sobre las inversiones en factores ESG (/Enviromental, Social and Governance/) en la industria.
+13. Fomentar el desarrollo de programas y proyectos de innovación social y educativa, especialmente centrados en enseñanzas artísticas, comunicación y emprendimiento, que tengan un impacto contrastado en las personas (jóvenes o adultas) en riesgo de exclusión.
 
-{{{fin(tcolorbox)}}}
-***** Planes                                                   :noexport:
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-**** Protección Social
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
+14. Realizar campañas de divulgación y formación en el sector empresarial sobre las inversiones en factores ESG (/Enviromental, Social and Governance/) en la industria.
 
-***** Texto                                                      :ignore:
-:PROPERTIES:
-:CUSTOM_ID: intro-0403-03
-:END:
+15. Adaptar el sistema de protección social a los cambios sociales y a las nuevas tendencias del mercado de trabajo, garantizando el reconocimiento de los derechos de todas las personas.
 
-Los servicios sociales andaluces han pasado de ser un modelo asistencial a estar basado en el reconocimiento de derechos de la ciudadanía, si bien se necesita seguir avanzando para garantizar el derecho universal de todas las personas a las prestaciones y servicios sociales.
+16. Desarrollar planes de inclusión sociolaboral para personas perceptoras de renta mínima de inserción social, coordinadamente entre los servicios de empleo y los servicios sociales.
 
-Para ello, es fundamental alcanzar una *cobertura total y una adecuación* de las prestaciones sociales actualmente limitadas. En este sentido, desde los sistemas de protección social se establecen mecanismos, como las pensiones no contributivas y asistenciales, que resguarden y proporcionen seguridad, con el objetivo de garantizar unos ingresos mínimos que permitan a las personas con rentas más bajas mejorar su poder adquisitivo.
+17. Mejorar la tramitación electrónica de todas las prestaciones sociales y simplificar todas sus gestiones.
 
-A fecha 1 de julio de 2020, el total de pensiones contributivas del sistema de Seguridad Social en Andalucía era de 1.581.630, con una pensión media de 905,79 €/mes. Según el régimen, las más numerosas eran las pensiones de jubilación (903.560), seguida de las pensiones de viudedad (391.329) y las pensiones de incapacidad permanente (206.203). La pensión media de jubilación en Andalucía superaba el umbral de los mil euros, 1.048,99 €/mes, frente a los 1.162,97 €/mes de la media Estatal.
+18. Desarrollar planes para informar, resolver los conflictos que se produzcan, y controlar el mercado en defensa de los derechos las personas consumidoras y usuarias.
 
-Respecto a las pensiones no contributivas, en Andalucía hay 100.462 personas beneficiarias. La mayoría corresponden a la modalidad de jubilación con 55.070 personas beneficiarias, de las cuales el 78,9% corresponden a mujeres, seguida de las pensiones de invalidez que ascienden a 45.392.
-
-Son importantes también las prestaciones por desempleo, siendo Andalucía la región con mayor número de beneficiarios (733.460 en 2020), lo que representa el 24,7% del total nacional. Por sexo, en nuestra región el 53,2% de los beneficiarios son mujeres. Distinguiendo por tipo, las prestaciones por desempleo más numerosas son las contributivas (329.620) y los subsidios por desempleo (207.534).
-
-Por su parte, el ingreso mínimo vital, que es una prestación que garantiza un nivel mínimo de renta a quienes se encuentren en situación de vulnerabilidad económica, se ha puesto en marcha en septiembre de 2020 y se espera que llegue a 850.000 hogares en riesgo de pobreza a nivel nacional.
-
-Para que sean efectivas todas las prestaciones sociales se deben *reducir los obstáculos para acceder a las mismas* y simplificar todos los trámites administrativos.
-
-
-:fig-0403C1:
-:F:  Dirección General de Personas Mayores y Pensiones no contributivas. Consejería de Igualdad, Políticas Sociales y Conciliación.:F:
-:U::U:
-:N: (1) Prestaciones Sociales para Personas con Discapacidad (PSPD), antes denominado Ley de Integración Social de Minusválidos (LISMI) \par (2) Fondo de Asistencia Social:N:
-:E::E:
-#+CAPTION: Personas que reciben Prestaciones sociales en Andalucía por sexo. 2019
-[[./graficos/0403C1.pdf]]
-:END:
-
-:fig-0403C2:
-:F: Servicio Público de Empleo Estatal (SEPE):F:
-:U::U:
-:N::N:
-:E::E:
-#+CAPTION: Beneficiarios de Prestaciones por Desempleo por CCAA. Media 2020.
-[[./graficos/0403C2.pdf]]
-:END:
-
-***** Actuaciones
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-1. Adaptar el sistema de protección social a los cambios sociales y a los del mercado de trabajo.
-
-2. Desarrollar planes de inclusión sociolaboral con personas perceptoras de renta mínima de inserción social, coordinadamente entre los servicios de empleo y los servicios sociales.
-
-3. Mejorar la tramitación electrónica de todas las prestaciones sociales y simplificar todas sus gestiones.
-
-4. Desarrollar planes para informar, resolver los conflictos que se produzcan, y controlar el mercado en defensa de los derechos las personas consumidoras y usuarias.
-
-5. Adaptar y actualizar el sistema de protección y apoyo a las familias a las nuevas realidades familiares, incluyendo la perspectiva de familias en las políticas de protección social.
-
+19. Adaptar y actualizar el sistema de protección y apoyo a las familias a las nuevas realidades familiares, incluyendo la perspectiva de familias en las políticas de protección social.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-**** Dependencia
+
+**** Dependencia y mayores
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0403-02
 :END:
+
+A partir de datos de la Encuesta sobre Discapacidad, Autonomía personaly situaciones de Dependencia (EDAD 2008), sobre los algo más de ocho millones de andaluces, 725.390 presentaban alguna discapacidad (o limitación, si son menores de 6 años), lo que suponía el 9,1% de la población.
+
+Estas discapacidades o limitaciones van acompañadas de dependencia para 424.921 personas (415.667 de 6 y más años y 9.254 menores de esa edad), de manera que puede estimarse la población andaluza en situación de dependencia en el 5,3%. Dicho de otra forma, seis de cada diez personas con discapacidad son dependientes (58,6%).
+
+:fig-0403B0:
+:F:  Estudio “Discapacidad y dependencia en Andalucía” IECA. 2012.:F:
+:U::U:
+:N: Datos referidos a 2008 :N:
+:E::E:
+#+CAPTION: Significación de las personas en situación de dependencia respecto al total de población con discapacidad y su distribución por edad en Andalucía
+[[./graficos/0403B0.pdf]]
+:END:
+
+Con la información estadística disponible, puede aproximarse que un 63% de las personas en situación de dependencia en Andalucía son mayores de 65 años. Cabe esperar que, acorde con la tendencia hacia el envejecimiento de la pirámide demográfica, esta proporción haya aumentado en los últimos años y continúe haciéndolo según los escenarios de proyecciones de población a medio plazo, lo que supone que al menos dos de cada tres personas dependientes sean mayores de 65 años. De este modo, aunque las circunstancias de dependencia y vejez son independientes, conviene tener presente que el colectivo de personas mayores puede verse especialmente afectado por condiciones de dependencia. 
+
+En cualquier caso, los servicios públicos deben proveer, de modo directo o indirecto, las atenciones y cuidados que requieren estas personas, de acuerdo con su grado de discapacidad y, en su caso, dependencia, para garantizar su calidad de vida, sin olvidar la situación de las personas cuidadoras.
 
 El envejecimiento demográfico constituye una realidad objetiva desde hace décadas en Andalucía. Así, según datos del INE de julio de 2020, había 1.470.813 personas mayores de 65 años, lo que supone el 17,4% de la población andaluza.
 
@@ -5560,7 +5553,7 @@ Las medidas preventivas que eviten o retrasen el deterioro físico y mental de l
 
 La vulnerabilidad de las personas mayores aumenta cuando tienen una situación económica precaria.
 
-Además, existe un elevado porcentaje de personas que aún no tiene reconocida ni su situación de dependencia ni recibe la prestación económica correspondiente, generando un impacto social y económico a las familias, especialmente a las mujeres que asumen su cuidado.
+Además, existe un elevado porcentaje de personas, no siempre mayores, que aún no tiene reconocida ni su situación de dependencia ni recibe la prestación económica correspondiente, generando un impacto social y económico a las familias, especialmente a las mujeres que asumen su cuidado.
 
 Con datos de julio de 2020, en Andalucía se registraban 289.523 solicitudes de reconocimiento de la situación de dependencia de personas de 65 y más años, de las cuales corresponden el 70,8% a mujeres y el resto a hombres. De ellas, 249.308 tienen reconocida la situación de dependencia, es decir, el 17% de las personas andaluzas mayores de 65 años, de las cuales el 72% son mujeres.
 
@@ -5571,7 +5564,6 @@ La Encuesta Continua de Hogares (INE) muestra datos sobre los hogares formados p
 Hay una necesidad de profundizar en el análisis del maltrato (tanto en el ámbito familiar como institucional) hacia las personas mayores y darle mayor visibilización social. Andalucía no dispone de un instrumento objetivo que ayude a la detección de dicho maltrato, que afecta especialmente a las mujeres.
 
 El Servicio de Asistencia a las Víctimas de Andalucía (SAVA) abre anualmente alrededor de 6.500 expedientes de víctimas de delitos, de las cuales en el 85% aproximadamente de los casos, la víctima es una mujer. Del total de víctimas, cada año entre 200 y 220 tienen más de 64 años (253 personas mayores de 64 años atendidas en 2018). Otro dato importante son las 2.257 llamadas en el Teléfono de Atención a las Personas Mayores atendidas en 2018, de las cuales el 48,2% son para denunciar situaciones de riesgo de maltrato o abandono.
-
 
 :fig-0403B1:
 :F:  Sistema de Información del Sistema para la Autonomía y Atención a la Dependencia. Consejería de Igualdad, Políticas Sociales y Conciliación.:F:
@@ -5605,29 +5597,29 @@ El Servicio de Asistencia a las Víctimas de Andalucía (SAVA) abre anualmente a
 :UNNUMBERED: t
 :END:
 
-1. Desarrollar actividades dirigidas a promocionar la salud y prevenir la aparición de la enfermedad y el deterioro funcional, mediante la práctica de actividades físico-deportivas y la adopción de hábitos de alimentación saludable.
+1. Desarrollar actividades dirigidas a promocionar la salud y prevenir la aparición de la enfermedad y el deterioro funcional, mediante la práctica de actividades físico-deportivas y la adopción de hábitos de alimentación y de vida saludable.
 
-2. Fomentar la participación social de las personas mayores en la toma de decisiones de los distintos ámbitos sociales y políticos.
+2. Potenciar los servicios de teleasistencia, de ayuda a domicilio, de prevención de situaciones de dependencia y de promoción de la autonomía personal.
 
-3. Establecer mecanismos y criterios para la detección, intervención, seguimiento y protección sobre la soledad no deseada y el aislamiento social.
+3. Mejorar la gestión de la dependencia, simplificando trámites, reduciendo el número de solicitudes pendientes de valoración y agilizando la tramitación de las prestaciones económicas.
 
-4. Mejorar la gestión de la dependencia, simplificando trámites, reduciendo el número de solicitudes pendientes de valoración y agilizando la tramitación de las prestaciones económicas.
+4. Promover acciones de formación, sensibilización y difusión a la ciudadanía sobre los recursos para la promoción de la autonomía y prevención de la dependencia.
 
-5. Aumentar la calidad de los servicios especializados: centros de participación activa, centros de día para mayores, viviendas tuteladas y residencias.
+5. Fomentar la participación social de las personas dependientes y mayores en la toma de decisiones de los distintos ámbitos sociales y políticos.
 
-6. Analizar la red de residencias de mayores, públicas y privadas, para configurar un nuevo modelo que permita superar las secuelas físicas y emocionales resultado de la pandemia.
+6. Establecer mecanismos y criterios para la detección, intervención, seguimiento y protección sobre la soledad no deseada y el aislamiento social.
 
-7. Potenciar los servicios de teleasistencia, de ayuda a domicilio, de prevención de situaciones de dependencia y de promoción de la autonomía personal.
+7. Aumentar la calidad de los servicios especializados: centros de participación activa, centros de día para mayores, viviendas tuteladas y residencias.
 
-8. Invertir en las infraestructuras de la red de centros de personas mayores y en la seguridad del uso de los equipamientos.
+8. Analizar la red de residencias de mayores, públicas y privadas, para configurar un nuevo modelo que permita superar las secuelas físicas y emocionales resultado de la pandemia.
 
-9. Implementar campañas de sensibilización sobre las personas mayores transmitiendo una imagen positiva de este colectivo e informando sobre sus derechos fundamentales.
+9. Invertir en las infraestructuras de la red de centros de personas mayores y en la seguridad del uso de los equipamientos.
 
-10. Crear los dispositivos e instrumentos necesarios para prevenir el maltrato hacia las personas mayores.
+10. Implementar campañas de sensibilización sobre las personas mayores transmitiendo una imagen positiva de este colectivo e informando sobre sus derechos fundamentales.
 
-11. Establecer un cupo de viviendas accesibles en las promociones de vivienda protegida y ayudas para la adecuación funcional básica de las viviendas de las personas mayores.
+11. Crear los dispositivos e instrumentos necesarios para prevenir el maltrato hacia las personas mayores.
 
-
+12. Establecer un cupo de viviendas accesibles en las promociones de vivienda protegida y ayudas para la adecuación funcional básica de las viviendas de las personas mayores.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -6083,7 +6075,7 @@ Se denomina *infravivienda* a aquella edificación existente en la que concurran
 - Edificios residenciales sin ascensor.
 - Ayudas a la rehabilitación de viviendas.
 
-** Territorio
+** Territorio                                                     :noexport:
 
 *** Intro                                                          :ignore:
 :PROPERTIES:
@@ -6705,7 +6697,7 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-** Gobernanza
+** Gobernanza                                                     :noexport:
 
 *** Intro                                                          :ignore:
 
