@@ -1131,7 +1131,9 @@ Un indicador que refleja esta cooperación escasa entre agentes es el número de
 
 Adicionalmente, se debe destacar el papel que viene desarrollando la Junta de Andalucía en el fomento de la innovación empresarial mediante la Compra Pública de Innovación, como actuación administrativa de fomento de la innovación orientada a potenciar el desarrollo de nuevos mercados innovadores desde el lado de la demanda, a través del instrumento de la contratación pública. De hecho las licitaciones públicas representan entorno al 20% del PIB, lo que evidencia el potencial de tranformación de este instrumento.
 
+El fomento de la I+D+i y su correspondiente transferencia de conocimiento a servicios, aplicaciones o productos concretos abarca cualquier ámbito de actividad económica, y debido a la amplía dispersión de esfuerzos en esta materia, también resulta conveniente destacar y promover algunas tecnologías innovadoras donde se considera que nuestra región presenta fortalezas y por tanto, mayor oportunidad de crear ecosistemas que puedan competir a nivel internacional, si concentramos esfuerzos en torno a las mismas.
 
+En este sentido, la economía digital concentra la parte de los sectores económicos y sociales basada en distintos “componentes digitales”, entre los que se encuentran multitud de tecnologías innovadoras que propician en gran medida los cambios necesarios para adaptar las sociedades actuales a los niveles propios de las economías más desarrolladas. Entre dichas tecnologías innovadoras destacan la Inteligencia Artificial (IA) y las plataformas abiertas que favorecen el desarrollo de soluciones inteligentes en distintos ámbitos (por ejemplo, FIWARE), 5G/6G, robótica, procesamiento cuántico, blockchain, realidad virtual, gemelos digitales, edge computing, etc.
 
 :fig-0101C1:
 :F: Regional Innovation Scoreboard, Comisión Europea.:F:
@@ -1171,6 +1173,12 @@ Adicionalmente, se debe destacar el papel que viene desarrollando la Junta de An
 
 3. Potenciar y seleccionar los ecosistemas de innovación, atendiendo a criterios científico-técnicos, socioeconómicos, de internacionalización y de integración territorial sostenible.
 
+4. Potenciar y consolidar el ecosistema de Inteligencia Artificial en Andalucía, en cuyo eje vertebrador se situará el /European Digital Innovation Hub “AIR-Andalusia”/.
+
+5. Generar un ecosistema de datos, con especial foco en la apertura de datos del sector público y su puesta en valor.
+
+6. Consolidar la iniciativa FIWARE Andalucía para que permita a los emprendedores y a las empresas andaluzas desarrollar e incorporar soluciones inteligentes en distintos ámbitos (como las /Smart cities/ , la Industria 4.0 o el /Smart Agrifood/) siguiendo las mejores prácticas y estándares europeos.
+
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
@@ -1186,14 +1194,14 @@ Adicionalmente, se debe destacar el papel que viene desarrollando la Junta de An
 | CTEICU     | Estrategia de Compra Pública de Innovación para Andalucía                                              |
 | CSF        | Estrategia de Investigación e Innovación en Salud en Andalucía 2020-2023                               |
 
-*** Impulsar la digitalización y la economía de plataformas
+*** Impulsar la digitalización de la sociedad y economía andaluzas
 
 **** Intro 0102                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0102
 :END:
 
-Andalucía requiere de la digitalización de su economía y sociedad porque se trata de un factor disruptivo, que acelerará la transformación del modelo de negocio de las actividades económicas y que se espera desencadene una nueva revolución industrial, vinculada al modelo de negocio de las plataformas, el big data, al internet de las cosas (IoT), a la inteligencia artificial (IA), al blockchain, al 5G, a la computación cuántica, a la ciberseguridad y a la nanotecnología.
+Andalucía requiere de la digitalización de su economía y sociedad porque se trata de un factor disruptivo, que acelerará la transformación del modelo de negocio de las actividades económicas y que está desencadenando una nueva revolución industrial. Esta transformación pasa por incorporar el tejido productivo a la economía digital a través de la utilización de las llamadas tecnologías habilitadoras digitales (THD), tales como: el Internet de las cosas (IoT), el 5G, la Inteligencia Artificial, la realidad virtual y aumentada, los gemelos digitales, el big data, la computación difusa y en la nube, el blockchain, la supercomputación, el procesamiento del lenguaje natural, la robótica, los sistemas autónomos, la ciberseguridad, entre otras; pero también necesita el fomento de la especialización de las empresas andaluzas en el desarrollo y comercialización de dichas tecnologías.
 
 El Banco Mundial, el /World Economic Forum/ (WEF) y diversos trabajos de investigación han mostrado que la digitalización favorece un mayor crecimiento económico y de la productividad, generando nuevas oportunidades para las empresas y la creación de empleo, a la vez que también se considera como un factor importante de cohesión territorial y anclaje de la población en el medio rural, por lo que puede ser una de las palancas más eficaces para la salida de la crisis y mejorar el posicionamiento competitivo de Andalucía.
 
@@ -1206,7 +1214,8 @@ De acuerdo con estos planteamientos, para abordar esta prioridad se establecen l
 #+ATTR_LATEX: :options [nosep]
 - Digitalización de las empresas
 - Digitalización de la Administración pública
-- Capacitación digital
+- Desarrollo de las empresas tecnológicas
+- Capacitación digital de la ciudadanía
 
 ****** Objetivo                                                 :ignore:
 :PROPERTIES:
@@ -1227,7 +1236,7 @@ Incorporar las nuevas tecnologías digitales en las actividades productivas, en 
 :CUSTOM_ID: intro-0102-01
 :END:
 
-El proceso de transformación digital, que podría resumirse como el “modo de adopción de tecnologías digitales y capacidades necesarias para la creación de un nuevo modelo de negocio digital” genera una serie de cambios y tendencias (tecnológicas o no) con un impacto generalizado en todo el contexto que rodea al mundo empresarial, es decir, pueden cambiar los clientes y/o proveedores, los mercados (incluido el mercado laboral), el grado de competencia, llevando asociado normalmente una reducción de costes y un incremento de la oferta de bienes y servicios, en términos agregados.
+La transformación digital es conocida como el “proceso de adopción de tecnologías digitales y capacidades necesarias para la creación de un nuevo y robusto modelo de negocio digital”[fn:23]. Se trata por tanto de un proceso de evolución, cambios y tendencias (tecnológicas o no) con un impacto generalizado en todo el contexto que rodea al mundo empresarial.
 
 *Las características de las empresas en Andalucía (por su tamaño y distribución territorial) dificulta el grado de integración de las tecnologías digitales en el tejido empresarial.* Así, solo el 18% de las empresas andaluzas (de más de 10 empleados) operan en el mercado digital, es decir, como mínimo disponen de servicio de realización de pedidos o reservas online en su página web, una proporción significativamente más baja a la del promedio de la UE (27%) y a países como Países Bajos (38%), Dinamarca (37%) o Irlanda (35%).
 
@@ -1251,7 +1260,7 @@ Asimismo, una destacable proporción de las empresas de ese tamaño, el 29%, ni 
 [[./graficos/0102A2.pdf]]
 :END:
 
-De acuerdo a estos indicadores y a otras dimensiones basadas en el Índice de la Sociedad y Economía Digital definido por la Comisión Europea (DESI, Digital Economy and Society Index), el grado de madurez digital de las empresas andaluzas es relativamente bajo, especialmente en el caso de las empresas más pequeñas (menos de 10 empleados), tal y como refleja el “indicador sintético de economía digital” que mide el grado de digitalización de las empresas y su incorporación del comercio electrónico. Este índice refleja una posición ligeramente más atrasada de Andalucía respecto al conjunto de España, así como un valor del índice bastante inferior para las microempresas.
+De acuerdo a estos indicadores y a otras dimensiones basadas en el Índice de la Sociedad y Economía Digital definido por la Comisión Europea (DESI, Digital Economy and Society Index), el grado de madurez digital de las empresas andaluzas es relativamente bajo, especialmente en el caso de las empresas más pequeñas (menos de 10 empleados). Así se refleja en la dimensión de “integración de la tecnología digital” del DESI que mide el grado de digitalización de las empresas y su incorporación al comercio electrónico. Este índice muestra una posición ligeramente más atrasada de Andalucía respecto al conjunto de España, así como a Europa.
 
 Atendiendo a los distintos componentes o ejes del grado de digitalización de las empresas, existe un amplio margen de mejora en la implantación del Big Data, el uso del Cloud, así como en la incorporación de personal especializado en TIC, siendo además los resultados de estos indicadores para Andalucía inferiores a los del promedio de las empresas en España. Los resultados son algo menos negativos en lo que se refiere al comercio electrónico y al uso de sistemas y herramientas de seguridad.
 
@@ -1271,17 +1280,19 @@ No obstante, la pandemia ha puesto de manifiesto la necesidad de expandir nuevas
 :UNNUMBERED: t
 :END:
 
-1. Aumentar las ayudas a las PYMEs para que incorporen tecnologías digitales.
+1. Incrementar ayudas a las PYMES para mejorar su grado de digitalización.
 
-2. Favorecer el acceso de las PYMEs andaluzas a las plataformas, tanto nacionales como internacionales, para multiplicar su presencia online. A la vez que se debe potenciar aquellas plataformas locales que sean viables, desarrollando una Política Regional de Plataformas.
+2. Realizar campañas de divulgación y asesoramiento para sensibilizar y concienciar a las empresas acerca de las oportunidades y beneficios que implica el proceso de transformación digital de sus negocios.
 
-3. Realizar campañas de divulgación y asesoramiento para sensibilizar y concienciar a las empresas acerca de las oportunidades y beneficios que implica el proceso de digitalización, contribuyendo a la maduración digital, especialmente, en aspectos como la implantación del Big Data, el uso del Cloud y la incorporación de perfiles profesionales especialistas en TIC.
+3. Realizar cursos de formación a las empresas para aprovechar las ventajas de la transformación digital y las tecnologías emergentes, el acceso a otros mercados (de proveedores y clientes finales) y dar a conocer los riesgos y las buenas prácticas en materia de seguridad digital.
 
-4. Realizar cursos de formación a las empresas para aprovechar las ventajas de la transformación digital y las tecnologías emergentes, el acceso a otros mercados (de proveedores y clientes finales) y dar a conocer los riesgos y las buenas prácticas en materia de seguridad digital.
+4. Impulsar la adopción de tecnologías disruptivas de apoyo al negocio y a los procesos que los sustentan. Estas acciones estarían dirigidas a potenciar la inclusión de diferentes tecnologías para la mejora de los distintos eslabones de la cadena de valor de las empresas, así como fomentar el uso de los datos para explotar y optimizar el valor de los mismos haciendo uso de diferentes tecnologías.
 
-5. Desarrollar una plataforma de formación online de calidad y fácilmente accesible, utilizando los mejores departamentos universitarios y consultoras de referencia,  que permita mejorar, de forma acelerada, las competencias digitales en las PYMEs.
+5. Fomentar la colaboración e intercambio de experiencias en materia de transformación digital entre los distintos agentes del ecosistema empresarial, para fortalecer la relación entre la oferta y la demanda, conectando las empresas tecnológicas andaluzas con el resto de sectores productivos.
 
-6. Facilitar herramientas y plataformas digitales por parte de la Administración a las empresas, que contribuyan a esta divulgación, asesoramiento y formación.
+6. Lanzamiento de retos tecnológicos sectoriales para fomentar la creación de soluciones innovadoras por parte de pymes del sector TIC que atiendan problemáticas reales de empresas en sectores estratégicos, favoreciendo la adopción de tecnologías disruptivas.
+
+7. Impulsar el desarrollo del Observatorio Andaluz de la Economía Digital.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -1355,11 +1366,64 @@ Por último, se constata una evolución creciente del número de incidentes que 
 - Plan Estratégico de Formación Profesional del Sistema Educativo 2019-2022
 - Andalucía Compromiso Digital
 - Programa WomanDigital para la igualdad de género en el sector TIC
-
-**** Capacitación digital
+**** Desarrollo de las empresas tecnológicas
 :PROPERTIES:
 :UNNUMBERED: t
 :CUSTOM_ID: intro-0102-03
+:END:
+
+En los próximos años, la sociedad andaluza se enfrenta a un desafío ineludible: la adopción de la transformación digital como un elemento fundamental del desarrollo económico que, apoyándose en el conocimiento y la innovación, tenga como resultado un fortalecimiento general de la competitividad de nuestro tejido empresarial, de forma que sea capaz de generar productos y servicios novedosos y diferenciados y, por tanto, de alto valor añadido.
+
+Las probabilidades de éxito serán mayores si contamos con un entorno habilitante sólido, que favorezca el proceso de consolidación de la Economía Digital en nuestra región. Estos pilares habilitadores son de diversa naturaleza y entre los mismos se encuentra el disponer de un sector tecnológico andaluz consolidado, que pueda actuar como catalizador fundamental del cambio que debe abordarse. Por este motivo, la puesta en marcha de políticas específicas para el fortalecimiento del sector, así como de aquellos otros elementos palanca básicos para la digitalización regional, permitirá a Andalucía partir desde la mejor posición posible de cara a abordar con garantías los desafíos de los próximos años.
+
+Todos los sectores productivos se van a ver afectados y beneficiados por la progresiva digitalización de la economía, pero, sin duda, no es posible apalancar actuaciones de mejora de la competitividad de una región sin entender a las empresas tecnológicas como elemento estratégico y de alto valor añadido. Hoy en día, las tecnologías están asociadas a prácticamente todos los procesos de innovación y al aumento de la productividad, estimando la Comisión Europea que contribuye en un 20% al crecimiento de la productividad general de la economía de la Unión Europea, por lo que el desarrollo de la economía a través de las tecnologías debe ser una prioridad para el crecimiento inteligente, sostenible e integrador de nuestra región. Pero es que además, el sector de las Tecnologías de la Información y la Comunicación constituye un sector especialmente relevante en Andalucía en términos de PIB, con un enorme potencial de crecimiento y donde todos los agentes empresariales de la cadena de valor del sector están presentes en nuestra Comunidad. De acuerdo a la información facilitada por el ONTSI, en su “Informe anual del sector TIC y de los Contenidos en España”, se contabilizan en Andalucía 3.313 empresas, que emplean a cerca de 30.000 personas.
+
+Un sector tecnológico potente y, en general, un sector productivo andaluz competitivo, necesita de profesionales capacitados. La falta de personal con capacitación tecnológica en las empresas hace que los necesarios procesos para incrementar la productividad, sobre todo en las pymes, sean lentos y difíciles, lo que provoca bajas tasas de innovación. En España, sólo el 19% de los profesionales tecnológicos tienen las competencias necesarias para el desempeño de su profesión, mientras que existen desarrolladores profesionales con una gran experiencia que no han completado un grado e incluso que apenas ha superado la educación secundaria. La demanda de profesionales cualificados en el sector tecnológico crece un 3% cada año, una demanda extraordinaria que es imposible de cubrir con el número de graduados que cada año se forman en las universidades españolas. Por otro lado, prácticamente todas las ocupaciones profesionales ya requieren alguna competencia tecnológica y el número de puestos de trabajo que requieren habilidades tecnológicas aumentará en 16 millones para el año 2020. A esta escasez de talento formado hay que sumar que los perfiles profesionales tecnológicos se redefinen a un ritmo mucho más rápido del que es capaz de adaptarse el sistema educativo. Se concluye pues que, aumentar la disponibilidad de profesionales técnicos cualificados es indispensable para implantar las soluciones tecnológicas que permiten aumentar la productividad de las empresas y constituye un incentivo para la localización territorial de las inversiones en este sector.
+
+En cualquier sector de actividad, la innovación, tanto tecnológica como no tecnológica, y la especialización se consideran elementos claves para conseguir ventajas competitivas y valores diferenciales que permitan a las empresas mejorar su posicionamiento en los mercados globales, caracterizados por su dinamismo y alta competitividad. En este sentido, y en lo que se refiere a las empresas tecnológicas andaluzas, las empresas son conscientes, en términos generales, de la importancia que tiene seguir apostando cada vez más por desarrollar actividades de innovación, en particular en el ámbito de aquellas tecnologías emergentes que ofrecen nuevas oportunidades de negocio.
+
+Impulsar el fortalecimiento del sector tecnológico andaluz pasa por apoyar su especialización en aquellas tecnologías disruptivas, tanto existentes como futuras, llamadas a tener un gran impacto en nuestra sociedad (conocidas como tecnologías habilitadoras digitales), y entre las que se encontrarían las siguientes: Big Data, Ciberseguridad, Inteligencia Artificial, Internet de las Cosas, Redes 5G, Robótica,… todo ello para tratar de configurar un ecosistema empresarial y de startups que puedan focalizarse en estas áreas de especialización. En esta misma línea, y al igual que se ha venido realizando con otros sectores estratégicos, como puede ser el aeronáutico, resulta indispensable identificar y potenciar determinadas industrias en pleno crecimiento como puede ser la industria de la ciberseguridad, u otras que empiezan a tener un carácter emergente, como el sector de los videojuegos.
+
+La competitividad exterior es una variable cada vez más importante para el crecimiento económico a largo plazo de nuestro tejido empresarial; de esta forma, nuestras compañías deben seguir apostando por fortalecer su posicionamiento en los mercados globales como factor clave para lograr tasas de crecimiento positivas, tanto en términos de creación de empleo como de riqueza.
+
+De esta forma, dentro de esta línea de actuación, se considera necesario el desarrollo de programas y mecanismos de cara a favorecer la expansión de la actividad de las empresas tecnológicas andaluzas más allá de nuestras fronteras; tratando además de incrementar la conciencia de las mismas en relación al hecho de que la apertura de sus mercados tradicionales de actuación debe convertirse en un componente central de su estrategia empresarial si se pretende obtener un crecimiento estable de la cifra de negocios en un mercado cada vez más competitivo y abierto.
+
+Una de las características del sector tecnológico andaluz es su atomizada estructura empresarial, caracterizada por un elevado número de empresas de tamaño reducido, entre las que no existe una cultura de colaboración suficientemente extendida, factores ambos que dificultan el desarrollo de productos y soluciones de cierta envergadura y su traslación al conjunto de la sociedad. Considerando lo anterior, y en este contexto actual, uno de los objetivos que se plantean es la puesta en marcha de los mecanismos de vertebración y de colaboración sectorial más adecuados para aprovechar dichas oportunidades.
+
+Entre otras cuestiones, se debe estimular a las empresas andaluzas para que colaboren con otras, así como con otros agentes (administración pública, asociaciones empresariales, colegios profesionales, centros y parques tecnológicos, etc.), de forma que adquieran una dimensión que les permita afrontar el diseño y desarrollo de productos y servicios innovadores, que redunden en la mejora competitiva de las mismas; contribuyendo así a superar las debilidades inherentes a la propia estructura del sector
+
+:fig-0102C1:
+:F: II Diagnóstico de la situación de la mujer en el sector TIC andaluz :F:
+:U::U:
+:N::N:
+:E::E:
+#+CAPTION: Representación de la mujer en el sector TIC
+[[./graficos/0102C0.pdf]]
+:END:
+
+Finalmente, tal y como se recoge en el II Diagnóstico de la situación de la mujer en el sector TIC andaluz, la participación de las mujeres en las empresas tecnológicas, y en particular en el sector TIC, es muy baja en comparación con su presencia en otros sectores, lo que resta competitividad al sector y capacidad de crecimiento en el futuro. Por esta razón son importantes políticas que contribuyan al crecimiento de la presencia de la mujer en el sector.
+
+***** Actuaciones
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+1. Reforzar el conjunto de actuaciones dirigidas a la mejora de las capacidades y competencias de los profesionales del sector tecnológico andaluz, así como a facilitar el desarrollo de los futuros profesionales que está demandando la Economía Digital.
+
+2. Impulsar el desarrollo de una oferta tecnológica andaluza en tecnologías digitales habilitadoras, Big Data, Ciberseguridad, Inteligencia Artificial, Internet de las Cosas, Redes 5G, Robótica, entre otras, a través de la innovación y la especialización tecnológica.
+
+3. Impulsar el desarrollo de acciones dirigidas a apoyar la presencia de las empresas tecnológicas andaluzas en los mercados internacionales.
+
+4. Favorecer la creación y maduración de estructuras colaborativas (Digital Innovation Hubs, clústeres empresariales, entre otras) como elementos facilitadores de la transformación digital del tejido productivo desde una perspectiva sectorial.
+
+5. Impulsar la presencia de la mujer en el sector tecnológico andaluz.
+   
+{{{fin(tcolorbox)}}}
+
+**** Capacitación digital de la ciudadanía
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: intro-0102-04
 :END:
 
 El proceso de transformación digital implica una voluntariedad en la aplicación tecnológica a cualquiera de los ámbitos de una organización, y también como individuos, por lo que se necesita de una implicación y conformidad de las personas, es decir, requiere de cambios en actitudes, aptitudes, comportamientos, capacidades, conocimientos y competencias.
@@ -1422,9 +1486,9 @@ Pero el principal problema diferencial de Andalucía reside en que nuestra base 
 Por todo ello, entendemos que constituye un reto para Andalucía el lograr mayores niveles de emprendimiento, la consolidación y ampliación del tamaño de las empresas, así como el fortalecimiento de nuestro tejido empresarial tecnológico. Con la finalidad de atinar en el diagnóstico y proponer actuaciones, la atención se centra en tres apartados:
 
 #+ATTR_LATEX: :options [nosep]
--	Las empresas, los autónomos y la economía social
--	El emprendimiento tecnológico
--	El sistema de apoyos al emprendimiento para contribuir a un ecosistema emprendedor
+- Las empresas, los autónomos y la economía social
+- El emprendimiento tecnológico
+- Sistemas de apoyo para contribuir a un ecosistema emprendedor
 
 ****** Objetivo                                                 :ignore:
 :PROPERTIES:
@@ -1551,6 +1615,8 @@ Por último, considerando la orientación exportadora que se presupone a las sta
 
 En definitiva, la proporción de startups en Andalucía resulta reducida y las iniciativas emprendedoras con rasgos potenciales para ser calificadas de startups muestran signos algo más débiles que los promedios nacional y europeo.
 
+Para dar respuesta a esta situación el Plan General de Emprendimiento, 2021-2027 contempla el desarrollo del "Programa de Fomento del emprendimiento tecnológico y a la generación de nuevas Empresas de Base Tecnológicas (EBT)".
+
 :fig-0103B1:
 :F: Global Entrepreneurship Monitor, informe 2019-2020:F:
 :U: En % de las empresas que permanecen tras 42 meses (3,5 años). Tasas en promedio para los tres últimos años.:U:
@@ -1601,15 +1667,23 @@ En definitiva, la proporción de startups en Andalucía resulta reducida y las i
 :UNNUMBERED: t
 :END:
 
-1. Establecer programas de incubadoras/aceleradoras que desarrollen proyectos de emprendimiento tecnológico, con el objetivo de incrementar el número de startups, con medidas concretas, como ofrecimiento de espacio (ubicación), acompañamiento y asesoramiento experto (mentoring) en materias de marketing y ventas, financiación y fiscalidad, ya que no existen gestores expertos en startups.
+1. Definir el itinerario del emprendimiento tecnológico y su catálogo de servicios de apoyo a EBTs en sus diferentes etapas, siguiendo los principios de eficiencia y equilibrio territorial.
 
-2. Establecer medidas de promoción y financiación, que traten de conectar en red a empresas tecnológicas con alto potencial de expansión, con el objetivo de favorecer la creación de startups y su consolidación. A modo de ejemplo, cabe citar el “StartUp Andalucía RoadShow” y los tres fondos de capital-riesgo para invertir en startups en fases semilla y en fase de crecimiento y expansión.
+2. Determinar las líneas de ayudas, actuaciones y demás medidas destinadas a la plena implementación del itinerario tecnológico y su catálogo de servicios.
 
-3. Propiciar convenios y colaboraciones con entidades privadas para incrementar la oferta de servicios a las startups andaluzas, que potencien su capacidad de expansión, contratación de personal especializado, profesionalización de sus órganos ejecutivos y gerenciales, y su internacionalización.
+3. Diseñar, desarrollar y evaluar un piloto para el testeo del itinerario tecnológico de apoyo a EBTs, previo a su definitivo despliegue.
 
-4. Crear un “Observatorio de Startups” en Andalucía para conocer la demografía de startups en la Comunidad Autónoma y detallando sus principales características: localización geográfica, tamaño en términos de empleo, capital y financiación, tipo de formación de los emprendedores, facturación y peso de las exportaciones.
+4. Definir los criterios de homologación/certificación de los agentes y servicios del Sistema Andaluz para Emprender dirigidos a EBTs; en concreto: servicios de incubación, servicios de aceleración, servicios de escalado, y otros servicios complementarios.
 
-5. Impulsar la demanda de actividad investigadora y la transferencia de conocimiento, para  estimular el desarrollo de ideas de negocio, que sean susceptibles de convertirse en startups con alto nivel tecnológico y con mayor potencial exportador.
+5. Definir e implantar un modelo de colaboración público-privada para habilitar la conexión de EBTs con el tejido industrial para la cocreación de soluciones tecnológicas, impulsar el desarrollo de negocio de las EBTs y la adopción de innovación y tecnología en el tejido empresarial.
+
+6. Establecer el marco de colaboración con las Universidades Andaluzas para el apoyo al impulso y creación de spin-off y startups.
+
+7. Definir e implantar un modelo de colaboración entre el Sistema Andaluz para Emprender y las redes de business angels, los fondos de capital-riesgo, la banca y otros agentes financiadores, para facilitar la detección de oportunidades (deal-flow) y las operaciones de inversión y financiación en EBTs.
+
+8. Definir e implantar medidas para promover la internacionalización de EBTs andaluzas, su expansión en otros mercados y su financiación en mercados internacionales.
+
+9. Definir e implantar un programa específico de apoyo a la creación de EBTs lideradas por mujeres para contrarrestar la brecha de género existente en este tipo de compañías.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -1631,7 +1705,7 @@ Entre los principales motivos que explican la menor consolidación de iniciativa
 
 Otra circunstancia que puede determinar el éxito de las iniciativas y proyectos empresariales es un *sistema de ayudas bien estructurado y útil*, que se adapte a las necesidades de los usuarios, en este caso los emprendedores de distinto perfil y sector.
 
-En el caso de Andalucía, y en opinión de los expertos, tanto del Panel de expertos del GEM Andalucía como del Plan de Emprendimiento de la Junta de Andalucía, el nivel de los factores determinantes antes descritos no es óptimo y, por tanto, susceptibles de mejorar.
+En el caso de Andalucía, y en opinión de los expertos, tanto del Panel de expertos del GEM Andalucía como del Plan General de Emprendimiento de la Junta de Andalucía, el nivel de los factores determinantes antes descritos no es óptimo y, por tanto, susceptibles de mejorar.
 
 En particular, se señala que existe una baja especialización en los servicios y recursos ofrecidos para el apoyo al emprendimiento, es decir, el catálogo de servicios resulta demasiado genérico, sin atender o diferenciar la motivación (ya sea de necesidad o de oportunidad), el tipo de negocio (tecnológico o no tecnológico) ni el sector de actividad (frecuentemente servicios no escalables) o a la experiencia previa de la persona emprendedora.
 
@@ -1661,15 +1735,23 @@ Según los informes antes señalados, Andalucía debe concentrar sus esfuerzos e
 
 1. Reorganizar el sistema de apoyo al emprendimiento y, por tanto, el catálogo de los recursos y servicios ofrecidos por las oficinas públicas para este fin. Ello supone adaptar los actuales Centros Andaluces de Emprendimiento (CADE) a los nuevos modelos de empresa y negocio.
 
-2. Implementar medidas de coordinación entre los diferentes agentes implicados del sistema andaluz para emprender, de la función que éstos deben desempeñar, sobre los diferentes servicios y su modalidad de prestación.
+2. Identificar y definir el mapa de agentes, sus roles y los servicios a prestar por el Sistema Andaluz para Emprender diferenciando el emprendimiento tecnológico del no tecnológico, así como diseñar un marco de gobernanza de dicho sistema andaluz para emprender que implemente medidas de coordinación entre los diferentes agentes implicados.
 
-3. Desarrollar diseños específicos para el apoyo a los diferentes itinerarios de las actuaciones de emprendimiento, de acuerdo con las propuestas de medidas incorporadas en el Plan General de Emprendimiento de Andalucía (emprendimiento tecnológico, emprendimiento autónomo no tecnológico, empresas de economía social y colectivos específicos como mujeres, jóvenes y del ámbito rural).
+3. Diseñar los itinerarios de apoyo al emprendimiento autónomo, a las empresas de economía social y a colectivos específicos (emprendimiento femenino, rural, juvenil etc) así como sus correspondientes catálogos de servicios en las distintas etapas: creación, consolidación, expansión e internacionalización. Todo ello de forma orientada a la digitalización de los negocios.
 
-4. Promover convocatorias compartidas con centros de investigación, universidades, grandes empresas, así como premios, concursos, encuentros, que propicien la interacción y el networking, para generar entornos de emprendimiento y promover la aceleración de la creación de empresas con capacidad para estar presentes en los mercados internacionales.
+4. Fomentar la atracción y retención de talento como palanca para el desarrollo y generación de empresas andaluzas.
 
-5. Racionalizar el marco de apoyo de financiación dirigido al emprendimiento para la optimización de su impacto, bien directamente o mediante la colaboración del sector privado, a través de fórmulas de capital riesgo y otras, simplificando los trámites administrativos para implementar cada servicio de apoyo al emprendedor, en cada uno de sus itinerarios.
+5. Definir y poner en marcha convocatorias e iniciativas de innovación abierta, en colaboración públicoprivada, como canal de cooperación entre Administración, empresas y personas emprendedoras.
 
-6. Promocionar actividades en colegios e institutos, para acercar el emprendimiento a la formación secundaria, así como la generación de materiales para las actividades extraescolares en Economía.
+6. Racionalizar el marco de apoyo de financiación dirigido al emprendimiento para la optimización de su impacto, bien directamente o mediante la colaboración del sector privado, a través de fórmulas de capital riesgo y otras, simplificando los trámites administrativos para implementar cada servicio de apoyo al emprendedor, en cada uno de sus itinerarios y tipos de emprendimiento.
+
+7. Promocionar el desarrollo de programas y actividades destinados al desarrollo de competencias emprendedoras entre el alumnado de primaria y secundaria y formación profesional. Se tomará en consideración el marco ENTRECOMP de competencias emprendedoras.
+
+8. Definir e integrar la formación en competencias básicas de emprendimiento en la formación universitaria orientadas a la puesta en marcha y/o consolidación de iniciativas emprendedoras del alumnado egresado. Asimismo promover la creación de empresas innovadoras de alto potencial en el ámbito de la Red Andaluza del Conocimiento y la transferencia de conocimiento e innovación generado en las Universidades al mercado a través de la creación de EBTs.
+
+9. Definir una imagen de marca de Andalucía como Región Emprendedora.
+
+10. Fomentar la realización por parte de las Universidades de actuaciones que den como resultado la puesta en marcha y/o consolidación de iniciativas emprendedoras del alumnado egresado.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -3070,15 +3152,17 @@ Los objetivos de descarbonización de la economía y de lucha y adaptación al c
 
 11. Impulsar las actuaciones de educación ambiental frente al cambio climático en el marco del Programa ALDEA, que pretende tomar conciencia de la problemática socio-ambiental del cambio climático en el ámbito escolar y trasladarla al entorno más próximo de la comunidad educativa y con el Programa para la promoción de Hábitos de Vida Saludable (capacita al alumnado en la toma de decisiones para que la elección más sencilla sea la más saludable, favorecer y fortalecer el vínculo con la Comunidad fomentando entornos más sostenibles y saludables).
 
-12. Desarrollar, en el marco competencial andaluz, las líneas del Plan de Acción de Educación para la Sostenibilidad (PAEAS) 2021-2025, de ámbito nacional, cuyos ejes temáticos incluyen el cambio climático y transición energética.
+12. Promover la creación de una Plataforma Educativa contra el cambio climático, dirigido a todos los sectores de la comunidad educativa.
 
-13. Promover la participación de la ciudadanía en el examen del problema del cambio climático y sus efectos sobre los ecosistemas, por ejemplo, mediante voluntariado orientado a la ejecución de campañas de concienciación ciudadana, y en la adopción de medidas de respuesta adecuadas, facilitando la retroinformación, el debate y el establecimiento de alianzas.
+13. Desarrollar, en el marco competencial andaluz, las líneas del Plan de Acción de Educación para la Sostenibilidad (PAEAS) 2021-2025, de ámbito nacional, cuyos ejes temáticos incluyen el cambio climático y transición energética.
 
-14. Poner a disposición de la ciudadanía, a través de página web, los anuncios de apertura de información pública de diferentes procedimientos publicados en BOJA y boletines provinciales, los de los planes y programas, las evaluaciones ambientales estratégicas de planes y programas, así como la relación de otros documentos que puedan encontrase en fase de información pública, para facilitar a todas las personas interesadas tanto su consulta como la formulación de alegaciones.
+14. Promover la participación de la ciudadanía en el examen del problema del cambio climático y sus efectos sobre los ecosistemas, por ejemplo, mediante voluntariado orientado a la ejecución de campañas de concienciación ciudadana, y en la adopción de medidas de respuesta adecuadas, facilitando la retroinformación, el debate y el establecimiento de alianzas.
 
-15. Crear el Consejo Andaluz del Clima, en tramitación, como órgano de participación con representación de diferentes administraciones públicas y de los agentes sociales y económicos.
+15. Poner a disposición de la ciudadanía, a través de página web, los anuncios de apertura de información pública de diferentes procedimientos publicados en BOJA y boletines provinciales, los de los planes y programas, las evaluaciones ambientales estratégicas de planes y programas, así como la relación de otros documentos que puedan encontrase en fase de información pública, para facilitar a todas las personas interesadas tanto su consulta como la formulación de alegaciones.
 
-16. Fomentar la cooperación extraregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
+16. Crear el Consejo Andaluz del Clima, en tramitación, como órgano de participación con representación de diferentes administraciones públicas y de los agentes sociales y económicos.
+
+17. Fomentar la cooperación extraregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -3504,7 +3588,7 @@ Por otra parte, el éxito de la implementación de las nuevas directrices en mat
 
 4. Apoyar la I+D+i y potenciar el ecodiseño para conseguir que los plásticos, procedentes principalmente de la agricultura y de los materiales sanitarios (guantes, mascarillas, EPIs, entre otros) se reciclen con mayor facilidad.
 
-5. Incluir el plástico reciclado en los criterios de contratación pública, siguiendo la línea marcada por la “Compra Pública Verde” (Green Public Procurement), que hace referencia al proceso por el que la Administración Pública trata de hacerse con mercancías, servicios y obras cuyo impacto medioambiental haya sido reducido durante su ciclo de vida.
+5. Incluir el plástico reciclado en los criterios de contratación pública, siguiendo la línea marcada por la “Compra Pública Verde” (/Green Public Procurement/), que hace referencia al proceso por el que la Administración Pública trata de hacerse con mercancías, servicios y obras cuyo impacto medioambiental haya sido reducido durante su ciclo de vida.
 
 6. Promover el uso de polvo de neumáticos en mezclas bituminosas para la construcción de carreteras, carriles bici y en suelos especiales para parques o instalaciones deportivas, entre otros usos.
 
@@ -3636,7 +3720,7 @@ Frenar la pérdida de la diversidad biológica de Andalucía y recuperar el adec
 ****** ODS                                                      :ignore:
 {{{ods(3 11 12 13 14 15)}}}
 
-**** Conocimiento  y puesta en valor del Medio Natural
+**** Conocimiento y puesta en valor del Medio Natural
 :PROPERTIES:
 :UNNUMBERED: t
 :CUSTOM_ID: intro-0206-01
@@ -3657,6 +3741,8 @@ En la conservación de los hábitats y la biodiversidad juega un papel muy impor
 Por último, los montes andaluces dan cabida a un variopinto abanico de formaciones forestales de una enorme heterogeneidad, que suponen el 53% del territorio regional. Éstas producen bienes de mercado (frutos, madera, pastos, corcho, entre otros) y cumplen funciones ambientales básicas (protección del suelo, conservación de la diversidad biológica, mejora o mantenimiento de la calidad de las aguas, sumidero natural de CO_{2}), además de tener un importante valor social y cultural.
 
 Por todo ello, es necesario que todas las personas tengan *conciencia de la existencia y del valor de la diversidad biológica* de nuestra región y de los pasos que pueden seguir para su conservación y utilización sostenible, en base al conocimiento de las causas subyacentes de la pérdida de la misma. Sin olvidar que se debe promover toda actividad económica que sea simbiótica con nuestra biodiversidad y que permita el desarrollo económico de las poblaciones colindantes.
+
+Para ello, es fundamental que en todas las etapas formativas se incorpore la "Educación ambiental" con una perspectiva integral. En este sentido el programa ALDEA constituye una iniciativa de referencia, promoviendo a las escuelas como entornos de aprendizaje sostenible.
 
 Asimismo, se debe impulsar un enfoque de gestión proactiva que permita anticiparse a la aparición de los problemas, facilitando una mayor flexibilidad en base a las modificaciones de su contexto o al avance en el conocimiento. Esto implica *reforzar la planificación de la gestión de la diversidad biológica* a través de herramientas y mecanismos operativos que permitan intervenir sobre sus componentes a todos los niveles: investigación, intervención sobre elementos y procesos y seguimiento de los resultados.
 
@@ -3827,16 +3913,18 @@ La conectividad digital, entendida como la posibilidad efectiva de acceder a las
 
 De este modo, el disponer de las mejores infraestructuras digitales y el más alto nivel de conectividad en Andalucía se entiende como un factor clave para el desarrollo de la actividad económica, para el aumento de la productividad, y para el impulso a la innovación, al tiempo que contribuirá decididamente a la vertebración territorial y social.
 
-Aunque el despliegue de la banda ancha en los últimos años ha sido muy notable en nuestra Comunidad Autónoma, gracias a las inversiones públicas y privadas, la transformación digital deseada y prevista requiere de un objetivo más ambicioso de conectividad, en el que prime, de forma creciente, la banda ancha móvil, como complemento necesario para una econonía cada vez más vinculada a las terminales de los teléfonos móviles. Así, según el /Plan para la Conectividad y las Infreaestructuras Digitales de la sociedad, la economía y los territorios/, se pretende que el 100% de la población española tenga cobertura de banda ancha ultra rápida (100 Mbps) antes de 2026.
+Aunque el despliegue de la banda ancha en los últimos años ha sido muy notable en nuestra Comunidad Autónoma, gracias a las inversiones públicas y privadas, la transformación digital deseada y prevista requiere de un objetivo más ambicioso de conectividad, en el que prime, de forma creciente, la banda ancha móvil, como complemento necesario para una econonía cada vez más vinculada a los teléfonos móviles.
 
-Para la consecución de este nivel de calidad en la conectividad se debe atender a tres ámbitos: en primer lugar, la extensión de las bandas de frecuencia prioritarias para los servicios 5G, lo que implica la disponibilidad de la quinta generación de tecnología móvil. En segundo lugar, una cobertura total del territorio, con una atención particular a las áreas rurales, las zonas dispersas y de baja densidad demográfica, para propiciar una verdadera vertebración y cohesión. Y, por último, aunque igualmente importante, priorizar la mejor conectividad en aquellos sectores y espacios productivos (ecosistemas, polos de actividad y redes de transporte) que proporcionen un mayor efecto transformador.
+Así, desde el Gobierno de España se ha lanzado el proyecto "Conectividad Digital, impulso de la ciberseguridad y despliegue del 5G" dentro del "Plan de Recuperación, Transformación y Resiliencia de la economía española", así como en el "Plan para la Conectividad y las Infraestructuras Digitales de la sociedad, la economía y los territorios", que seguirá ampliando la cobertura de banda ancha de alta velocidad hasta alcanzar al 100% de la población, así como la "Estrategia de impulso al desarrollo de la tecnología 5G".
+
+Para la consecución de los objetivos marcados en dichos planes y estrategias en Andalucía, se deben atender tres ámbitos: en primer lugar, incrementar la cobertura de la red de acceso de fibra óptica para que pueda llegar a todas las viviendas y zonas de especial interés económico. En segundo lugar, favorecer los despliegues de las nuevas redes 5G para que su cobertura alcance la mayor parte del territorio. Por último, impulsar el despliegue de nuevas infraestructuras digitales en la región que habiliten nuevos modelos de negocios y servicios.
 
 De este modo, las propuestas se basan en el análisis de tres líneas de actuación:
 
 #+ATTR_LATEX: :options [nosep]
--	Extensión de banda ancha
+-	Extensión de banda ancha de alta velocidad
 -	Áreas rurales y zonas de baja densidad demográfica
--	Ecosistemas inteligentes
+-	Zonas de especial interés económico
 
 ****** Objetivo                                                 :ignore:
 :PROPERTIES:
@@ -3850,7 +3938,7 @@ Garantizar una conectividad digital adecuada para toda la población
 ****** ODS                                                      :ignore:
 {{{ods(9 10 13)}}}
 
-**** Extensión de banda ancha
+**** Extensión de banda ancha de alta velocidad
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -3864,13 +3952,13 @@ Resulta evidente la necesidad de las personas de conectarse, entre ellas, y de a
 
 De este modo, tanto los proveedores de servicios públicos en distintos ámbitos (educación, empleo, sanidad o justicia) como los del sector privado (proyectos empresariales, sociales y personales) se podrían ver frustrados por la falta de disponibilidad de una red de conexión potente, de calidad o de última generación.
 
-De acuerdo con el informe del año 2020 de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, *en Andalucía las coberturas de redes de banda ancha fija no difieren significativamente del promedio de España*, alcanzándose una cobertura del 93,24% frente al 94,28% nacional en la velocidad de acceso de 30 Mbps y 85% para velocidad de acceso de 100 Mbps. No obstante, como es sabido *persisten zonas concretas a las que no llega con la calidad necesaria*, por lo que la Agenda España Digital 2025 (del Gobierno de España) se fija como objetivo que en 2025 el 100% del espectro radioeléctrico esté preparado para el 5G.
+De acuerdo con el informe del año 2021[fn:25] de la Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, *en Andalucía las coberturas de redes de banda ancha fija no difieren significativamente del promedio de España*, alcanzándose una cobertura del 94,61% frente al 95,19% nacional en la velocidad de acceso de 30 Mbps y casi 88% para velocidad de acceso de 100 Mbps.
 
 Aunque España (y Andalucía) se encuentran en una posición aventajada del Índice de la Economía y la Sociedad Digitales (DESI), elaborado por la Comisión Europea, en el componente ligado a la conectividad, situándose en 5º lugar de la UE, donde Dinamarca, Suecia, Luxemburgo y Letonia, encabezan este ranking, este despliegue debe ser más ambicioso, apostando por la alta capacidad y capilaridad. Este despliegue ha ido parejo a la liberalización del sector, apoyado en un marco regulatorio pionero que ha favorecido la movilización de una gran inversión, el desarrollo de infraestructuras de conectividad y de servicios en competencia que han permitido una caída del 22% del precio de servicios TIC en el periodo 1998-2018, aspirándose a que estos sean similares a los mejores precios de banda ancha fija y móvil en el promedio de la UE.
 
 En cualquier caso, según los datos del Ministerio de Asuntos Económicos y Transformación Digital (Informe 2020), los avances realizados por Andalucía en materia de conectividad han sido evidentes y más destacados que en el promedio nacional en lo que a la proporción de hogares/viviendas que disponen de cobertura en banda ancha fija igual o superior a los de 100 Mbps, que ha pasado de ser el 36,5% al 82,23%, entre 2012 y 2019, reduciéndose la brecha diferencial negativa respecto a España a poco más de un punto porcentual en el último año disponible, frente a los casi once puntos que había en 2012.
 
-Asimismo, los indicadores de cobertura en distintas tecnologías digitales muestran, en general, una posición favorable de Andalucía, si bien persisten divergencias entre ámbitos subregionales y provincias (especialmente en Almería, Huelva y Granada). Por otro lado, en los últimos años se han registrado limitados avances en las asignaciones de espectro 5G y banda ancha ultra rápida (al menos 100 Mbps).
+Asimismo, los indicadores de cobertura en distintas tecnologías digitales muestran, en general, una posición favorable de Andalucía, si bien persisten divergencias entre ámbitos subregionales y provincias. Por otro lado, ya se empieza a acelerar el despliegue de las nuevas redes 5G, principalmente en los núcleos de población más extensos, mientras la capilaridad de las redes de acceso de alta velocidad continúa su avance en toda la región.
 
 La Administración de la Junta de Andalucía viene actuando como palanca para el desarrollo del sector TIC y la extensión de cobertura de las distintas tecnologías digitales, mediante el impulso de proyectos (Red Corporativa de Telecomunicaciones de la Junta de Andalucía, proyecto Escuelas Conectadas, Red Digital de Emergencias de Andalucía, entre otros) que suponen el despliegue de infraestructuras de conectividad por parte de los operadores de telecomunicaciones en todo el territorio.
 
@@ -3878,7 +3966,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 
 
 :fig-0301A1:
-:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. (Informe 2020, con datos a 30 jun. 2019).:F:
+:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe Cobertura de Banda Ancha en España en el año 2020.:F:
 :U::U:
 :N::N:
 :E::E:
@@ -3896,7 +3984,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 :END:
 
 :fig-0301A3:
-:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. (Informe 2020, con datos a 30 jun. 2019).:F:
+:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe Cobertura de Banda Ancha en España en el año 2020 :F:
 :U::U:
 :N::N:
 :E::E:
@@ -3905,7 +3993,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 :END:
 
 :fig-0301A4:
-:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. (Informe 2020, con datos a 30 jun. 2019).:F:
+:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe Cobertura de Banda Ancha en España en el año 2020 :F:
 :U::U:
 :N::N:
 :E::E:
@@ -3927,19 +4015,15 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 :UNNUMBERED: t
 :END:
 
-1. Establecer las ayudas necesarias para anular la brecha existente con respecto a la media nacional, haciendo que los hogares y empresas andaluzas tengan acceso a una conectividad de máxima calidad.
+1. Establecer las ayudas y asesoramiento necesarios para anular la brecha existente con respecto a la media nacional, haciendo que los hogares y empresas andaluzas tengan acceso a una conectividad de máxima calidad.
 
-2. Atender las convocatorias y propuestas previstas por el Gobierno de España para alcanzar las mismas metas previstas en el Plan para la Conectividad y las Infraestructuras Digitales y en la Estrategia de Impulso de la Tecnología 5G (presentadas en diciembre de 2020). En concreto, lograr que el 100% de la población tenga cobertura de 100 Mbps en 2025 y, como hito previo, el 100% de cobertura de banda ancha de 30 Mbps en 2023.
+2. Impulsar el despliegue de las redes 5G con el fin de alcanzar los objetivos marcados en los planes y estrategias nacionales y europeos.
 
-3. Impulsar la extensión y el despliegue de las redes 5G, para conseguir que en el año 2025 el 75% de la población tenga cobertura de 5G mediante sus bandas prioritarias (694-790 MHz, 3.400-3.800 MHz y 24.25-27.5 GHz).
+3. Favorecer e impulsar la puesta a disposición de los operadores de telecomunicaciones de las infraestructuras físicas públicas de las distintas Admninistraciones Públicas.
 
-4. Favorecer e impulsar la puesta a disposición de los operadores de telecomunicaciones de las infraestructuras físicas públicas de las distintas admninistraciones.
-
-5. Desarrollar proyectos públicos que impliquen el despliegue de infraestructuras de conectividad por parte de los operadores de telecomunicaciones.
+5. Continuar con el desarrollo de proyectos tractores y relevantes como la conectividad inalámbrica en todas las sedes de la Junta de Andalucía, las "Escuelas Conectadas", innovación de las infraestructuras tecnológicas de la RCJA.
 
 6. Proporcionar “bonos de conectividad” para financiar el acceso a la red de colectivos vulnerables en riesgo de exclusión por la dificultad de acceso a la conectividad por motivos económicos. La necesidad de este tipo de medidas se ha hecho más patente en un contexto de educación semipresencial debido al impacto de la COVID-19 o de consultas sanitarias telemáticas.
-
-7. Facilitar el acceso de los municipios andaluces a los fondos del programa WiFi4EU que promueve el libre acceso de los ciudadanos a la conectividad wifi en espacios públicos como parques, plazas, edificios oficiales, bibliotecas, centros de salud o museos.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -3966,10 +4050,9 @@ De este modo, el despliegue de la conectividad digital a todos los territorios, 
 
 La información más reciente (Ministerio de Asuntos Económicos y Transformación Digital, Informe de cobertura de banda ancha en España en el año 2020) sobre la dotación de infraestructuras de conectividad, más allá de los espacios urbanos permite un análisis comparativo de la cobertura de banda ancha en las zonas rurales por tecnología y por velocidad en Andalucía y la existente en el conjunto de España. Para ello, debemos aclarar que, de los 778 municipios, que conforman Andalucía, 530 corresponden a la calificación de rurales[fn:7], habitando en ellos el 17,4% de la población andaluza.
 
-Así, este informe reconoce que, en el conjunto de municipios rurales, la cobertura poblacional asociada a las principales plataformas tecnológicas se sitúa por debajo de la cobertura general. Más revelador de la brecha existente es el diferencial en las velocidades, ya que en si en 30 Mbps la proporción de población atendida por este servicio difiere en 7 puntos porcentuales, en velocidades a partir de 100 Mbps este gap se agranda hasta superar los 30 puntos porcentuales. De hecho, se estima que el *50% de la población de los ámbitos rurales no tiene una conexión digital de esta calidad.*
+Así, este informe reconoce que, en el conjunto de municipios rurales, la cobertura poblacional asociada a las principales plataformas tecnológicas se sitúa por debajo de la cobertura general. Más revelador de la brecha existente es el diferencial en las velocidades, ya que en si en 30 Mbps la proporción de población atendida por este servicio difiere en 7 puntos porcentuales, en velocidades a partir de 100 Mbps este gap se agranda hasta superar los 33 puntos porcentuales. De hecho, se estima que cerca del *40% de la población de los ámbitos rurales no tiene una conexión digital de esta calidad.*
 
 Estas discrepancias entre lo rural y urbano en materia de conectividad deben corregirse en Andalucía, ya que se favorece la desconcentración de población y actividades, y se promueve la igualdad de derechos y oportunidades en el territorio, contribuyendo a su vez a resolver los desafíos planteados por el reto demográfico y ecológico.
-
 
 :fig-0301B1:
 :F: Ministerio de Asuntos Económicos y Transformación Digital. Datos particularizados de cobertura de banda ancha en Andalucía a 30 de junio de 2019.:F:
@@ -3981,7 +4064,7 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 :END:
 
 :fig-0301B2:
-:F: Informe de cobertura en banda ancha en España, a 30 de junio de 2019.:F:
+:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe de cobertura en Banda Ancha en España en el año 2020 :F:
 :U::U:
 :N::N:
 :E::E:
@@ -3990,7 +4073,7 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 :END:
 
 :fig-0301B3:
-:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. (Informe 2020, con datos a 30 jun. 2019).:F:
+:F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe Cobertura de Banda Ancha en España en el año 2020 :F:
 :U::U:
 :N::N:
 :E::E:
@@ -4005,16 +4088,16 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 
 1. Favorecer la extensión de la banda ancha de muy alta velocidad y la cobertura 5G en zonas rurales y áreas de baja densidad poblacional, impulsando de esta manera la cohesión territorial y la transformación digital.
 
-2. Establecer proyectos piloto para el despliegue en zonas que se determinen especialmente necesitadas de conexión por motivos demográficos (despoblación) y/o sostenibilidad (turismo de naturaleza, entre otras actividades).
+2. Asesoramiento a las entidades locales en los proyectos de despliegues de redes de banda ancha de última generación y en la adopción de estrategias de Territorio Inteligente.
 
-3. Asesorar a las entidades locales en los proyectos de despliegues de redes de banda ancha de última generación y en la adopción de estrategias de /SmartCities/.
+3. Establecer proyectos piloto para el despliegue en zonas que se determinen especialmente necesitadas de conexión por motivos demográficos (despoblación) y/o sostenibilidad (turismo de naturaleza, entre otras actividades).
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-**** Ecosistemas inteligentes
+**** Zonas de especial interés económico
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
@@ -4030,7 +4113,9 @@ Ello supone que determinados parques empresariales, polígonos industriales, ár
 
 En cualquier caso, e independientemente del sector de actividad, cabe recordar que la proporción de empresas (con más de 10 empleados) incorporadas al mercado digital en Andalucía sigue siendo muy reducida (18% en 2020), por lo que existe un amplio margen de avance en este ámbito y las dificultades de conectividad, especialmente para las PYMEs, no puede ser un factor limitante.
 
-Por otro lado, Andalucía, por su posición geográfica dentro de España, tiene la oportunidad de convertirse en un nodo esencial de conectividad en el sur de Europa, ante los diferentes proyectos de inversión para el despliegue de infraestructuras internacionales por parte de diferentes operadores. Las interesantes iniciativas transnacionales, en proceso de estudio con los países vecinos, en el ámbito del almacenamiento de datos (atracción y construcción de estas infraestructuras digitales transfronterizas, tanto puntos de amarre de cables submarinos como infraestructuras de procesamiento de datos) y de los satélites seguros, así como de los corredores para el coche conectado, pueden contribuir al desarrollo de ecosistemas inteligentes en nuestra región.
+Por otro lado, Andalucía, por su posición geográfica dentro de España, tiene la oportunidad de convertirse en un nodo esencial de conectividad en el sur de Europa, ante los diferentes proyectos de inversión para el despliegue de infraestructuras internacionales por parte de diferentes operadores.
+
+Todas estas actuaciones para impulsar la disponibilidad de redes de conectividad avanzada, como pueden ser las redes 5G o redes con capacidades de Gigabit, permitirán en muchos o entornos industriales la mejora de los procesos productivos o incluso la inclusión de nuevas oportunidades de negocio. Por ello, resulta indispensable que determinadas áreas estratégicas de Andalucía cuenten con estas tecnologías de acceso de última generación.
 
 ***** Actuaciones
 :PROPERTIES:
@@ -4043,13 +4128,9 @@ Por otro lado, Andalucía, por su posición geográfica dentro de España, tiene
 
 3. Incrementar el soporte/apoyo a las administraciones locales y operadores de telecomunicaciones.
 
-4. Impulsar la dotación, de forma prioritaria, de las mejores infraestructuras de conectividad en aquellos territorios “ecosistemas de innovación, ciencia y tecnología” y los identificados por la Estrategia de Especialización Inteligente para la Sostenibilidad (S4).
+4. Impulsar y favorecer el despliegue de redes de muy alta capacidad en zonas de especial interés económico (zonas industriales, centros de datos, centros logísticos, centros de investigación, etc).
 
-5. Posibilitar la ultraconectividad en los espacios identificados “ecosistemas tecnológicos”, zonas industriales, centros de datos, centros logísticos, centros de investigación, sedes de la Junta de Andalucía que ofrecen servicios públicos y otras localizaciones específicas, donde el uso de datos es extremadamente intensivo y cuya competitividad exige en gran medida de una conexión ágil y robusta.
-
-6. Proporcionar bonos de conectividad para las PYMEs, asociados a los programas de digitalización de las mismas.
-
-7. Participar y proponer (a través de manifestaciones de interés y de otras vías) que Andalucía sea líder en Infraestructuras Digitales Transfronterizas, con capacidad para la atracción y el desarrollo de infraestructuras de datos y de tecnologías Cloud.
+5. Impulsar en Andalucía el despliegue de infraestructuras digitales transfronterizas que permitan la incorporación de nuestra región en las redes de tráfico de datos internacionales de manera directa.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -4659,7 +4740,6 @@ Por último, para hacer la movilidad urbana más sostenible, la planificación e
 - Estrategia de Movilidad Sostenible
 
 ** Bienestar
-
 *** Intro                                                          :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-04
@@ -4981,8 +5061,8 @@ El *diálogo social y la negociación colectiva* son el instrumento fundamental 
 
 7. Fomentar la cultura de la prevención de riesgos laborales en la sociedad andaluza.
 
-8. Promocionar hábitos saludables tanto en el entorno laboral como familiar, incluyendo el desarrollo de planes y programas deportivos dirigidos a atender las necesidades e intereses de la población.
-
+8. Promocionar hábitos de vida saludables tanto en el entorno laboral como en los ámbitos educativo y familiar, incluyendo el desarrollo de planes y programas deportivos dirigidos a atender las necesidades e intereses de la población.
+   
 9. Ampliar y mejorar el diálogo y la negociación colectiva que contribuya a alcanzar unas condiciones laborales adecuadas, diseñando fórmulas que promocionen la igualdad, la integración sociolaboral, la corresponsabilidad en el cuidado (conciliación) y el teletrabajo.
 
 {{{fin(tcolorbox)}}}
@@ -5040,7 +5120,6 @@ Garantizar una educación inclusiva, equitativa y de calidad.
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0402-01
@@ -5080,15 +5159,21 @@ Además, del total de titulaciones en ESO obtenidas en nuestra comunidad el 13,1
 
 1. Aumentar la financiación, con un compromiso multianual, tanto del Plan para la Reducción del Abandono Educativo Temprano como del Plan PROA (Programas de Refuerzo, Orientación y Apoyo), así como ampliar su aplicación a las enseñanzas postobligatorias y a colectivos con necesidades específicas.
 
-2. Introducir enfoques metodológicos y pedagógicos centrados en el alumnado, en el enfoque competencial en el nuevo currículo y que sean colaborativos, activos y participativos a través del diseño universal de aprendizaje Impulsar así como estrategias que favorezcan el Diseño Universal de Aprendizaje.
+2. Desarrollar Programas de Tránsito entre etapas, con personal que tutorice al alumnado con objeto de evitar el abandono o el fracaso escolar.
 
-3. Establecer un programa de mentoría social donde se contemplan actuaciones que consoliden y continúen avanzando en el desarrollo personal y profesional del alumnado con dificultades socio-económicas.
+3. Proporcionar formación al profesorado y dotar a los equipos de orientación de los medios suficientes para la detección e identificación temprana de las necesidades educativas del alumnado, que permita adoptar las medidas más adecuadas (programas innovadores de refuerzo educativo, nuevas actividades extraescolares: programación, robótica y proyectos STEAM) para garantizar su éxito escolar. 
 
-4. Implementar proyectos pilotos de programas educativos innovadores que prevengan el acoso escolar y el ciberbullying.
+4. Introducir enfoques metodológicos y pedagógicos centrados en el alumnado, en el enfoque competencial en el nuevo currículo y que sean colaborativos, activos y participativos a través del diseño universal de aprendizaje.
 
-5. Fomentar la participación de los padres, madres y de la comunidad educativa en su totalidad, estableciendo relaciones de cooperación y solidaridad.
+5. Establecer un programa de mentoría social donde se contemplan actuaciones que consoliden y continúen avanzando en el desarrollo personal y profesional del alumnado con dificultades socio-económicas.
 
-6. Potenciar la introducción y el desarrollo de Programas para la Innovación Educativa, que incentiven el uso de metodologías activas y participativas (gamificación, alfabetización mediatica y audiovisual), con un rol más activo del alumnado en el proceso de enseñaza-aprendizaje.
+6. Implementar proyectos y programas educativos innovadores en los centros docentes que prevengan el acoso escolar, el ciberbullying y que promuevan un clima escolar de convivencia positiva que generen actitudes y valores de empatía, respeto y de tolerancia cero ante la violencia.
+
+7. Fomentar la participación de los padres, madres y de la comunidad educativa en su totalidad, estableciendo relaciones de cooperación y solidaridad.
+
+8. Potenciar la introducción y el desarrollo de Programas para la Innovación Educativa, que incentiven el uso de metodologías activas y participativas (gamificación, alfabetización mediatica y audiovisual), con un rol más activo del alumnado en el proceso de enseñanza-aprendizaje, potenciando las Bibliotecas Escolares.
+
+9. Creación de Aulas taller dirigidas a reducir el abandono escolar temprano y la inserción laboral.
 
 {{{fin(tcolorbox)}}}
 
@@ -5103,7 +5188,6 @@ Además, del total de titulaciones en ESO obtenidas en nuestra comunidad el 13,1
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0402-02
@@ -5143,17 +5227,19 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 :UNNUMBERED: t
 :END:
 
-1. Consolidar el sistema de becas dirigido a apoyar al alumnado perteneciente a familias con rentas modestas para que termine la enseñanza obligatoria.
+1. Consolidar el sistema de becas dirigido a apoyar al alumnado perteneciente a familias con rentas modestas para que termine la enseñanza obligatoria y postobligatoria.
 
 2. Dotar a todos los centros con un equipo de tutores contratados específicamente para que dediquen una parte de su tiempo a la tutorización individualizada y que realicen actuaciones de refuerzo, fuera del horario escolar.
 
 3. Revisar los programas educativos y la metodología docente, en colaboración con los departamentos universitarios más competitivos, buscando introducir en nuestra región buenas prácticas educativas que hayan tenido éxito en otros territorios de similar nivel de renta.
 
-4. Incrementar el peso de las herramientas de educación digital, dentro de los programas de Innovación Educativa, con bibliotecas de clase, uso de videojuegos educativos hasta actividades de refuerzo y seguimiento, que permitan un mayor rendimiento de las nuevas tecnologías. Para ello, también se deben fomentar la formación en competencias digitales.
+4. Fortalecer los Programas de Excelencia Educativa: Bachillerato Internacional, Bachibac, así como poner en marcha unidades integradas de Música y danza con la ESO.
 
-5. Aumentar la inversión en la dotación de infraestructuras y equipamientos en todos los centros educativos, incluidos los centros de Educación Permanente (CEPER) y sus secciones, de personas adultas, así como los servicios de orientación profesional, tutorización individualizada y refuerzo.
+5. Incrementar el peso de las herramientas de educación digital, dentro de los programas de Innovación Educativa, con bibliotecas de clase, uso de videojuegos educativos hasta actividades de refuerzo y seguimiento, que permitan un mayor rendimiento de las nuevas tecnologías. Para ello, también se deben fomentar la formación en competencias digitales.
 
-6. Fomentar el papel del alumnado como eje protagonista del proceso de enseñanza-aprendizaje, con mayor participación en los planes del centro educativo y en los Programas para la Innovación Educativa, e implicando materias ligadas al bilingüismo, con la educación ambiental, la cultura emprendedora, el patrimonio, cine, hábitos de vida saludable, entre otras.
+6. Aumentar la inversión en la dotación de infraestructuras y equipamientos en todos los centros educativos, incluidos los centros de Educación Permanente (CEPER) y sus secciones, de personas adultas, así como los servicios de orientación profesional, tutorización individualizada y refuerzo.
+
+7. Fomentar el papel del alumnado como eje protagonista del proceso de enseñanza-aprendizaje, con mayor participación en los planes del centro educativo y en los Programas para la Innovación Educativa, e implicando materias ligadas al bilingüismo, con la educación ambiental, la cultura emprendedora, el patrimonio, cine, hábitos de vida saludable, entre otras.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -5169,7 +5255,6 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0402-03
@@ -5231,11 +5316,10 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 - II Plan estratégico de igualdad de género en educación (vigente hasta 2021). En elaboración el III para el periodo 2022-2027.
 - Plan Estratégico de Innovación Educativa 2021-2027.
 
-**** Profesorado
+**** Profesorado y otros recursos humanos
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0402-05
@@ -5243,11 +5327,13 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 
 La evidencia muestra que la *calidad del profesorado* unido a la estabilidad de las plantillas docentes es la clave del sistema educativo de calidad, que mejora los resultados de los alumnos y con un impacto duradero a lo largo de la vida de los mismos. Sin embargo, los informes de la OCDE sobre esta materia señalan que los docentes españoles, respecto a la media de la OCDE, aunque tienen salarios superiores a la media, han participado menos en programas de inducción a la docencia[fn:13]; reciben menos feedback estructurado sobre su labor como docentes; muy pocos (menos del 5%) tiene un mentor asignado; han participado en menos actividades formativas o de desarrollo profesional y pasan menos tiempo planificando sus clases y más tiempo gestionando sus aulas.
 
-Asimismo, en nuestro país, las cuestiones relacionadas con la carrera profesional docente han sido menos desarrolladas, pese a que la evidencia científica muestra que la calidad docente y la colaboración y el aprendizaje entre docentes conforman la combinación de factores que más impacto tienen sobre el aprendizaje. Según los resultados de la encuesta  TALIS 2018 (/Teaching and Learning International Survey/) realizada por la OCDE a docentes, España tiene dos retos fundamentales en cuanto a la profesión docente: fortalecer los procesos de inserción a la docencia (ligados a un componente práctico, o clínico, del desarrollo profesional) y mejorar la colaboración docente. A ello deberíamos unir un sistema de incentivos más estimulantes que ligue claramente las recompensas en función de los resultados de la docencia, una vez descontadas las características socio económicas de los alumnos.
+Asimismo, en nuestro país, las cuestiones relacionadas con la carrera profesional docente han sido menos desarrolladas, pese a que la evidencia científica muestra que la calidad docente y la colaboración y el aprendizaje entre docentes conforman la combinación de factores que más impacto tienen sobre el aprendizaje. Según los resultados de la encuesta  TALIS 2018 (/Teaching and Learning International Survey/) realizada por la OCDE a docentes, España tiene dos retos fundamentales en cuanto a la profesión docente: fortalecer los procesos de inserción a la docencia (ligados a un componente práctico, o clínico, del desarrollo profesional) y mejorar la colaboración docente. A ello deberíamos unir un sistema de incentivos más estimulantes que ligue claramente las recompensas en función de los resultados de la docencia, una vez descontadas las características socioeconómicas de los alumnos.
 
 La profesión docente está claramente feminizada en la mayoría de los países analizados, especialmente en Educación Primaria. Esto mismo ocurre en España, aunque el grado de feminización se reduce en la enseñanza secundaria. No obstante, existe un claro desequilibrio en la representación de mujeres en los puestos de dirección tanto en primaria como en secundaria.
 
 Los recursos humanos y materiales que se destinan a la educación son un indicativo de la importancia que se le otorga a ésta. Entre los Indicadores de estos recursos se pueden considerar el *volumen de gasto público en educación*. En el año 2018, un 10,1% del gasto público total en España era destinado a educación. En cuanto a la naturaleza económica de ese gasto en 2018, el de personal representa el 67,2 % si se incluye el cálculo de las cotizaciones sociales imputadas.
+
+Entre los recursos humanos del sistema educativo el Personal de Administración y Servicios (PAS) y el de atención educativa complementaria al alumnado con necesidades especiales desempeñan un papel muy importante para dotar de calidad a los servicios de sistema educativo. La realidad actual en Andalucía refleja que las plantillas de este colectivo, en centros y servicios educativos, son insuficientes. *(FALTA DATOS)*. Además, los sistemas de selección son poco ágiles, con procedimientos muy burocratizados y con falta de autogestión.
 
 La demanda de una educación de calidad puede implicar unos costes elevados por alumno. En 2017 el gasto medio por alumno en España en centros públicos era de 5.779 euros, siendo el gasto en Andalucía de 5.077 euros.
 
@@ -5277,19 +5363,25 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 
 1. Diseñar un Plan de formación permanente y reciclaje bienal para profesores, con cursos cortos (al estilo de la formación ejecutiva) y la posibilidad de optar, mediante un programa de selección competitivo, a estancias sabáticas al finalizar cada sexenio, que permitan a los profesores visitar y dar docencia en institutos de excelencia o participar en programas avanzados de duración más larga que los cursos cortos, con un énfasis combinado tanto para incrementar sus conocimientos como sus competencias.
 
-2. Promover el desarrollo de la carrera docente y la movilidad de profesores, acercando también las retribuciones a la productividad del mismo.
+2. Impulsar la formación del profesorado en el uso de recursos digitales en el aula.
 
-3. Promover la estabilidad de las plantillas docentes de los centros educativos como factor decisivo para el desarrollo de proyectos educativos estables.
+3. Promover acciones formativas para fomentar la investigación y la práctica reflexiva entre el profesorado.
 
-4. Crear un sistema de reconocimiento y estímulos al profesorado, basado en criterios objetivos y cuantificables estrechamente correlacionados con el conocimiento que adquieran sus alumnos, una vez descontadas las características socio económicas de los mismos.
+4. Promover el desarrollo de la carrera docente y la movilidad de profesores, acercando también las retribuciones a la productividad del mismo.
 
-5. Analizar los procesos de selección docente, incluyendo la selección y formación de los asesores y asesoras de los Centros del Profesorado (CEP).
+5. Promover la estabilidad de las plantillas docentes de los centros educativos como factor decisivo para el desarrollo de proyectos educativos estables.
 
-6. Aumentar la capacitación de los directores de los centros escolares, convirtiéndolos en verdaderos líderes de un proyecto educativo que favorezca el desarrollo de su entorno.
+6. Crear un sistema de reconocimiento y estímulos al profesorado, basado en criterios objetivos y cuantificables estrechamente correlacionados con el conocimiento que adquieran sus alumnos, una vez descontadas las características socio económicas de los mismos.
 
-7. Evaluar la función docente y directiva. Esta última, tanto en los procesos de selección como en su evaluación continua y a la finalización de los mandatos.
+7. Analizar los procesos de selección docente, incluyendo la selección y formación de los asesores y asesoras de los Centros del Profesorado (CEP).
 
-8. Establecer una red de centros y profesorado para el seguimiento, desarrollo y evaluación de los programas de innovación educativa, al tiempo que sirva para compartir experiencias, buenas prácticas docentes y propuestas de la administración.
+8. Aumentar la capacitación de los directores de los centros escolares, convirtiéndolos en verdaderos líderes de un proyecto educativo que favorezca el desarrollo de su entorno.
+
+9. Evaluar la función docente y directiva. Esta última, tanto en los procesos de selección como en su evaluación continua y a la finalización de los mandatos.
+
+10. Establecer una red de centros y profesorado para el seguimiento, desarrollo y evaluación de los programas de innovación educativa, al tiempo que sirva para compartir experiencias, buenas prácticas docentes y propuestas de la administración.
+
+11. Aumentar el número de efectivos del PAS y del personal de atención educativa complementaria, así como revisar y agilizar la gestión de su sistema de selección.
 
 {{{fin(tcolorbox)}}}
 
@@ -5302,7 +5394,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 - Plan Estratégico de Evaluación Educativa (2020-2022).
 - II Plan estratégico de igualdad de género en educación (vigente hasta 2021). En elaboración el III para el periodo 2022-2027.
 - Plan Estratégico de Innovación Educativa 2021-2027.
-
+  
 *** Fomentar la inclusión y la protección social
 
 **** Intro 0403                                                   :ignore:
@@ -5499,7 +5591,7 @@ Para que sean efectivas todas las prestaciones sociales se deben reducir los obs
 
 12. Fomentar la Red de Comunidades de Aprendizaje (CdA) y difundir las buenas prácticas inclusivas en los centros educativos, es decir, actuaciones educativas de éxito de las comunidades de aprendizaje y proyectos de aprendizaje-servicio (ApS).
 
-13. Fomentar el desarrollo de programas y proyectos de innovación social y educativa, especialmente centrados en enseñanzas artísticas, comunicación y emprendimiento, que tengan un impacto contrastado en las personas (jóvenes o adultas) en riesgo de exclusión.
+13. Fomentar el desarrollo de programas, como el Programa INNICIA Cultura Emprendedora, y proyectos de innovación social y educativa, especialmente centrados en enseñanzas artísticas, comunicación y emprendimiento, que tengan un impacto contrastado en las personas (jóvenes o adultas) en riesgo de exclusión.
 
 14. Realizar campañas de divulgación y formación en el sector empresarial sobre las inversiones en factores ESG (/Enviromental, Social and Governance/) en la industria.
 
@@ -5725,7 +5817,6 @@ Este exceso de demanda de servicios sanitarios debido a la crisis del coronaviru
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0404-02
@@ -5795,7 +5886,7 @@ Para todo ello *es imprescindible la generación del conocimiento y la implantac
 
 5. Desarrollar planes y programas de actividad físico-deportiva para poblaciones con necesidades específicas: personas con discapacidad, obesidad, personas con diferentes enfermedades, entre otras.
 
-6. Promover hábitos y entornos de vida saludable relacionados, preferentemente, con la alimentación, la actividad física, el sueño, el bienestar emocional, la sexualidad y el uso de las tecnologías de la información y la comunicación, estableciendo además estrategias y sinergias continuas y estables con el sistema educativo.
+6. Promover hábitos y entornos de vida saludable relacionados, preferentemente, con la alimentación, la actividad física, el sueño, el bienestar emocional, la sexualidad y el uso de las tecnologías de la información y la comunicación, estableciendo además estrategias y sinergias continuas y estables con el sistema educativo, por ejemplo, ampliado la dedicación horaria de la materia Educación Física.
 
 7. Incluir equipos multidisciplinares en los centros de atención primaria compuestos por especialistas en materia deportiva, nutrición y psicología en coordinación con el personal sanitario ya disponible.
 
@@ -6652,6 +6743,10 @@ La Agenda andaluza fue aprobada en 2018 con anterioridad a la Agenda Urbana Espa
 
 Con este desarrollo a escala multinivel se reconoce la función rectora de los gobiernos nacionales en la definición y aplicación de políticas urbanas, así como las contribuciones de los gobiernos subnacionales y locales, de la sociedad civil y otros interesados pertinentes, de manera transparente y responsable, lo que conlleva necesariamente un modelo de implementación a escala local de estas agendas urbanas.
 
+Debido al alto impacto del desarrollo de diferentes tecnologías (5G, IoT, big data, etc) en la gestión de los espacios urbanos, nos encontramos ante la introducción de un nuevo concepto, el de “Ciudades o Territorios Inteligentes”, que trae consigo un amplio abanico de oportunidades en cuanto a la mejora de la gestión de los recursos de la ciudad, en aras de un mayor equilibrio económico, mejora de la calidad de vida y del sistema del bienestar, así como de las condiciones medioambientales, con la prioridad de aportar valor a la ciudadanía y resolver sus necesidades.
+
+En los últimos años se ha venido impulsando el proceso de transformación de las ciudades y municipios de Andalucía a través de un modelo cohesionado, colaborativo y sostenible, liderado por la Junta de Andalucía y en colaboración con las diputaciones provinciales y la Federación andaluza de Municipios y Provincias.
+
 Cabe esperar que las entidades locales de Andalucía, como principales destinatarias de estos planteamientos, sean también parte fundamental en la materialización de las diversas estrategias diseñadas en los niveles superiores de gobierno (nacional y regional). La función de las ciudades será llevar a cabo una adaptación a los principios y contenidos de estas agendas, de acuerdo a las necesidades de su territorio o ciudad.
 
 
@@ -6691,6 +6786,8 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 6. Propiciar e incentivar la cooperación entre las áreas metropolitanas andaluzas de las diferentes provincias en materia de ordenación del territorio y urbanismo, movilidad y transporte metropolitanos, suelo y vivienda, servicios públicos, sostenibilidad urbana, desarrollo de actividades productivas, innovación e investigación.
 
 7. Fomentar la creación y el funcionamiento de redes de cooperación entre ciudades medias para emprender iniciativas conjuntas de relevancia económica (desarrollo de sistemas productivos locales o parques empresariales compartidos, entre otros).
+
+8. Desarrollar iniciativas que propicien la adopción de estrategias de Ciudad o Territorio Inteligentes (Smart) en los municipios de Andalucía.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -7022,6 +7119,7 @@ En el Plan de Recuperación, Transformación y Resilencia no se hace un estudio 
 
 Por tanto, resulta necesario poner en marcha acciones positivas que favorezcan la incorporación de la mujer al mercado laboral y mejoren la calidad y las condiciones del empleo femenino, sobre todo en el contexto actual de crisis que ha provocado la pandemia de la COVID-19, en el que se ha puesto de manifiesto que ésta ha tenido un impacto más negativo sobre las mujeres (también en los jóvenes) que en el resto de colectivos. Así, la destrucción de empleo masculino en Andalucía en el último año ha sido del -2,1% mientras que en el femenino la caída fue del -4,5%.
 
+Un ejemplo de estas acciones positivas, es la iniciativa WomANDigital, promovida desde la Junta de Andalucía que tiene como objetivo aumentar la participación activa, la visibilización e influencia de las mujeres en el sector TIC andaluz.
 
 :fig-0602A1:
 :F: Encuesta de Población Activa (INE):F:
@@ -7057,7 +7155,7 @@ Por tanto, resulta necesario poner en marcha acciones positivas que favorezcan l
 
 1. Implementar Políticas Activas de Empleo que contengan medidas de discriminación positiva que favorezcan la creación y el mantenimiento del empleo femenino, mejorando a su vez las condiciones laborales.
 
-2. Fomentar acciones formativas que permitan un mayor acceso de la mujer al mercado laboral, especialmente en competencias digitales.
+2. Fomentar acciones formativas que permitan un mayor acceso de la mujer al mercado laboral, especialmente en competencias digitales y en sectores emergentes (por ejemplo, el sector TIC).
 
 3. Potenciar los programas que impulsen el trabajo autónomo, el emprendimiento y cooperativismo de mujeres como una opción de creación de empleo.
 
@@ -7594,6 +7692,10 @@ Por tanto, y desde la perspectiva de la transparencia y la calidad de gobierno, 
 
 
 * Footnotes
+[fn:25] Informe de Cobertura de banda ancha en España en el año 2020, publicado en Mayo 2021.
+
+[fn:23] Gartner IT Glossary: https://www.gartner.com/it-glossary/digital-business-transformation) 
+
 [fn:36] Dicha Estrategia, que fue aprobada por Acuerdo del Consejo de Gobierno de 22 de septiembre de 2020 y publicada en el BOJA n.º 188 del 28/9/2020, fija las líneas generales que se van a seguir en Andalucía en materia de mejora de la calidad del aire.
 
 [fn:35] Este indicador mide la suma de personas que están: en riesgo de pobreza, con carencia material severa o viven en hogares con baja intensidad en el trabajo.
