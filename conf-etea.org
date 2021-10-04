@@ -30,20 +30,26 @@ Estos paquetes solo serían necesarios para la parte propositiva
 
 ** Disposición de la hoja
 
+*** Paquete geometry
+#+begin_SRC latex
+  \RequirePackage[twoside,
+  textwidth=12.4cm, inner=1.8cm, marginparsep=0.4cm, marginparwidth=4.6cm,
+  textheight=25cm, top=2.5cm, headsep=0.9cm, headheight=.6cm]{geometry}
+#+end_SRC
 *** Medidas
 
 #+begin_SRC latex
-  \setlength{\textwidth}{13cm}
-  \setlength{\textheight}{25cm}
+  % \setlength{\textwidth}{12.4cm}
+  % \setlength{\textheight}{25cm}
+  %
+  % \setlength{\oddsidemargin}{-.54cm}
+  % \setlength{\evensidemargin}{3.46cm}
+  % \setlength{\marginparwidth}{4.54cm}
 
-  \setlength{\oddsidemargin}{-.54cm}
-  \setlength{\evensidemargin}{3.46cm}
-  \setlength{\marginparwidth}{4.54cm}
-
-  \setlength{\topmargin}{-1.54cm}
-  \setlength{\headheight}{6mm}
-  \setlength{\headsep}{9mm}
-  \setlength{\topskip}{5mm}
+  % \setlength{\topmargin}{-1.54cm}
+  % \setlength{\headheight}{6mm}
+  % \setlength{\headsep}{9mm}
+  % \setlength{\topskip}{5mm}
 #+end_SRC
 
 *** Dos columnas
@@ -71,6 +77,7 @@ Estos paquetes solo serían necesarios para la parte propositiva
 
   \definecolor{azulao}{rgb}{0.04,0.33,0.62}
   \definecolor{morado}{rgb}{0.34,0.12,0.43}
+  \definecolor{verdoso}{rgb}{0.10,0.40,0.20}
 #+end_SRC
 
 *** Definición de nuevos tipos
@@ -87,7 +94,7 @@ Estos paquetes solo serían necesarios para la parte propositiva
   \newfontfamily\linea[Color=linea,Scale=1.4]{Noto Sans}
   \newfontfamily\cb[Color=azulao]{PT Sans}
   \newfontfamily\fnotab{PT Sans}
-  \newfontfamily\fnota[Scale=0.95]{PT Sans}[
+  \newfontfamily\fnota[Scale=0.90]{PT Sans}[
     UprightFont={*},
     ItalicFont={* Italic},
     BoldFont={* Bold},
@@ -113,22 +120,18 @@ Estos paquetes solo serían necesarios para la parte propositiva
 
 #+begin_SRC latex
   \newtcolorbox{alfeizar}[2][]{%
-  enhanced,skin=enhancedlast jigsaw,
-  attach boxed title to top left={xshift=-4mm,yshift=-0.5mm},
-  fonttitle=\bfseries\sffamily,
-  colbacktitle=blue!45!white,colframe=red!50!black,
-  interior style={top color=blue!10!white,bottom color=red!10!white},
-  boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt},
-  underlay boxed title={
-  \fill[blue!45!white] (title.north west) -- (title.north east)
-  -- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm)
-  -- ([xshift=4mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm)
-  -- (title.south west) -- cycle;
-  \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north west)
-  -- +(-0.4,0) -- +(0,-0.3) -- cycle;
-  \fill[blue!45!white!50!black] ([yshift=-0.5mm]frame.north east)
-  -- +(0,-0.3) -- +(0.4,0) -- cycle; },
-  title={#2},#1}
+    enhanced,skin=enhancedlast jigsaw,
+    attach boxed title to top left={xshift=0mm,yshift=-0.5mm},
+    fonttitle=\bfseries\sffamily,
+    colframe=red!50!black,
+    boxed title style={empty,arc=0pt,outer arc=0pt,boxrule=0pt},
+    underlay boxed title={
+      \fill[red!50!black] (title.north west) -- (title.north east)
+      -- +(\tcboxedtitleheight-1mm,-\tcboxedtitleheight+1mm)
+      -- ([xshift=0mm,yshift=0.5mm]frame.north east) -- +(0mm,-1mm)
+      -- (title.south west) -- cycle;
+    },
+    title={#2},#1}
 #+end_SRC
 
 ** Listas
@@ -147,6 +150,9 @@ etc. se colocan en los laterales.
 #+begin_SRC latex
   % \usepackage{showframe}
   \RequirePackage{floatrow}
+  % Extiende las opciones de includegraphics (max width ...), permite
+  % que las imágemes mayores se ajusten al ancho y las otras se queden igual.
+  \RequirePackage[export]{adjustbox}
 
   \DeclareFloatVCode{azulaoruleabove}%
   {{\color{azulao}\par\rule\hsize{.8pt}\vskip4pt\par}}
@@ -188,17 +194,17 @@ etc. se colocan en los laterales.
       % \ffigbox[\FBwidth]
       \ffigbox[\textwidth]
       {\caption{#1}}
-      % {\includegraphics[width=\textwidth]{#2}}
-      {\includegraphics{#2}}
+      {\includegraphics[max width=\textwidth]{#2}}
+      % {\includegraphics{#2}}
     \end{minipage}
     \hfill
-    \begin{minipage}[b]{4.4cm}
+    \begin{minipage}[b]{4.6cm}
       \raggedright\fnota\scriptsize%
       #3
     \end{minipage}
     \else%
-    \hspace*{-4.8cm}
-    \begin{minipage}[b]{4.5cm}
+    \hspace*{-5cm}
+    \begin{minipage}[b]{4.6cm}
       \raggedleft\fnota\scriptsize%
       #3
     \end{minipage}
@@ -207,8 +213,8 @@ etc. se colocan en los laterales.
       % \ffigbox[\FBwidth]
       \ffigbox[\textwidth]
       {\caption{#1}}
-      % {\includegraphics[width=\textwidth]{#2}}
-      {\includegraphics{#2}}
+      {\includegraphics[max width=\textwidth]{#2}}
+      % {\includegraphics{#2}}
     \end{minipage}%
     \fi%
   }
@@ -240,7 +246,6 @@ etc. se colocan en los laterales.
 #+end_SRC
 
 *** Part
-
 *** Chapter
 
 **** Para resetear la numeración de los Capítulos en cada Parte.
@@ -257,10 +262,10 @@ etc. se colocan en los laterales.
   \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 
   \titleformat{\chapter}          % Comando de estructura
-  [block]                          % tipo
-  {\sffamily\Huge\color{morado}} % formato
+  [block]                         % tipo
+  {\sffamily\Huge\color{morado}}  % formato
   {}                              % label
-  {0cm}                          % separación
+  {0cm}                           % separación
   {}                              % before-code
   []                              % after-code
 
@@ -414,7 +419,8 @@ Para evitar que los gráficos se coloquen en la siguiente subsubsection usamos e
 *** Formato
 
 #+begin_SRC latex
-  \renewcommand{\subsectionbreak}{\cleartoevenpage}
+  % \renewcommand{\subsectionbreak}{\cleartoevenpage}
+  \renewcommand{\subsectionbreak}{\clearpage}
 
   \titleformat{\subsection}                % comando
   [block]                                  % tipo
@@ -435,7 +441,7 @@ Para evitar que los gráficos se coloquen en la siguiente subsubsection usamos e
 #+begin_SRC latex
   \titleformat{\subsubsection}    % command
   [hang]                          % shape
-  {}      % format
+  {}                              % format
   {}                              % label
   {0pt}                           % sep
   {}                              % before-code

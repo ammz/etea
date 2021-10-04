@@ -4,7 +4,7 @@ PNGS := $(subst .pdf,.png,$(PDFS))
 pngs: $(PNGS)
 
 %.png: %.pdf
-	pdftoppm $^ $(subst .png, ,$@) -png -singlefile
+	pdftoppm $^ $(subst .png,,$@) -png -singlefile
 	mv $@ ./png/.
 
 info:
