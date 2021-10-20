@@ -5,7 +5,7 @@
 #+LANGUAGE: es
 
 #+MACRO: fecha (eval (format-time-string "%d-%m-%Y"))
-#+OPTIONS: num:3 d:t toc:2 html-style:nil H:6
+#+OPTIONS: num:4 d:t toc:2 html-style:nil H:6 title:nil
 #+ODT_STYLES_FILE: "./plantillas/etea2.ott"
 
 #+LATEX_CLASS: etea
@@ -73,7 +73,7 @@
 #+END_SRC
 
 
-#+BIND: org-export-filter-final-output-functions (mi-filtro-columnas mi-filtro-barrera mi-filtro-markright mi-filtro-extrae-fuente mi-filtro-extrae-unidad mi-filtro-extrae-nota mi-filtro-extrae-elabora mi-filtro-imagen-etiqueta mi-filtro-bloque)
+#+BIND: org-export-filter-final-output-functions (mi-filtro-columnas mi-filtro-barrera mi-filtro-markright mi-filtro-extrae-fuente mi-filtro-extrae-unidad mi-filtro-extrae-nota mi-filtro-extrae-elabora mi-filtro-imagen-etiqueta mi-filtro-parte mi-filtro-bloque)
 
 #+begin_src emacs-lisp :exports results :results none
    (defun mi-filtro-columnas (etea backend info)
@@ -134,6 +134,17 @@
     (setq org-latex-images-centered nil))
 
   (add-hook 'org-export-before-parsing-hook 'imagenes-sin-centrar)
+#+end_src
+
+#+begin_src emacs-lisp :exports results :results none
+  (defun mi-filtro-parte (etea backend info)
+    "Nueva geometria para las Partes"
+    (when (org-export-derived-backend-p backend 'latex)
+      (replace-regexp-in-string
+       "\\\\part{\\(.*\\)}"
+       "\\\\newgeometry{left=3cm,right=3cm,textheight=25cm, top=2.5cm, headsep=0.9cm, headheight=.6cm}
+  \\\\part{\\1}
+  \\\\restoregeometry" etea)))
 #+end_src
 
 #+begin_src emacs-lisp :exports results :results none
@@ -292,11 +303,11 @@ versión actualizada de =etea.sty=.
 \newcommand{\sectionbreak}{}
 \newcommand{\subsectionbreak}{}
 \renewcommand{\thesection}{\arabic{section}}
-\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+% \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 #+end_export
 
 
-* Introducción
+* Introducción                                                     :noexport:
 ** Antecedentes
 
 *** Texto                                                          :ignore:
@@ -427,7 +438,7 @@ Para poder efectuar comparaciones homogéneas con otros territorios, los niveles
 :U::U:
 :N::N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
-#+CAPTION: PIB per cápita en la regiones de la UE. Año 2019
+#+CAPTION: PIB per cápita en las regiones de la UE. Año 2019
 [[./graficos/diagnostico/d02.pdf]]
 :END:
 
@@ -478,7 +489,23 @@ En 2020, y a diferencia de lo ocurrido en las anteriores crisis económicas, And
 
 En cualquier caso, esta caída de la economía andaluza y española fue en torno a cuatro puntos superior a la registrada por la Unión Europea y la Zona Euro (-6,2% y -6,6% respectivamente), un comportamiento relativamente más negativo que el entorno europeo que vino explicado: por el confinamiento más severo en España; una estructura productiva más especializada en actividades de consumo social, como hostelería y turismo, las más afectadas por las medidas restrictivas a las que ha obligado la pandemia; un tejido empresarial caracterizado por la mayor abundancia de Pymes que aguantan peor las crisis; y la elevada proporción de empleos temporales, cuyos contratos se rescinden con más facilidad en coyunturas adversas.
 
-En concreto, desde el punto de vista de la oferta productiva, las mayores caídas en 2020 las registraron en Andalucía las ramas de actividades artísticas, recreativas y de ocio (-24,4%), y el comercio, transporte y hostelería (-23,2%), ambas no obstante ligeramente por debajo de los descensos en España (-24,9% y -24,4%), pero muy por encima de la media en la Eurozona (-17,7% las actividades artísticas, recreativas y de ocio, y -13,2% el comercio, transporte y hostelería).
+La estructura productiva en Andalucía presenta unas características históricas diferenciales respecto a España y la UE. Destaca el mayor peso relativo del sector primario, que supone el 8% del VAB generado por la economía andaluza en 2020, más del doble que en el conjunto nacional (3,5%) y más de cuatro veces lo que representa en la UE (1,9%). 
+
+Por el contrario, presenta una menor especialización productiva en las actividades industriales, que suponen, en conjunto, el 10,6% del VAB en Andalucía en 2020, casi seis puntos menos que en España (16,3%) y casi nueve puntos menos que en la UE (19,4%). En particular, esto se explica por la industria manufacturera, que representa el 7,4% del VAB en Andalucía (12,2% en España), menos de la mitad que en la UE (16,2%). 
+
+Al igual que España y la UE, Andalucía es una economía fuertemente terciarizada, con un peso del sector servicios del 74,9% del VAB, casi un punto más que en España (74%) y casi dos puntos más que en la UE (73,1%). 
+
+Finalmente, el sector de la construcción presenta un similar peso relativo a la estructura productiva de Andalucía y sus economías de referencia, en el entorno del seis por ciento (6,5% en Andalucía, 6,2% en España y 5,7% en la UE). 
+
+La estructura productiva en Andalucía ha mostrado en las últimas dos décadas (2000-2020) algunos cambios, que afectan fundamentalmente a los sectores no agrarios, mientras se ha mantenido prácticamente estable el peso del primario. 
+
+Destaca el notable ajuste de la construcción, como también ocurrió en la economía española, que ha perdido 4,5 puntos en la estructura productiva de Andalucía, pasando del 10,9% en 2000, al 6,5% en 2020, tras el fuerte retroceso experimentado por el sector durante la crisis financiera internacional (2007-2013), que le llevó a aproximarse a su participación relativa en España y la UE. 
+
+Asimismo, y en línea con lo observado en las economías de referencia, el sector industrial ha registrado en las dos últimas décadas una pérdida de peso de 3 puntos en la estructura productiva de Andalucía (-4,4 puntos en España, -3,2 puntos en la UE), en parte, debido a que actividades anteriormente consideradas industriales han pasado a externalizarse hacia los servicios. Como resultado, el sector servicios ha aumentado su peso en la estructura productiva de Andalucía (+7,6 puntos), algo menos que en España (+8,9 puntos), pero casi el doble que en la UE (+3,9 puntos). Este aumento del peso del sector servicios viene explicado por las actividades inmobiliarias, la administración pública, sanidad y educación, las actividades profesionales, científicas y técnicas, y las actividades financieras.
+
+Con todo ello, las ramas del sector servicios, que reflejan una mayor especialización en Andalucía son: comercio, transporte y hostelería (20,1% del VAB en Andalucía frente a 17,8% en la UE); actividades inmobiliarias (14,2% del VAB en Andalucía; 11,4% en la UE); y Administración pública, educación y sanidad (24,4% del VAB en Andalucía; 19,8% en la UE). Por el contrario, Andalucía se encuentra menos especializada en ramas más vinculadas a la sociedad de la información y el conocimiento, como información y comunicaciones (2% del VAB; 5,4% en la UE) y actividades profesionales, científicas y técnicas (6,7% del VAB; 11,1% en la UE).
+
+Volviendo al análisis del comportamiento observado en el último año, desde el punto de vista de la oferta productiva, las mayores caídas en 2020 las registraron en Andalucía las ramas de actividades artísticas, recreativas y de ocio (-24,4%), y el comercio, transporte y hostelería (-23,2%), ambas no obstante ligeramente por debajo de los descensos en España (-24,9% y -24,4%), pero muy por encima de la media en la Eurozona (-17,7% las actividades artísticas, recreativas y de ocio, y -13,2% el comercio, transporte y hostelería).
 
 :fig-d04:
 :F: IECA; INE; Eurostat.:F:
@@ -558,13 +585,8 @@ La productividad total de los factores mide la relación existente, en una deter
 
 Una de las herramientas que suele utilizarse en el análisis empírico en economía para intentar aproximar el cálculo de las fuentes del crecimiento económico es la función de producción Cobb-Douglas. Ésta representa las relaciones entre el PIB y las variaciones de los insumos: trabajo, capital y tecnología. Su formulación matemática básica es la siguiente:
 
-#+begin_SRC latex
-$$Y = L^{\alpha} \cdot  K^{1-\alpha} \cdot A$$
-#+end_SRC
-
-#+RESULTS:
 #+begin_export latex
-$$Y = L^{\alpha} \cdot  K^{1-\alpha} \cdot A$$
+$$Y = L^{\alpha} \cdot  K^{1-\alpha} \cdot A$$\bigskip
 #+end_export
 
 Donde Y es el PIB; y las tres fuentes potenciales de crecimiento del mismo son la dotación del factor trabajo (L), la dotación del factor capital (K) y un residuo (A) que recoge la tecnología también llamada productividad total de los factores (PTF); \alpha es el peso del trabajo en el PIB, cuyo valor, según el criterio más extendido en el análisis económico, es de 0,65.
@@ -643,23 +665,51 @@ En concreto, el PIB nominal ha mostrado un mayor dinamismo relativo en Andalucí
 
 Como resultado, el PIB pps pc creció a un ritmo anual del 2,4% en Andalucía y España, ligeramente por debajo de la media de la UE-27 (2,8%). Por tanto, las variables que explican fundamentalmente el retroceso en convergencia de Andalucía y España con la media de la UE en estos años han sido el acercamiento a los niveles de precios, y, en mayor medida la población, que ha crecido muy por encima del promedio europeo; variables, que han contrarrestado el mayor crecimiento económico de Andalucía y España respecto a la UE.
 
+El retroceso en convergencia con la media europea entre 2000 y 2019 ha sido prácticamente generalizado en todas las CC.AA. españolas, con las dos únicas excepciones de Extremadura y Galicia, que han registrado un avance del PIB pps per cápita respecto al promedio de la UE de 5 puntos y 6 puntos, respectivamente. Destaca especialmente el retroceso en Baleares y Canarias (-26 puntos y -22 puntos, respectivamente), seguidas de Comunidad Valenciana, Navarra, Cataluña y La Rioja (en torno a -12 puntos), y Cantabria, Madrid y Murcia, las tres con -7 puntos, igual que la media nacional.
+
+Si se considera la evolución de las dos variables que determinan el nivel de PIB pps per cápita, esto es, el PIB nominal pps y la población, cabe señalar que el crecimiento acumulado del PIB nominal pps en el período 2000-2019 en Extremadura y Galicia, las dos únicas CC.AA. que han avanzado en convergencia, ha sido muy similar al que presentan Andalucía y España, y superior al registrado por la UE. En cambio, mientras que en Andalucía y España la población ha crecido por encima del 15% en el período, el triple que en la UE, en Extremadura y Galicia se ha registrado un crecimiento prácticamente nulo. De este modo, el resultado diferencial en convergencia que han experimentado estas dos regiones respecto al observado en Andalucía y España, no se ha debido al mayor crecimiento económico, sino que ha venido determinado fundamentalmente por el nulo crecimiento de la población.
+
+:fig-d10:
+:F: Eurostat :F:
+:U::U:
+:N::N:
+:E: Secretaría General de Economía :E:
+#+CAPTION: Evolución del PIB nominal pps y población en CC.AA. españolas 2000-2019
+[[./graficos/diagnostico/d10.pdf]]
+:END:
+
+De otro lado, cabe analizar el proceso de convergencia de las CC.AA. con la media española en este mismo período. Como se observa en el cuadro, las Comunidades Autónomas españolas han registrado en los últimos veinte años una evolución muy diferenciada en términos de convergencia con respecto al PIB per cápita medio en España. Los mayores retrocesos han correspondido a las islas Baleares (-19 puntos) y Canarias (-17,4 puntos), seguidas, a mucha mayor distancia por la Comunidad Valenciana (-7,5 puntos), Navarra (-5,6 puntos) y La Rioja (-5 puntos). En el lado opuesto, destacan los avances de Galicia (+12,7 puntos), Extremadura (+10,1 puntos) y País Vasco (+6,6 puntos).
+
+Esta convergencia o divergencia con el nivel medio de PIB per cápita en España es el resultado conjunto del mayor o menor crecimiento registrado por el PIB, de un lado, y, de otro, por la evolución de la población. Con crecimientos del PIB muy por encima de la media nacional destacan Murcia, Madrid y Baleares, todos ellas también con crecimientos muy superiores a la media en población.
+
+En este contexto, Andalucía ha presentado en las últimas dos décadas un crecimiento del PIB y de la población ligeramente por debajo de la media española, manteniendo el mismo nivel de PIB per cápita respecto a España, algo por encima del 74%. Esto hace que continúe en las últimas posiciones en el ránking, siendo la segunda CC.AA. con menor nivel de PIB pc (solo Extremadura, con el 73,6% de la media de España, presenta un ratio más bajo que Andalucía).
+
+:fig-d11:
+:F: CRE (INE) :F:
+:U::U:
+:N::N:
+:E: Secretaría General de Economía. Junta de Andalucía :E:
+#+CAPTION: Convergencia CC.AA. con España. Período 2000-2019
+[[./graficos/diagnostico/d11.pdf]]
+:END:
+
 El PIB pps per cápita puede descomponerse, a su vez, en dos factores explicativos: la productividad aparente del trabajo, y la tasa de empleo. Si se miden ambos factores, productividad y tasa de empleo, en términos de horas trabajadas, se tiene la siguiente igualdad:
 
 #+begin_export latex
-  $$\mbox{PIB pps} = \frac{\mbox{PIB pps}}{\mbox{Habitantes}} = \frac{\mbox{PIB pps}}{\mbox{Horas trabajadas}} \times  \frac{\mbox{Horas trabajadas}}{\mbox{Habitantes}}$$
+  $$\text{PIB pps por habitante} = \frac{\text{PIB pps}}{\text{Habitantes}} = \frac{\text{PIB pps}}{\text{Horas trabajadas}} \times  \frac{\text{Horas trabajadas}}{\text{Habitantes}}$$
 #+end_export
 
-De esta forma, es posible representar en un gráfico, las combinaciones observadas cada año de productividad y tasa de empleo, que han dado lugar al nivel de PIB pps pc; es lo que se representa en el gráfico adjunto, donde se tienen las combinaciones de productividad y tasa de empleo, medidas en los términos indicados, de Andalucía, España  y la UE-27 para los años 2000 a 2019, y sus correspondientes niveles de PIB pps per cápita de cada año, a partir de la información que proporciona Eurostat. Las curvas de indiferencia representadas indican las diferentes combinaciones posibles entre ambas variables, productividad y tasa de empleo, para ese nivel de PIB pps per cápita.
+De esta forma, es posible representar en un gráfico, las combinaciones observadas cada año de productividad y tasa de empleo, que han dado lugar al nivel de PIB pps pc; es lo que se representa en el gráfico adjunto, donde se tienen las combinaciones de productividad y tasa de empleo, medidas en los términos indicados, de Andalucía, España y la UE-27 para los años 2000 a 2019, y sus correspondientes niveles de PIB pps per cápita de cada año, a partir de la información que proporciona Eurostat. Las curvas de indiferencia representadas indican las diferentes combinaciones posibles entre ambas variables, productividad y tasa de empleo, para ese nivel de PIB pps per cápita.
 
-En primer lugar, cabe resaltar que el PIB pps per cápita de Andalucía en el período considerado ha crecido a un ritmo medio anual del 2,4%, insuficiente para avanzar hacia los niveles existentes en el conjunto de la economía española y en la UE.
+En primer lugar, cabe resaltar que el PIB pps per cápita de Andalucía en el período considerado ha crecido a un ritmo medio anual del 2,4 %, insuficiente para avanzar hacia los niveles existentes en el conjunto de la economía española y en la UE.
 
-:fig-d10:
+:fig-d12:
 :F: INE; Eurostat; SGE:F:
 :U::U:
 :N::N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Productividad y tasa de empleo. Andalucía-España-UE. Período 2000-2019
-[[./graficos/diagnostico/d10.pdf]]
+[[./graficos/diagnostico/d12.pdf]]
 :END:
 
 Para aumentar el PIB pps per cápita existen tres vías: aumentar solo la tasa de empleo, aumentar exclusivamente la productividad del trabajo, o incrementar tanto el empleo como la productividad.
@@ -670,18 +720,29 @@ De esta forma, en el conjunto de la UE, la productividad por hora ha crecido ent
 
 Adicionalmente, cabe señalar, que el avance de la productividad en Andalucía y España ha sido a costa de un fuerte ajuste del empleo durante los años de la Gran Recesión (-20,8% en Andalucía de forma acumulada entre 2007 y 2013; -18,9% en España), mientras que en la UE el impacto en el empleo fue de menor intensidad (-6,2%). Esto constituye un elemento diferenciador de Andalucía y España respecto al entorno europeo: la productividad del trabajo crece con mayor intensidad en los períodos recesivos, cuando se produce un significativo ajuste de la tasa de empleo, mientras que en la UE, las variaciones de la tasa de empleo son más estables, y muestran una mayor sintonía con los incrementos de la productividad.
 
-:fig-d11:
+:fig-d13:
 :F: AMECO; Andalucía: Elaboración propia partir de datos del INE y AMECO.:F:
 :U::U:
 :N::N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Productividad y tasa de empleo comparadas con países europeos y más desarrollados. Año 2019
-[[./graficos/diagnostico/d11.pdf]]
+[[./graficos/diagnostico/d13.pdf]]
 :END:
 
 Cabe también efectuar una comparativa de la posición de Andalucía y España en PIB pps per cápita y sus componentes, productividad y tasa de empleo, no solo respecto al promedio de la UE sino también respecto a los países europeos y otros países desarrollados fuera del ámbito de Europa, como Estados Unidos o Japón.
 
 Como se observa en el gráfico, Andalucía y España se encuentran en el cuadrante que identifica a los territorios con inferiores niveles de productividad y tasa de empleo, ambos por debajo del promedio de la UE. En el lado opuesto, destacan Estados Unidos, Suiza, Países Bajos, Suecia, Austria y Finlandia, con los mayores niveles de productividad y tasa de empleo.
+
+En el contexto de las Comunidades Autónomas españolas, también Andalucía muestra una posición relativamente menos favorable, situándose, como se observa en el gráfico, en el cuadrante inferior izquierdo, donde están representadas las CC.AA. con menores niveles de productividad y tasa de empleo que la media nacional. En concreto, Andalucía es, tras Murcia y Extremadura, la tercera región con menor productividad por hora y la comunidad autónoma con menor tasa de empleo, medida como el número medio anual de horas trabajadas por habitante. Frente a esta situación se encuentran Madrid, País Vasco, Navarra y Cataluña, todas ellas con los mayores niveles de productividad por hora y tasas de empleo de España.
+
+:fig-d14:
+:F: CRE (INE) :F:
+:U::U:
+:N::N:
+:E: Secretaría General de Economía. Junta de Andalucía:E:
+#+CAPTION: Productividad y tasa de empleo en Andalucía comparadas con resto de CC.AA. españolas. Año 2019
+[[./graficos/diagnostico/d14.pdf]]
+:END:
 
 En concreto, la combinación de productividad y tasa de empleo de Andalucía en 2019 da lugar a un PIB per cápita (valorado en paridad de poder de compra) que representa el 68% de la media de la UE, inferior al del conjunto de España (91% de la UE). Este nivel de PIB per cápita se corresponde, por un lado, con una productividad por hora un quince por ciento inferior a la media de la UE (84,1% de la misma) y un diez por ciento más baja que la española (88,6%). Con todo, es superior a la que registran dieciséis de los países analizados, entre los que se encuentran Japón, Portugal, Grecia, Hungría o Polonia.
 
@@ -694,7 +755,6 @@ Estos resultados evidencian que las diferencias que presenta Andalucía en PIB p
 
 El crecimiento económico y la capacidad de convergencia de Andalucía dependen de la dotación de capital físico, humano y tecnológico, observándose una posición relativamente menos favorable en la región que en el contexto nacional y europeo, en indicadores como el stock de capital productivo privado, la dimensión empresarial, el gasto en Investigación, Desarrollo (I+D) e innovación, así como un modelo de cualificación de la población que difiere de los estándares europeos. En la medida en que se actúe sobre estos factores productivos se estará incidiendo sobre el potencial de crecimiento de la economía andaluza y por tanto sobre los niveles de riqueza por habitante que determinan la convergencia con los niveles europeos.
 
-
 **** La insuficiente capitalización del sector privado en Andalucía
 
 El stock de capital es, junto con el trabajo y la tecnología, una de las variables que explica el nivel de producción de una economía, y por ello, clave en el crecimiento económico. Aumentar la capitalización de la economía permite ampliar la capacidad productiva de los diferentes sectores económicos, y con ello, aumentar su producción, lo que se refleja en mayores niveles de renta por habitante y productividad.
@@ -703,13 +763,13 @@ Existen importantes limitaciones de información para medir el stock de capital 
 
 A partir de estos datos que ofrece, se puede analizar la dotación y evolución del stock de capital productivo, conformado por el conjunto de activos no residenciales (infraestructuras, equipos de transporte, maquinaria y activos inmateriales) que se han ido acumulando a través de la inversión, en las CC.AA. españolas.
 
-:fig-d12:
+:fig-d15:
 :F: INE; Fundación BBVA-IVIE.:F:
 :U::U:
 :N: Datos referidos al año 2016.\par El stock de capital productivo está conformado por el conjunto de activos no residenciales (infraestructuras, equipos de transporte, maquinaria y activos inmateriales) que se han ido acumulando a través de la inversión, ajustado por la pérdia de eficiencia como resultado del envejecimiento del activo.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: PIB per cápita y stock de capital productivo por habitante en las CC.AA. españolas
-[[./graficos/diagnostico/d12.pdf]]
+[[./graficos/diagnostico/d15.pdf]]
 :END:
 
 Considerando los datos del último año disponible, 2016, se observa que el stock de capital productivo por habitante en cada comunidad autónoma tiene una vinculación directa, positiva y significativa con su nivel de PIB per cápita, siendo las regiones con menor dotación relativa de capital productivo las que presentan los menores niveles de riqueza por habitante, encontrándose Andalucía entre estas regiones.
@@ -718,13 +778,13 @@ En concreto, el stock de capital productivo en Andalucía se cifra en 255.528 mi
 
 Relativizando por la población, el stock de capital productivo per cápita de Andalucía representa el 73,6% de la media española, porcentaje equivalente a su posición en PIB por habitante (73,6% en 2016, según el INE). Si se diferencia entre el sector público y el privado, el stock de capital productivo público por habitante en Andalucía supone el 90,1% de la media nacional, mientras el stock de capital productivo privado por habitante representa tan solo el 69,8% de la media española; es decir, el stock de capital productivo privado por habitante en Andalucía es más de un treinta por ciento inferior al promedio nacional.
 
-:fig-d13:
+:fig-d16:
 :F: INE; Fundación BBVA-IVIE.:F:
 :U::U:
 :N: Datos referidos al año 2016.\par El stock de capital productivo está conformado por el conjunto de activos no residenciales (infraestructuras, equipos de transporte, maquinaria y activos inmateriales) que se han ido acumulando a través de la inversión, ajustado por la pérdia de eficiencia como resultado del envejecimiento del activo.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: PIB per cápita y stock de capital productivo por habitante de Andalucía (España=100)
-[[./graficos/diagnostico/d13.pdf]]
+[[./graficos/diagnostico/d16.pdf]]
 :END:
 
 Más concretamente, si se analiza con mayor detalle por tipo de activo, el menor peso del stock de capital productivo privado por habitante en Andalucía respecto a la media española se registra en productos de la propiedad (57,3%), donde se encuentran, entre otros, el software (54,5%) y la I+D (59,2%). También destaca la menor dotación relativa en material de transporte, siendo el stock de capital productivo privado per cápita de Andalucía el 67% de la media nacional, y en maquinaria y equipo (67,5% de la media española), especialmente en comunicaciones (58%), y equipo de oficina y hardware (60,5%). En infraestructuras, el mayor déficit corresponde a las infraestructuras viarias (el stock de capital productivo privado per cápita de Andalucía es el 41% de la media nacional), observándose por el contrario una dotación relativamente superior en infraestructuras hidráulicas (127,6%) y portuarias (107,4%). Finalmente, también presenta Andalucía una dotación de capital productivo privado relativamente superior a la media española en términos per cápita en recursos biológicos cultivados (116%), de procedencia animal, agrícola o forestal.
@@ -737,37 +797,37 @@ La dimensión de las empresas es un factor estratégico en la dinámica económi
 
 A nivel europeo, Eurostat proporciona información sobre el número de empresas de los sectores no agrarios, excluidas las actividades financieras y de seguros y de servicios sociales. Con datos referidos al año 2018, último publicado, el tejido empresarial en la UE, en su configuración actual de 27 países, está constituido por 22.710.033 empresas, de las cuales 2.650.529 son españolas; es decir, el 11,7% del total, por encima de su peso en población (10,5%) o PIB (8,9%). Esto supone que, por cada mil habitantes, hay en la UE 44,3 empresas, una ratio que en el caso de la economía española se eleva hasta 56,8.
 
-:fig-d14:
+:fig-d17:
 :F: Eurostat (UE, España, Alemania, Reino Unido); IECA (Andalucía):F:
 :U::U:
 :N: Datos referidos al año 2018.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Empresas por mil habitantes
-[[./graficos/diagnostico/d14.pdf]]
+[[./graficos/diagnostico/d17.pdf]]
 :END:
 
 Considerando para Andalucía también las empresas no agrarias excluidas las del sector financiero y de servicios sociales, por homogeneidad con la estadística de Eurostat, y según datos del Directorio de Empresas y Establecimientos con Actividad Económica en Andalucía, del IECA, la ratio de empresas por cada mil habitantes es de 49,8 empresas, más que por término medio en la UE (44,3 empresas) y significativamente por encima de la ratio en países como Alemania (31,4 empresas) o Reino Unido (33 empresas). Por tanto, Andalucía no tiene un déficit en cuanto a número de empresas en el contexto de la UE.
 
 En cambio, si se analiza la estructura empresarial andaluza en lo que al tamaño se refiere, sí se observa que Andalucía, en línea con España, tiene un déficit en lo que al tamaño de empresas se refiere. Las microempresas (0-9 trabajadores) suponen en Andalucía el 94,8% de todo el tejido empresarial, similar a España (94,4%), y muy por encima de lo que representan en Alemania (83,2%) o Reino Unido (90,2%).
 
-:fig-d15:
+:fig-d18:
 :F: Eurostat (UE, España, Alemania, Reino Unido); IECA (Andalucía):F:
 :U::U:
 :N: Datos referidos al año 2018.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Microempresas (0-9 trabajadores) (% sobre total)
-[[./graficos/diagnostico/d15.pdf]]
+[[./graficos/diagnostico/d18.pdf]]
 :END:
 
 Por el contrario, el peso relativo de las empresas de mayor dimensión es más bajo, con un 5,2% del total de empresas con 10 o más trabajadores en Andalucía, tres veces menos que en Alemania (16,8%) y casi la mitad que en Reino Unido (9,8%).
 
-:fig-d16:
+:fig-d19:
 :F: Eurostat (UE, España, Alemania, Reino Unido); IECA (Andalucía):F:
 :U::U:
 :N: Datos referidos al año 2018.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Empresas de 10 o más trabajadores (% sobre total)
-[[./graficos/diagnostico/d16.pdf]]
+[[./graficos/diagnostico/d19.pdf]]
 :END:
 
 Estos resultados evidencian que Andalucía no tiene una falta de tejido empresarial, pero sí tiene un déficit de empresas más dimensionadas. Incrementar el tamaño de las empresas es un factor estratégico para mejorar el crecimiento potencial de la economía porque las empresas más grandes son más intensivas en capital físico, humano y tecnológico, presentan una mayor facilidad para acometer proyectos de internacionalización, una mayor productividad, y una mayor capacidad inversora, especialmente para el impulso de la innovación y la adopción de nuevas tecnologías; es decir, configuran un tejido empresarial más competitivo que ayudaría a mejorar la calidad del empleo.
@@ -788,39 +848,39 @@ La evidencia empírica para los países de la UE muestra que existe una relació
 
 En este sentido, cabe destacar que países con gasto en I+D, en porcentaje del PIB, superiores al 3%, como Suecia, Austria o Alemania, tienen un PIB pps por habitante en torno a un 20% superior a la media de la UE. Por el contrario, países como Bulgaria, Letonia o Rumanía, con un gasto en I+D que representa menos del 1% del PIB, tienen un PIB pps por habitante que es más de un 20% inferior a la media de la UE.  En este grupo se encontraría Andalucía, con un gasto en I+D en porcentaje del PIB del 0,93%, y un nivel de PIB pps por habitante del 68% de la media de la UE-27.
 
-:fig-d17:
+:fig-d20:
 :F: INE; Eurostat.:F:
 :U::U:
 :N: Año 2019.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: PIB per cápita y gasto en I+D en la UE
-[[./graficos/diagnostico/d17.pdf]]
+[[./graficos/diagnostico/d20.pdf]]
 :END:
 
 Cabe analizar si el esfuerzo relativamente menor del gasto en I+D en Andalucía y España se debe al sector privado, conformado por las empresas y las instituciones privadas sin fines de lucro (IPSFL), o al sector público, que engloba a la Administración Pública y la Enseñanza Superior.
 
 Andalucía presenta una distribución del gasto en I+D entre los sectores institucionales muy diferente a su entorno europeo. En Andalucía, el sector público realiza casi las dos terceras partes (63,5%) del gasto en I+D (44,1% Enseñanza Superior y 19,4% la Administración Pública), correspondiendo el 36,5% restante al sector privado. Mientras, en la UE es al contrario: alrededor de las dos terceras partes del gasto en I+D lo realiza el sector privado (66,9%) y la tercera parte restante el sector público.
 
-:fig-d18:
+:fig-d21:
 :F: Estadística sobre Actividades de I+D del INE; Eurostat.:F:
 :U::U:
 :N: % sobre total. Año 2019.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Gasto en I+D según sector institucional
-[[./graficos/diagnostico/d18.pdf]]
+[[./graficos/diagnostico/d21.pdf]]
 :END:
 
 Esto determina que, en términos de esfuerzo tecnológico, el gasto en I+D del sector público sobre el PIB sea similar en Andalucía y España, no muy alejado de la Unión Europea. En concreto, en Andalucía, el gasto en I+D del sector público representa el 0,59% del PIB, ligeramente por encima de España (0,55%), siendo el 0,73% en la UE. Mientras, el gasto en I+D del sector privado sobre el PIB es del 0,34% en Andalucía, la mitad que en España (0,71%) y menos de la cuarta parte de la UE (1,47%).
 
 En el ámbito europeo, los países con mayor esfuerzo tecnológico del sector privado, superior al 2% del PIB, son Bélgica, Alemania, Austria y Suecia, seguidos de Finlandia (1,85%) y Dinamarca (1,83%). Estos países también muestran un superior nivel de gasto en I+D público, por encima del 1% en Dinamarca, en torno al 0,9% en Alemania, Suecia, Austria y Finlandia, y del 0,8% en Bélgica.
 
-:fig-d19:
+:fig-d22:
 :F: INE; Eurostat.:F:
 :U::U:
 :N: Gastos en I+D en porcentaje de PIB. Dato de 2019.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Esfuerzo tecnológico en Andalucía y España en el contexto de la Unión Europea
-[[./graficos/diagnostico/d19.pdf]]
+[[./graficos/diagnostico/d22.pdf]]
 :END:
 
 Todos estos resultados evidencian que uno de los principales retos a los que se enfrenta la economía andaluza es conseguir que el sector privado aumente su gasto en I+D.
@@ -833,26 +893,26 @@ En cuanto a las patentes, y según datos de la Estadística de Propiedad Industr
 
 El Centro de Predicción Económica (CEPREDE) de la Universidad Autónoma de Madrid elabora un indicador de Innovación Tecnológica por comunidades autónomas, que se construye como media ponderada de cinco variables: porcentaje del gasto en I+D respecto al PIB regional; peso que tiene el personal en I+D respecto al total de ocupados; número de patentes (solicitadas y concedidas) por millón de habitantes; número de artículos publicados en revistas científicas por millón de habitantes y año; y porcentaje de gastos en innovación de las empresas respecto al PIB regional; las tres primeras variables con una ponderación en el índice del 25% y las dos últimas con un peso del 12,5%.
 
-:fig-d20:
+:fig-d23:
 :F: INE; N-Economía (CEPREDE-UAM):F:
 :U::U:
 :N: * Datos CEPREDE, calculados con información disponible en 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Innovación tecnológica y PIB per cápita en las CC.AA. españolas
-[[./graficos/diagnostico/d20.pdf]]
+[[./graficos/diagnostico/d23.pdf]]
 :END:
 
 La evidencia empírica disponible para las Comunidades Autónomas españolas pone de manifiesto que existe una relación directa y estadísticamente significativa entre este indicador de innovación tecnológica y el nivel de PIB per cápita en las regiones, de manera que son aquellas con mayor nivel de innovación tecnológica las que presentan los mayores niveles de riqueza por habitante, destacando Madrid, País Vasco y Navarra.
 
 Con la última información disponible de este indicador de innovación tecnológica de CEPREDE, calculado con la información disponible en 2020, Andalucía, se sitúa en el 76% de la media española en Innovación Tecnológica, posición equivalente a la que la comunidad autónoma tiene en PIB per cápita (74,3% en 2019, último dato publicado), y que le lleva a estar entre las regiones con menores niveles de PIB por habitante.
 
-:fig-d21:
+:fig-d24:
 :F: INE; N-Economía (CEPREDE-UAM):F:
 :U::U:
 :N: * Datos CEPREDE, calculados con información disponible en 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Componentes del indicador de innovación tecnológica. Andalucía (España=100)
-[[./graficos/diagnostico/d21.pdf]]
+[[./graficos/diagnostico/d24.pdf]]
 :END:
 
 Un análisis más detallado por componentes pone de manifiesto que las mayores diferencias con la media nacional se encuentran en el gasto en innovación de las empresas, estando Andalucía en el 47,5% de la media española en gasto en innovación de las empresas respecto al PIB.
@@ -867,13 +927,13 @@ La educación y la formación de la población constituyen un elemento clave en 
 
 En este sentido, en la mayor parte de Europa, los modelos de cualificación se asientan sobre la formación intermedia. En el conjunto de la UE, según la Encuesta Europea de Fuerza de Trabajo de Eurostat, con datos de 2020, casi la mitad (46%) de la población en edad de trabajar (15 a 64 años) tiene estudios de segunda etapa de secundaria (bachillerato y formación profesional de grado medio); algo menos del treinta por ciento (28,9%) dispone de estudios superiores (enseñanzas universitarias y enseñanzas técnico-profesionales de grado superior); y el 25,1% restante ha completado como máximo hasta la enseñanza secundaria obligatoria (ESO).
 
-:fig-d22:
+:fig-d25:
 :F: Eurostat.:F:
 :U::U:
 :N: % sobre el total población en edad de trabajar (15-64 años). Datos del año 2020.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Nivel educativo de la fuerza de trabajo en Andalucía, España y Europa
-[[./graficos/diagnostico/d22.pdf]]
+[[./graficos/diagnostico/d25.pdf]]
 :END:
 
 Este modelo de cualificación de la población en edad de trabajar, que dibuja una figura de rombo, se reproduce en la mayoría de los países del área, en concreto en veinte de los 27 países de la UE, entre ellos Alemania, Francia, o Austria, en los que el mayor porcentaje de la población tiene un nivel intermedio de formación.
@@ -882,13 +942,13 @@ España y Andalucía muestran modelos de cualificación diferentes a su entorno 
 
 Se podría pensar que esta situación es debido a la herencia histórica de una población con cualificación reducida, constituida sobre niveles educativos muy elementales; sin embargo, si se analiza el perfil de formación para la población joven, de 25 a 34 años, se tiene que mientras que en la UE solo el 14,8% tiene estudios hasta la ESO, en España este porcentaje es casi el doble (28,3%) y en Andalucía se eleva hasta el 35%; mientras, el 44,7% de la población entre 25 y 34 años tiene una cualificación intermedia en la UE, casi el doble que en España (24,3%) y Andalucía (25,7%), y un 40,5% tiene estudios superiores en la UE, menos que en España (47,4%) siendo en Andalucía este porcentaje del 39,3%, similar al de la UE.
 
-:fig-d23:
+:fig-d26:
 :F: IECA; INE; Eurostat.:F:
 :U::U:
 :N: Tasa de paro: % sobre población activa. Datos referidos al año 2020. \par Tasa de abandono educativo temprano: % población de 18 a 24 años que no ha completado el nivel de Educación Secundaria 2ª etapa y no sigue ningún tipo de educación-formación.:N:
 :E: Secretaría General de Economía. Junta de Andalucía.:E:
 #+CAPTION: Tasa de abandono educativo temprano y tasa de paro. Año 2020
-[[./graficos/diagnostico/d23.pdf]]
+[[./graficos/diagnostico/d26.pdf]]
 :END:
 
 Esta falta de cualificaciones intermedias de la población en edad de trabajar en España y Andalucía viene acompañada de superiores tasas de abandono educativo temprano, entendida como el porcentaje de población de 18 a 24 años que no ha completado el nivel de educación secundaria 2ª etapa, y no sigue ningún tipo de educación-formación. En Andalucía, la tasa de abandono educativo temprano alcanza el 21,8% en 2020 (16% en España), más del doble que la media de la UE (9,9%). Esto se refleja en el mercado laboral en índices muy inferiores de empleabilidad, de forma que la tasa de paro en Andalucía más que triplica la media de la UE (22,3% y 7,1%, respectivamente).
@@ -914,7 +974,7 @@ El cuadro DAFO se presenta en cuatro partes separadas (una por hoja) y comienza 
 #+end_export
 
 
-** Sabana                                                           :ignore:
+** Sabana                                                  :ignore:noexport:
 
 #+begin_SRC latex
 \includepdf[pages={-},pagecommand=\thispagestyle{plain}]{graficos/etea-esquema-ampliado.pdf}
@@ -978,7 +1038,7 @@ Converger hacia los niveles medios de inversión en I+D+i de la zona euro.
 
 **** Inversión en I+D
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0101-01
 :END:
 ***** Texto                                                      :ignore:
@@ -1023,7 +1083,7 @@ Esta situación es preocupante, ya que la evidencia empírica muestra que existe
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Aumentar los recursos de forma notable y sostenida, al margen del ciclo económico, para la inversión en I+D.
@@ -1037,7 +1097,7 @@ Esta situación es preocupante, ya que la evidencia empírica muestra que existe
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 | Consejería | Plan / Estrategia                                                                                      |
@@ -1051,7 +1111,7 @@ Esta situación es preocupante, ya que la evidencia empírica muestra que existe
 
 **** I+D y transferencia del conocimiento
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0101-02
 :END:
 ***** Texto                                                      :ignore:
@@ -1096,7 +1156,7 @@ A la baja inversión en I+D del sector privado hay que unir la falta de sinergia
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Favorecer una mayor cultura de colaboración entre las empresas y los centros de investigación en materia de I+D, compartiendo infraestructuras, recursos financieros y de personal.
@@ -1112,7 +1172,7 @@ A la baja inversión en I+D del sector privado hay que unir la falta de sinergia
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 | Consejería | Plan / Estrategia                                                                                      |
@@ -1125,7 +1185,7 @@ A la baja inversión en I+D del sector privado hay que unir la falta de sinergia
 | CSF        | Estrategia de Investigación e Innovación en Salud en Andalucía 2020-2023                               |
 **** Innovación empresarial
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0101-03
 :END:
 ***** Texto                                                      :ignore:
@@ -1174,7 +1234,7 @@ En este sentido, la economía digital concentra la parte de los sectores económ
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Mejorar el entorno regulatorio que favorezca la confianza de las empresas, apoyando así la innovación desde el punto de vista de la oferta.
@@ -1192,7 +1252,7 @@ En este sentido, la economía digital concentra la parte de los sectores económ
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 | Consejería | Plan / Estrategia                                                                                      |
@@ -1228,7 +1288,7 @@ Para impulsar una verdadera digitalización de nuestra sociedad, en general, y d
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -1238,7 +1298,7 @@ Incorporar las nuevas tecnologías digitales en las actividades productivas, en 
 
 **** Digitalización de las empresas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0102-01
 :END:
 ***** Texto                                                      :ignore:
@@ -1283,7 +1343,7 @@ No obstante, la pandemia ha puesto de manifiesto la necesidad de expandir nuevas
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Incrementar ayudas a las PYMES para mejorar su grado de digitalización.
@@ -1303,14 +1363,14 @@ No obstante, la pandemia ha puesto de manifiesto la necesidad de expandir nuevas
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Andalucía Compromiso Digital 
 
 **** Digitalización de la Administración pública
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0102-02
 :END:
 ***** Texto                                                      :ignore:
@@ -1350,7 +1410,7 @@ Por último, se constata una evolución creciente del número de incidentes que 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Intensificar el diseño y la puesta a disposición en la red de una oferta más amplia de servicios y trámites administrativos propios de la Junta de Andalucía (en materia educativa, sanitaria, empleo, justicia o servicios sociales, entre otras materias).
@@ -1364,7 +1424,7 @@ Por último, se constata una evolución creciente del número de incidentes que 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 
@@ -1374,7 +1434,7 @@ Por último, se constata una evolución creciente del número de incidentes que 
 - Programa WomanDigital para la igualdad de género en el sector TIC
 **** Desarrollo de las empresas tecnológicas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0102-03
 :END:
 ***** Texto                                                      :ignore:
@@ -1411,7 +1471,7 @@ Finalmente, tal y como se recoge en el II Diagnóstico de la situación de la mu
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Reforzar el conjunto de actuaciones dirigidas a la mejora de las capacidades y competencias de los profesionales del sector tecnológico andaluz, así como a facilitar el desarrollo de los futuros profesionales que está demandando la Economía Digital.
@@ -1428,7 +1488,7 @@ Finalmente, tal y como se recoge en el II Diagnóstico de la situación de la mu
 
 **** Capacitación digital de la ciudadanía
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0102-04
 :END:
 ***** Texto                                                      :ignore:
@@ -1453,7 +1513,7 @@ La capacitación ciudadana en tareas TIC, como “crear presentaciones o documen
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Promover la colaboración público-privada para la capacitación en competencias digitales avanzadas, para formar a los que deben ser profesionales de y para la economía digital. Estas iniciativas deberían centrarse en perfiles mixtos, buscando que cualquier profesional o persona trabajadora de cualquier sector adquiera las capacidades digitales específicas que son necesarias en su sector.
@@ -1469,7 +1529,7 @@ La capacitación ciudadana en tareas TIC, como “crear presentaciones o documen
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Andalucía Compromiso Digital
@@ -1499,7 +1559,7 @@ Por todo ello, entendemos que constituye un reto para Andalucía el lograr mayor
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -1508,7 +1568,7 @@ Fortalecer la demografía empresarial de Andalucía, generando un ecosistema que
 
 **** Empresas, autónomos y economía social
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0103-01
 :END:
 ***** Texto                                                      :ignore:
@@ -1561,7 +1621,7 @@ Tanto el empleo autónomo como estas fórmulas de economía social pueden favore
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Simplificar trámites para la creación de empresas, contribuyendo a la ampliación del tejido empresarial.
@@ -1579,7 +1639,7 @@ Tanto el empleo autónomo como estas fórmulas de economía social pueden favore
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan General de Emprendimiento de Andalucía
@@ -1589,7 +1649,7 @@ Tanto el empleo autónomo como estas fórmulas de economía social pueden favore
 
 **** Emprendimiento tecnológico
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0103-02
 :END:
 ***** Texto                                                      :ignore:
@@ -1668,7 +1728,7 @@ Para dar respuesta a esta situación el Plan General de Emprendimiento, 2021-202
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Definir el itinerario del emprendimiento tecnológico y su catálogo de servicios de apoyo a EBTs en sus diferentes etapas, siguiendo los principios de eficiencia y equilibrio territorial.
@@ -1692,7 +1752,7 @@ Para dar respuesta a esta situación el Plan General de Emprendimiento, 2021-202
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan General de Emprendimiento de Andalucía
@@ -1701,7 +1761,7 @@ Para dar respuesta a esta situación el Plan General de Emprendimiento, 2021-202
 - Estrategia de especialización inteligente para la sostenibilidad de Andalucía 2021-2027, S4 Andalucía
 **** Sistemas de apoyo para contribuir a un ecosistema emprendedor
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0103-03
 :END:
 ***** Texto                                                      :ignore:
@@ -1734,7 +1794,7 @@ Según los informes antes señalados, Andalucía debe concentrar sus esfuerzos e
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Reorganizar el sistema de apoyo al emprendimiento y, por tanto, el catálogo de los recursos y servicios ofrecidos por las oficinas públicas para este fin. Ello supone adaptar los actuales Centros Andaluces de Emprendimiento (CADE) a los nuevos modelos de empresa y negocio.
@@ -1760,7 +1820,7 @@ Según los informes antes señalados, Andalucía debe concentrar sus esfuerzos e
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Apoyar la internacionalización y la competitividad exterior
 **** Intro 0104                                                   :ignore:
@@ -1785,7 +1845,7 @@ Además de aprovechar estas sinergias positivas, Andalucía debe estar atenta a 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -1795,7 +1855,7 @@ Mejorar el posicionamiento internacional de Andalucía, incrementando las export
 
 **** Tejido empresarial exportador
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0104-01
 :END:
 ***** Texto                                                      :ignore:
@@ -1855,7 +1915,7 @@ Otro tipo de deficiencias están relacionadas con las características estructur
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Detectar el potencial exportador en el territorio, identificando empresas con potencial exportador, sus necesidades e informando de los servicios que los organismos públicos pueden brindarles.
@@ -1875,12 +1935,12 @@ Otro tipo de deficiencias están relacionadas con las características estructur
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 **** La atracción de inversiones directas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0104-02
 :END:
 ***** Texto                                                      :ignore:
@@ -1920,7 +1980,7 @@ En cuanto a los principales aspectos que *limitan la inversión de las empresas 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Mejorar el clima inversor y la coordinación regional, mejorando el entorno regulatorio y eliminando trabas administrativas para favorecer los elementos clave en la decisión de la inversión exterior, con especial atención a la captación de grandes proyectos empresariales de interés estratégico.
@@ -1934,11 +1994,11 @@ En cuanto a los principales aspectos que *limitan la inversión de las empresas 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Sistemas de apoyo a la internacionalización de la economía andaluza
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0104-03
 :END:
 ***** Texto                                                      :ignore:
@@ -1952,7 +2012,7 @@ Al mismo tiempo, se detectan unos procedimientos de actuación muy descoordinado
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Prestar servicios a medida y de acompañamiento para la internacionalización (financiación, legislación, servicios avanzados, entre otros).
@@ -1970,7 +2030,7 @@ Al mismo tiempo, se detectan unos procedimientos de actuación muy descoordinado
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Contribuir a la transición verde y digital
 **** Intro 0105                                                   :ignore:
@@ -1995,7 +2055,7 @@ Por su parte, también el sector agrario se enfrenta al reto de la incorporació
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Metas)}}}
@@ -2008,7 +2068,7 @@ Mejorar la productividad y competitividad del sector, con un enfoque de cadena d
 
 **** Productividad y competitividad industrial
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0105-01
 :END:
 ***** Texto                                                      :ignore:
@@ -2066,11 +2126,11 @@ Además, no cabe olvidar las nuevas orientaciones de la política industrial eur
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Digitalización y descarbonización
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0105-02
 :END:
 ***** Texto                                                      :ignore:
@@ -2142,11 +2202,11 @@ Asimismo, las actividades agrarias también son una importante fuente de emision
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Nueva política industrial y modelo de gobernanza
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0105-03
 :END:
 ***** Texto                                                      :ignore:
@@ -2169,7 +2229,7 @@ Los expertos que están colaborando en el diseño de la “nueva política indus
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Incrementar la capacitación del capital humano
 **** Intro 0106                                                   :ignore:
@@ -2196,7 +2256,7 @@ En la actualidad, en el contexto de disrupción ligado a la transición digital 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -2205,7 +2265,7 @@ Alcanzar mayores niveles de capacitación, necesarios para mejorar la competitiv
 
 **** La dotación de capital humano
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 La situación del capital humano, entendiendo por éste la “dotación de habilidades y capacidades que residen en las personas para un uso productivo” puede aproximarse a través de indicadores complejos que miden el conjunto de conocimientos adquiridos por los individuos, así como su capacidad para adquirir y aplicar en el futuro nuevos conocimientos, es decir, se tienen en cuenta datos sobre la formación académica (nivel educativo) y también otros que miden su potencial laboral.
@@ -2268,7 +2328,7 @@ Adicionalmente, en el contexto generado por la pandemia, Centro Europeo para el 
 
 **** Formación y aprendizaje a lo largo de la vida para el empleo y el emprendimiento
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 Una de las razones que explican este bajo nivel de competencias y, por tanto, el menor valor del capital humano en Andalucía es el reducido peso de la orientación profesional en la educación secundaria, así como el escaso carácter permanente de la formación o aprendizaje, con bajo acceso a cursos de actualización, reciclaje, adquisición de nuevos conocimientos y capacidades, en términos de un proceso continuo a lo largo de la vida laboral. Al mismo tiempo, otro aspecto que incide negativamente en la transición desde el ámbito formativo al mercado de trabajo es la dificultad para adquirir en la enseñanza reglada capacidades en materia de emprendimiento, ni siquiera en la educación superior o terciaria.
@@ -2383,7 +2443,7 @@ Los resultados del informe GEM España señalan la baja inversión en programas 
 
 **** El papel del sistema universitario público: titulaciones y contribución a la investigación y la innovación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 El papel de la universidad en la aportación al capital humano resulta incuestionable, siendo este factor determinante para alcanzar mayores cotas de competitividad. Esta relevancia explica que uno de los objetivos de la Estrategia Europa 2020, para lograr una economía más inteligente, fuese que al menos un 40% de la *población de entre 30 y 34 años hubiese terminado la educación superior*. El conjunto de la UE habría alcanzado este objetivo en 2020 (40,9% la UE 27) y también España, incluso con mayor holgura (44,8%), mientras *Andalucía se encontraría aún por debajo (37,7%) de la cota prevista*, según datos del IECA y Eurostat.
@@ -2484,7 +2544,7 @@ Adicionalmente, conviene destacar que la actividad de las universidades pública
 ***** Planes                                                   :noexport:
 
 ** Sostenibilidad
-*** Intro                                                          :ignore:
+*** Intro                                                 :ignore:noexport:
 {{{inicol(2)}}}
 El cambio climático es un problema global de nuestro tiempo y sus consecuencias, tanto en ámbitos medio ambientales como económicos y sociales, pueden ser devastadoras si no se reducen drásticamente las emisiones globales de gases de efecto invernadero y la dependencia de los combustibles fósiles.
 
@@ -2512,7 +2572,7 @@ Los responsables de la política económica de Andalucía entienden que es el mo
 
 Por último, dada la gran riqueza y diversidad biológica existente en Andalucía, es fundamental mantener un compromiso para su conservación, implicando a toda la sociedad en su conocimiento y preservación para las generaciones venideras.
 {{{fincol}}}
-*** Reducir las emisiones
+*** Reducir las emisiones                                        :noexport:
 **** Intro 0201                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0201
@@ -2535,7 +2595,7 @@ Por otra parte, las medidas adoptadas para frenar la pandemia producida por la C
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -2545,7 +2605,7 @@ Transformación ordenada de nuestra economía hacia una economía baja en carbon
 
 **** Emisiones de gases de efecto invernadero
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0201-01
 :END:
 ***** Texto                                                      :ignore:
@@ -2594,7 +2654,7 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Elaborar y difundir el Inventario Andaluz de Emisiones de Gases de Efecto Invernadero, con periodicidad anual.
@@ -2635,7 +2695,7 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Andaluz Acción por el Clima.
@@ -2649,7 +2709,7 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 - Plan Estratégico de puertos y áreas logísticas de Andalucía (En elaboración-integrado en Extenda).
 - Plan Vive en Andalucía, de Vivienda, Rehabilitación y Regeneración Urbana de Andalucía 2020-2030.
 
-*** Promover la transición energética
+*** Promover la transición energética                            :noexport:
 **** Intro 0202                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0202
@@ -2677,7 +2737,7 @@ De acuerdo con estos planteamientos, las siguientes líneas de actuación identi
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Metas)}}}
@@ -2690,7 +2750,7 @@ Consolidar un sistema de generación y consumo de energía renovable.
 
 **** Uso más eficiente de la energía
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0202-01
 :END:
 ***** Texto                                                      :ignore:
@@ -2770,7 +2830,7 @@ Además, se debe invertir en sistemas y aparatos para el consumidor final que co
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Apoyar la gestión energética y descarbonizada en entidades y servicios públicos.
@@ -2799,12 +2859,12 @@ Además, se debe invertir en sistemas y aparatos para el consumidor final que co
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 **** Dependencia energética y transición a las renovables
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0202-03
 :END:
 ***** Texto                                                      :ignore:
@@ -2863,7 +2923,7 @@ Andalucía se fija como objetivo aportar, a partir de fuentes de energía renova
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Potenciar el aprovechamiento de las energías renovables y el desarrollo sostenible de las redes energéticas.
@@ -2886,7 +2946,7 @@ Andalucía se fija como objetivo aportar, a partir de fuentes de energía renova
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Andaluz de Acción por el Clima.
@@ -2896,7 +2956,7 @@ Andalucía se fija como objetivo aportar, a partir de fuentes de energía renova
 
 **** Divulgación e información
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0202-05
 :END:
 ***** Texto                                                      :ignore:
@@ -2910,7 +2970,7 @@ La rápida evolución tecnológica y la digitalización, como es el ejemplo del 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Involucrar a la ciudadanía en la transición energética mediante la comunicación y formación.
@@ -2938,7 +2998,7 @@ La rápida evolución tecnológica y la digitalización, como es el ejemplo del 
 - Estrategia Andaluza de Desarrollo Sostenible 2030.
 - Borrador actualizado del Plan Nacional Integrado Energía y Clima 2021-2030.
 
-*** Impulsar la adaptación al cambio climático
+*** Impulsar la adaptación al cambio climático                   :noexport:
 **** Intro 0203                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0203
@@ -2964,7 +3024,7 @@ Con la finalidad de atinar en el diagnóstico y proponer actuaciones, la atenci�
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -2973,7 +3033,7 @@ Reducir los riesgos económicos, ambientales y sociales derivados del cambio cli
 
 **** Medidas de adaptación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0204-02
 :END:
 ***** Texto                                                      :ignore:
@@ -3027,7 +3087,7 @@ La Junta de Andalucía tiene como objetivo en materia de adaptación el reducir 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Reforzar los instrumentos financieros y de apoyo para la investigación y generación de conocimiento que permitan desarrollar nuevas herramientas de gestión de riesgos, incorporen soluciones basadas en la naturaleza y apoyen la adopción de medidas idóneas de adaptación climática, por parte del sector público y privado.
@@ -3052,7 +3112,7 @@ La Junta de Andalucía tiene como objetivo en materia de adaptación el reducir 
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 - Plan Andaluz Acción por el Clima.
 - Directrices energéticas de Andalucía. Horizonte 2030.
@@ -3070,7 +3130,7 @@ La Junta de Andalucía tiene como objetivo en materia de adaptación el reducir 
 
 **** Comunicación y Participación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0204-03
 :END:
 ***** Texto                                                      :ignore:
@@ -3114,7 +3174,7 @@ Los objetivos de descarbonización de la economía y de lucha y adaptación al c
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Coordinar las políticas de I+D+i en cambio climático y transición energética de las Administraciones Públicas con el resto de las políticas sectoriales andaluzas y con los objetivos perseguidos internacionalmente y por la Unión Europea.
@@ -3149,19 +3209,19 @@ Los objetivos de descarbonización de la economía y de lucha y adaptación al c
 
 16. Crear el Consejo Andaluz del Clima, en tramitación, como órgano de participación con representación de diferentes administraciones públicas y de los agentes sociales y económicos.
 
-17. Fomentar la cooperación extraregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
+17. Fomentar la cooperación extrarregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Andaluz Acción por el Clima.
 - Directrices energéticas de Andalucía. Horizonte 2030.
 - Estrategia Andaluza de Desarrollo Sostenible 2030.
 
-*** Optimizar la gestión de los recursos hídricos
+*** Optimizar la gestión de los recursos hídricos                :noexport:
 **** Intro 0204                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0204
@@ -3188,7 +3248,7 @@ Por tanto, la gestión sostenible de los recursos hídricos será cada vez más 
 
 **** Objetivos                                                    :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Metas)}}}
@@ -3201,7 +3261,7 @@ Prevenir el deterioro del estado de todas las masas de agua (superficiales, subt
 
 **** Escasez de agua
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0203-01
 :END:
 ***** Texto                                                      :ignore:
@@ -3244,7 +3304,7 @@ Las *aguas subterráneas* contribuyen a la regulación de los desequilibrios de 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Impulsar la I+D+i en materia de aguas coordinando esfuerzos de iniciativa pública y privada.
@@ -3276,11 +3336,11 @@ Las *aguas subterráneas* contribuyen a la regulación de los desequilibrios de 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Mejorar la eficiencia
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0203-02
 :END:
 ***** Texto                                                      :ignore:
@@ -3330,11 +3390,11 @@ El *precio del agua*, según la Directiva Marco del Agua (CE, 2000), cumple un d
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Aguas residuales
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0203-03
 :END:
 ***** Texto                                                      :ignore:
@@ -3396,9 +3456,9 @@ La necesidad de puesta en marcha, ampliación y mejora de un número importante 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
-*** Mejorar la gestión de residuos y apoyar la economía circular
+*** Mejorar la gestión de residuos y apoyar la economía circular :noexport:
 **** Intro 0205                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0205
@@ -3421,7 +3481,7 @@ Bajo este enfoque, Andalucía permanece atenta a los criterios de la política d
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -3431,7 +3491,7 @@ Lograr una gestión inteligente de residuos en Andalucía en el marco de la tran
 
 **** Generación de residuos e instrumentos para su prevención
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: texto-0205-1
 :END:
 ***** Texto                                                      :ignore:
@@ -3484,7 +3544,7 @@ De hecho, en 1997 (primer año de la serie de datos disponibles), la relación e
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Favorecer la I+D+i en el ámbito de aquellas iniciativas que favorezcan las mejoras en los procesos de producción encaminadas a un uso más eficaz de los recursos y a una menor generación de residuos, a que el valor de los productos y materiales se mantenga durante el mayor tiempo posible, así como a un aumento de la reutilización, la reciclabilidad y la valorización material.
@@ -3509,7 +3569,7 @@ De hecho, en 1997 (primer año de la serie de datos disponibles), la relación e
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Integral de Residuos de Andalucía. Hacia una Economía Circular en el Horizonte 2030 (PIRec 2030).
@@ -3524,7 +3584,7 @@ De hecho, en 1997 (primer año de la serie de datos disponibles), la relación e
 
 **** Reutilización, reciclado y eliminación de residuos
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: texto-0205-2
 :END:
 ***** Texto                                                      :ignore:
@@ -3558,7 +3618,7 @@ Por otra parte, el éxito de la implementación de las nuevas directrices en mat
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Analizar la eficiencia de los sistemas de recogida y eliminación de residuos, incluyendo en dicho análisis toda la cadena de gestión de los residuos, desde la producción hasta su tratamiento final.
@@ -3603,7 +3663,7 @@ Por otra parte, el éxito de la implementación de las nuevas directrices en mat
 
 **** Transición a una economía circular
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: texto-0205-3
 :END:
 ***** Texto                                                      :ignore:
@@ -3636,7 +3696,7 @@ En resumen, la economía circular va a dar respuesta a los siete ámbitos de act
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Fomentar los trabajos previos a la reutilización de los materiales utilizados en la actividad productiva de distintos sectores económicos (en particular, en el sector del desguace de vehículos en los procesos de descontaminación y desmontaje, y en el sector de la construcción, para el ecodiseño de los edificios).
@@ -3667,7 +3727,7 @@ En resumen, la economía circular va a dar respuesta a los siete ámbitos de act
 - Estrategia Andaluza de Desarrollo Sostenible 2030
 - Estrategia Minera de Andalucía 2020
 
-*** Fomentar la protección medioambiental y la biodiversidad
+*** Fomentar la protección medioambiental y la biodiversidad     :noexport:
 **** Intro 0206                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0206
@@ -3691,7 +3751,7 @@ Para hablar de una buena gestión del medio natural son necesarios dos factores 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -3700,7 +3760,7 @@ Frenar la pérdida de la diversidad biológica de Andalucía y recuperar el adec
 
 **** Conocimiento y puesta en valor del Medio Natural
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0206-01
 :END:
 ***** Texto                                                      :ignore:
@@ -3744,7 +3804,7 @@ Asimismo, se debe impulsar un enfoque de gestión proactiva que permita anticipa
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Analizar la situación actual de los recursos naturales de Andalucía, efectuando un enfoque integrado en diversas áreas de acción y centrado en los recursos sometidos a una mayor presión: el agua, el aire, los servicios de los ecosistemas y el suelo.
@@ -3760,11 +3820,11 @@ Asimismo, se debe impulsar un enfoque de gestión proactiva que permita anticipa
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Adaptación y conservación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :CUSTOM_ID: intro-0206-02
 :END:
 ***** Texto                                                      :ignore:
@@ -3813,7 +3873,7 @@ Adicionalmente, cabría mencionar otras fuentes de contaminación, que tienen un
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
  1. Fomentar la coordinación interadministrativa y el desarrollo de las políticas sectoriales estratégicas para la protección del medio ambiente, así como impulsar la cooperación internacional e interterritorial en estas materias.
@@ -3849,7 +3909,7 @@ Adicionalmente, cabría mencionar otras fuentes de contaminación, que tienen un
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ** Conectividad
 *** Intro                                                          :ignore:
@@ -3904,7 +3964,7 @@ Para la consecución de los objetivos marcados en dichos planes y estrategias en
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -3913,7 +3973,7 @@ Garantizar una conectividad digital adecuada para toda la población
 
 **** Extensión de banda ancha de alta velocidad
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -3984,7 +4044,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Establecer las ayudas y asesoramiento necesarios para anular la brecha existente con respecto a la media nacional, haciendo que los hogares y empresas andaluzas tengan acceso a una conectividad de máxima calidad.
@@ -4000,7 +4060,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Estrategia de Impulso del Sector TIC Andalucía 2020
@@ -4008,7 +4068,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 
 **** Áreas rurales y zonas de baja densidad demográfica
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4054,7 +4114,7 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Favorecer la extensión de la banda ancha de muy alta velocidad y la cobertura 5G en zonas rurales y áreas de baja densidad poblacional, impulsando de esta manera la cohesión territorial y la transformación digital.
@@ -4066,11 +4126,11 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Zonas de especial interés económico
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4089,7 +4149,7 @@ Todas estas actuaciones para impulsar la disponibilidad de redes de conectividad
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Mejorar la capacidad y disponibilidad de la conectividad de datos de los edificios que sirven para prestar servicios públicos.
@@ -4105,7 +4165,7 @@ Todas estas actuaciones para impulsar la disponibilidad de redes de conectividad
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Estrategia de Impulso del Sector TIC Andalucía 2020
@@ -4134,7 +4194,7 @@ Dichas infraestructuras deben ir acompañadas de una amplia y bien planificada r
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -4143,7 +4203,7 @@ Mejorar las infraestructuras del transporte y la conectividad con el exterior.
 
 **** Posición geográfica de Andalucía en Europa
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4179,7 +4239,7 @@ Para que la conexión de Andalucía con Europa sea efectiva se hace necesario im
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Completar la Red Transeuropea del Transporte ferroviario (corredores central, atlántico y mediterráneo).
@@ -4191,11 +4251,11 @@ Para que la conexión de Andalucía con Europa sea efectiva se hace necesario im
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Infraestructuras de transporte
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4236,7 +4296,7 @@ Siguiendo las recomendaciones europeas, se debe priorizar el *traspaso de parte 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Completar el viario de altas prestaciones y capacidad extendiendo la red de autovías en los itinerarios principales y priorizando en aquellos tramos que presenten mayor rentabilidad socioeconómica.
@@ -4258,11 +4318,11 @@ Siguiendo las recomendaciones europeas, se debe priorizar el *traspaso de parte 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Conectividad de puertos y plataformas logísticas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4298,7 +4358,7 @@ Además, la existencia de solo cinco aparcamientos para vehículos pesados certi
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Favorecer la actualización de las instalaciones portuarias para adaptarlas a los nuevos modelos y tamaños de buques y buscando una mejora de los ratios de eficiencia de sus superestructuras que aumente la capacidad competitiva de nuestras Autoridades Portuarias. Además, incentivar inversiones públicas y privadas, que favorezcan la multimodalidad y la conexión de los puertos a las redes de transporte locales, marítimo y terrestre.
@@ -4322,7 +4382,7 @@ Además, la existencia de solo cinco aparcamientos para vehículos pesados certi
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras de Transporte y Movilidad de Andalucía (PITMA), 2021-2030
@@ -4349,7 +4409,7 @@ En definitiva, dado que la sostenibilidad del transporte se ha convertido en una
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -4359,7 +4419,7 @@ Alcanzar una movilidad urbana inteligente y respetuosa con el medio ambiente y l
 
 **** Consumo de energía y contaminación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4399,7 +4459,7 @@ En línea con las políticas de transporte europeas, las inversiones deben centr
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Incentivar la utilización de vehículos con fuentes de energía no dependientes del petróleo en las flotas de servicio público, priorizando las líneas de autobuses eléctricos y trolebuses.
@@ -4431,7 +4491,7 @@ En línea con las políticas de transporte europeas, las inversiones deben centr
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras de Transporte y Movilidad de Andalucía, 2021-2027
@@ -4446,7 +4506,7 @@ En línea con las políticas de transporte europeas, las inversiones deben centr
 
 **** Servicios públicos de transporte
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4501,7 +4561,7 @@ También deberán ser objeto de consideración y análisis otras iniciativas y p
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Seguir avanzando en las líneas de metros propuestas, siempre que estén avaladas por un análisis de su demanda y rentabilidad económico-social, ya que tienen una elevada capacidad para incentivar el transporte público de pasajeros, y colaborar con los municipios en las líneas de tranvías de interés metropolitano. De este modo, priorizando aquellos trazados y formulaciones que sean más respetuosos con el dinero público.
@@ -4527,7 +4587,7 @@ También deberán ser objeto de consideración y análisis otras iniciativas y p
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras de Transporte y Movilidad de Andalucía, 2021-2027
@@ -4559,7 +4619,7 @@ La tendencia debe ir dirigida a analizar las necesidades de los desplazamientos 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -4569,7 +4629,7 @@ Alcanzar una movilidad interurbana sostenible adaptada a las necesidades de la s
 
 **** Reparto modal del transporte
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -4614,7 +4674,7 @@ Por otra parte, en zonas de alto valor natural y con una calidad paisajística n
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Ampliar la respuesta a la demanda de transporte público en los ámbitos rurales (con turismos en zonas de débil tráfico y con autobuses en ciudades medias).
@@ -4638,7 +4698,7 @@ Por otra parte, en zonas de alto valor natural y con una calidad paisajística n
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras de Transporte y Movilidad de Andalucía, 2021-2027
@@ -4650,7 +4710,7 @@ Por otra parte, en zonas de alto valor natural y con una calidad paisajística n
 
 **** Planificación regional de la movilidad
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -4666,7 +4726,7 @@ Por último, para hacer la movilidad urbana más sostenible, la planificación e
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Fomentar el desarrollo de la Planificación del Transporte y la Movilidad en ámbito urbano, metropolitano y territorial a través de Planes de Movilidad que acompañen a la Planificación Urbanística y de Ordenación del Territorio y a la Planificación en materia de Calidad del Aire.
@@ -4682,7 +4742,7 @@ Por último, para hacer la movilidad urbana más sostenible, la planificación e
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras de Transporte y Movilidad de Andalucía, 2021-2027
@@ -4740,7 +4800,7 @@ Por último, las instituciones y servicios de empleo deben reorientar sus funcio
 
 **** Objetivos                                                    :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -4749,7 +4809,7 @@ Facilitar el acceso al empleo mejorando la calidad del mismo y las condiciones l
 
 **** Elevado nivel de desempleo
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4801,7 +4861,7 @@ En relación a los *bajos de niveles de formación*, que se tratan en otros apar
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Implementar nuevas políticas activas para crear y mantener el empleo, sujetas a estricta evaluación independiente y criterios de selección que faciliten el aumento de empleabilidad de los trabajadores andaluces.
@@ -4819,7 +4879,7 @@ En relación a los *bajos de niveles de formación*, que se tratan en otros apar
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Director de Ordenación de las políticas de Empleo y Relaciones Laborales en Andalucía.
@@ -4828,7 +4888,7 @@ En relación a los *bajos de niveles de formación*, que se tratan en otros apar
 
 **** Empleabilidad
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4868,7 +4928,7 @@ Asimismo, resulta también un problema la existencia de un sistema de cualificac
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Diseñar políticas de formación para el empleo adaptadas a las demandas del mercado laboral andaluz.
@@ -4886,14 +4946,14 @@ Asimismo, resulta también un problema la existencia de un sistema de cualificac
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Director de Ordenación de las políticas de Empleo y Relaciones Laborales en Andalucía.
 
 **** Servicio público de empleo
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4927,7 +4987,7 @@ Por ello, es necesario cambiar el modelo de gestión del SAE a partir de una vis
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Diseñar una cartera de servicios del SAE más amplia y de mejor calidad para los ciudadanos y las empresas.
@@ -4943,13 +5003,13 @@ Por ello, es necesario cambiar el modelo de gestión del SAE a partir de una vis
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Director de Ordenación de las políticas de Empleo y Relaciones Laborales en Andalucía.
 **** Condiciones laborales, seguridad y salud
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -4989,7 +5049,7 @@ El *diálogo social y la negociación colectiva* son el instrumento fundamental 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Apoyar a las empresas en la gestión de la prevención de riesgos laborales, prestando un adecuado tratamiento a las pequeñas y medianas empresas y al colectivo de personas trabajadoras autónomas.
@@ -5013,7 +5073,7 @@ El *diálogo social y la negociación colectiva* son el instrumento fundamental 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Director de Ordenación de las políticas de Empleo y Relaciones Laborales en Andalucía.
@@ -5050,7 +5110,7 @@ Por último, en Andalucía el gasto en educación sigue siendo bajo, siendo prio
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -5059,7 +5119,7 @@ Garantizar una educación inclusiva, equitativa y de calidad.
 
 **** Fracaso y abandono escolar temprano
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5095,7 +5155,7 @@ Además, del total de titulaciones en ESO obtenidas en nuestra comunidad el 13,1
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Aumentar la financiación, con un compromiso multianual, tanto del Plan para la Reducción del Abandono Educativo Temprano como del Plan PROA (Programas de Refuerzo, Orientación y Apoyo), así como ampliar su aplicación a las enseñanzas postobligatorias y a colectivos con necesidades específicas.
@@ -5120,14 +5180,14 @@ Además, del total de titulaciones en ESO obtenidas en nuestra comunidad el 13,1
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Estratégico de Evaluación Educativa (2020-2022).
 
 **** Nivel educativo
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5165,7 +5225,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Consolidar el sistema de becas dirigido a apoyar al alumnado perteneciente a familias con rentas modestas para que termine la enseñanza obligatoria y postobligatoria.
@@ -5185,7 +5245,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Estratégico de Evaluación Educativa (2020-2022).
@@ -5194,7 +5254,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 
 **** Formación profesional
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5235,7 +5295,7 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Potenciar y prestigiar la formación profesional con una oferta de adquisición de competencias clave, como la digitalización, más acorde a las necesidades del sector empresarial y apoyando también el acceso a pasarelas que permitan acceder a más opciones académicas en la enseñanza secundaria superior y la educación terciaria.
@@ -5249,7 +5309,7 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan Estratégico de Evaluación Educativa (2020-2022).
@@ -5259,7 +5319,7 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 
 **** Profesorado y otros recursos humanos
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5299,7 +5359,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Diseñar un Plan de formación permanente y reciclaje bienal para profesores, con cursos cortos (al estilo de la formación ejecutiva) y la posibilidad de optar, mediante un programa de selección competitivo, a estancias sabáticas al finalizar cada sexenio, que permitan a los profesores visitar y dar docencia en institutos de excelencia o participar en programas avanzados de duración más larga que los cursos cortos, con un énfasis combinado tanto para incrementar sus conocimientos como sus competencias.
@@ -5328,7 +5388,7 @@ La demanda de una educación de calidad puede implicar unos costes elevados por 
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - III Plan Andaluz de Formación del Profesorado, aprobado por Orden de 31 de julio de 2014, con carácter plurianual.
@@ -5363,7 +5423,7 @@ La administración pública debe garantizar el derecho de todas las personas a l
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -5373,7 +5433,7 @@ Extender el Sistema de Protección Social a todas las personas vulnerables, actu
 
 **** Riesgo de pobreza o exclusión social
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5404,7 +5464,7 @@ Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “co
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Desarrollar políticas activas de inclusión, promoviendo especialmente la no discriminación en el acceso al mercado de trabajo.
@@ -5418,11 +5478,11 @@ Asimismo, se observa que el *porcentaje de hogares que ha declarado llegar “co
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Inclusión y protección social
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5501,7 +5561,7 @@ Para que sean efectivas todas las prestaciones sociales se deben reducir los obs
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Realizar programas de integración social en las zonas más desfavorecidas, a través de herramientas que faciliten el entendimiento y la convivencia pacífica.
@@ -5545,12 +5605,12 @@ Para que sean efectivas todas las prestaciones sociales se deben reducir los obs
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 **** Dependencia y mayores
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5623,7 +5683,7 @@ El Servicio de Asistencia a las Víctimas de Andalucía (SAVA) abre anualmente a
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Desarrollar actividades dirigidas a promocionar la salud y prevenir la aparición de la enfermedad y el deterioro funcional, mediante la práctica de actividades físico-deportivas y la adopción de hábitos de alimentación y de vida saludable.
@@ -5653,7 +5713,7 @@ El Servicio de Asistencia a las Víctimas de Andalucía (SAVA) abre anualmente a
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Reforzar la asistencia sanitaria
 **** Intro 0404                                                   :ignore:
@@ -5678,7 +5738,7 @@ Al margen de las actuaciones provocadas por la pandemia, la detección precoz y 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -5688,7 +5748,7 @@ Garantizar la sostenibilidad y la calidad del sistema sanitario público andaluz
 
 **** Infraestructuras, equipamiento y personal
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5719,7 +5779,7 @@ Este exceso de demanda de servicios sanitarios debido a la crisis del coronaviru
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Realizar inversiones en infraestructuras hospitalarias, equipamientos y material sanitario y de personal, estableciendo prioridades, según el análisis de déficits detectados.
@@ -5739,7 +5799,7 @@ Este exceso de demanda de servicios sanitarios debido a la crisis del coronaviru
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan de Infraestructuras Sanitarias de Andalucía 2020-2030.
@@ -5747,7 +5807,7 @@ Este exceso de demanda de servicios sanitarios debido a la crisis del coronaviru
 
 **** Política de Prevención
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5805,7 +5865,7 @@ Para todo ello *es imprescindible la generación del conocimiento y la implantac
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Desarrollar programas de salud que permitan un aumento de la esperanza de vida de mayor calidad.
@@ -5831,7 +5891,7 @@ Para todo ello *es imprescindible la generación del conocimiento y la implantac
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 - Estrategia de Promoción de una Vida Saludable en Andalucía.
 - Estrategia de Salud de la Infancia y Adolescencia en Andalucía 2021-2025.
@@ -5844,7 +5904,7 @@ Para todo ello *es imprescindible la generación del conocimiento y la implantac
 
 **** Accesibilidad a las prestaciones sanitarias de calidad
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5871,7 +5931,7 @@ Finalmente, se debe potenciar la *investigación y la innovación en salud* y se
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Desarrollar una estrategia de servicio de monitorización y gestión remota de salud para pacientes, apoyado en sensorización en el hogar y asistencia domiciliaria, para garantizar la equidad de los servicios públicos asistenciales.
@@ -5893,7 +5953,7 @@ Finalmente, se debe potenciar la *investigación y la innovación en salud* y se
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Apoyar las viviendas sociales
 **** Intro 0405                                                   :ignore:
@@ -5917,7 +5977,7 @@ Además, todas las viviendas deben cumplir un mínimo de condiciones de habitabi
 
 **** Objetivos                                                    :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Metas)}}}
@@ -5930,7 +5990,7 @@ Rehabilitar el parque residencial existente en Andalucía.
 
 **** Acceso universal a la vivienda
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -5979,7 +6039,7 @@ Especial dificultad para el acceso a una vivienda lo tienen las personas que han
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Incrementar la oferta del parque público de viviendas sociales, tanto en alquiler como en venta.
@@ -5994,7 +6054,7 @@ Especial dificultad para el acceso a una vivienda lo tienen las personas que han
 
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan VIVE en Andalucía, de Vivienda, Rehabilitación y Regeneración Urbana de Andalucía 2020-2030.
@@ -6010,7 +6070,7 @@ Especial dificultad para el acceso a una vivienda lo tienen las personas que han
 
 **** Rehabilitación y adecuación de viviendas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6058,7 +6118,7 @@ Se denomina *infravivienda* a aquella edificación existente en la que concurran
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Mejorar la conservación y el mantenimiento de los edificios de viviendas públicas.
@@ -6078,7 +6138,7 @@ Se denomina *infravivienda* a aquella edificación existente en la que concurran
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 - Plan VIVE en Andalucía, de Vivienda, Rehabilitación y Regeneración Urbana de Andalucía 2020-2030.
@@ -6151,7 +6211,7 @@ Estas tendencias pueden hacerse más evidentes en determinados ámbitos rurales,
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -6161,7 +6221,7 @@ Asegurar la sostenibilidad económica y social de los distintos territorios de A
 
 **** Envejecimiento de la población
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6170,7 +6230,7 @@ Asegurar la sostenibilidad económica y social de los distintos territorios de A
 
 El *envejecimiento progresivo de la población que muestra la pirámide demográfica* está, en gran medida, explicado por el aumento de la esperanza de vida y el descenso de la natalidad. Este descenso es consecuencia del retraso de la emancipación de los jóvenes, la maternidad tardía y el menor número de hijos por mujer. Factores que a su vez dependen de, entre otras variables, la alta temporalidad del empleo y otras condiciones laborales, por la falta de amplitud del mercado de la vivienda y por las insuficientes medidas de apoyo a la conciliación familiar.
 
-Por otra parte, el ensanchamiento progresivo de la mitad superior de la pirámide demográfica implica un incremento de la proporción de personas mayores, que necesitan y necesitarán más atención y cuidados, en relación a la población potencialmente activa, es decir, un aumento de las ratios de dependencia.
+Por otra parte, el ensanchamiento progresivo de la mitad superior de la pirámide demográfica implica un incremento de la proporción de personas mayores, que necesitan y necesitarán más atención y cuidados, en relación con la población potencialmente activa, es decir, un aumento de las ratios de dependencia.
 
 Al mismo tiempo, el envejecimiento va a tener un impacto significativo en el mercado de trabajo (relevo generacional o jubilaciones), que exigirá un aumento de la productividad que compense la menor aportación relativa del factor trabajo, a fin de mantener el crecimiento económico a largo plazo. Aunque obviamente se reflejará en una disminución de la fuerza laboral y en un descenso, de forma natural, de la tasa de desempleo en las próximas décadas.
 
@@ -6197,7 +6257,7 @@ En Andalucía, la *tasa de natalidad* se ha reducido más rápidamente que en Es
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Fomentar medidas de conciliación familiar y laboral (por ejemplo, servicios de ayuda al cuidado de hijos, racionalización de los horarios escolares, mayores apoyos fiscales, subsidios o desgravaciones por gastos asociados al cuidado de los hijos, como el de guardería) que favorezcan el nacimiento y crianza de los hijos.
@@ -6211,13 +6271,13 @@ En Andalucía, la *tasa de natalidad* se ha reducido más rápidamente que en Es
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 - Estrategia frente al desafío demográfico en Andalucía (en elaboración)
 
 **** Fenómenos migratorios
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6264,7 +6324,7 @@ Dada la dificultad de contar con datos estadísticos de migración irregular lle
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Facilitar el regreso de la población andaluza residente en el exterior que desee volver a Andalucía, con actuaciones que incentiven, especialmente, el retorno del talento andaluz en el extranjero o en otras regiones españolas.
@@ -6276,11 +6336,11 @@ Dada la dificultad de contar con datos estadísticos de migración irregular lle
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Desequilibrio rural-urbano
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6314,7 +6374,7 @@ Andalucía es una comunidad autónoma muy poblada y con saldo vegetativo positiv
 :END:
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Establecer medidas que fomenten el emprendimiento y la puesta en marcha de proyectos de desarrollo socioeconómico para jóvenes, tanto en nuevas actividades productivas como en otras tradicionalmente vinculadas al ámbito rural, para fijar y atraer población.
@@ -6334,11 +6394,11 @@ Andalucía es una comunidad autónoma muy poblada y con saldo vegetativo positiv
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 **** Concentración de población flotante o estacional
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6365,7 +6425,7 @@ Asimismo, hay que tener en cuenta que el *carácter estacional de ciertas produc
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Identificar correctamente los flujos turísticos, principalmente estivales, y los derivados de acontecimientos culturales, deportivos, así como los vinculados a la actividad agrícola para anticipar la provisión de los servicios públicos necesarios para territorios seleccionados (por ejemplo, los municipios declarados turísticos).
@@ -6379,7 +6439,7 @@ Asimismo, hay que tener en cuenta que el *carácter estacional de ciertas produc
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Optimizar la localización de las infraestructuras públicas
 **** Intro 0502                                                   :ignore:
@@ -6389,7 +6449,7 @@ Asimismo, hay que tener en cuenta que el *carácter estacional de ciertas produc
 - Dotación de infraestructuras y equipamientos
 {{{finlineas}}}
 {{{ods(3 4 6 8 9)}}}
-El desarrollo social y económico del territorio junto con la protección de éste y la coordinación de las políticas públicas sectoriales con incidencia territorial, constituyen los principios en los que se basa la política de ordenación del territorio.
+El desarrollo social y económico del territorio junto con la protección de éste y la coordinación de las políticas públicas sectoriales con incidencia territorial constituyen los principios en los que se basa la política de ordenación del territorio.
 
 Dicho desarrollo requiere de un conjunto de infraestructuras y equipamientos, con una localización específica en los distintos ámbitos o áreas subregionales y municipios que componen Andalucía.
 
@@ -6401,7 +6461,7 @@ Para abordar esta prioridad y la consiguiente oferta de servicios públicos, se 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -6410,14 +6470,14 @@ Garantizar que toda la población andaluza tenga acceso a las infraestructuras, 
 
 **** Dotaciones de infraestructuas y equipamientos
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
 :CUSTOM_ID: texto-0502-01
 :END:
 
-En términos generales, la dotación de infraestructuras y equipamientos hace referencia, por un lado, a las redes, sistemas y servicios de transporte terrestres, marítimos y aéreo, eléctricos, hidráulicos y de las telecomunicaciones y, por otro, a los equipamientos públicos para los servicios básicos, entre los que destacan, sin duda, los de la salud,  educación y justicia.
+En términos generales, la dotación de infraestructuras y equipamientos hace referencia, por un lado, a las redes, sistemas y servicios de transporte terrestres, marítimos y aéreo, eléctricos, hidráulicos y de las telecomunicaciones y, por otro, a los equipamientos públicos para los servicios básicos, entre los que destacan, sin duda, los de la salud, educación y justicia.
 
 El papel fundamental de dichos equipamientos se ha puesto de manifiesto en los anteriores bloques temáticos de esta Estrategia. Así, por ejemplo, en el de “Conectividad” se ha destacado la función de las comunicaciones digitales y físicas, en el de “Bienestar” se ha evidenciado la necesidad de servicios educativos, de salud o atención social. Ahora, esta significación se trata desde una perspectiva territorial, no sectorial, así el foco se pone en la contribución de las infraestructuras y equipamientos a la articulación, la cohesión territorial y la competitividad regional, configurada por el sistema de ciudades (como centros de dotaciones, equipamientos y servicios), las vías de comunicación terrestres principales y las áreas logísticas y puertos.
 
@@ -6464,7 +6524,7 @@ La conectividad de los territorios rurales, preferentemente con cobertura de ban
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Elaborar Planes de Movilidad Urbana Sostenible (PMUS) en las ciudades /áreas conurbanas de Andalucía, al menos en las clasificadas como ciudades medias o centros regionales.
@@ -6482,7 +6542,7 @@ La conectividad de los territorios rurales, preferentemente con cobertura de ban
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Favorecer un desarrollo local y regional integrado y endógeno
 **** Intro 0503                                                   :ignore:
@@ -6505,7 +6565,7 @@ De este modo, la política económica regional andaluza hace suyas estas mismas 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -6514,7 +6574,7 @@ Adoptar el enfoque de un desarrollo integrado, endógeno y sostenible de las zon
 
 **** Desarrollo local y regional integrado
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6551,7 +6611,7 @@ En definitiva, Andalucía debe adoptar enfoques más avanzados e innovadores, pa
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Impulsar la aprobación de la Ley de impulso para la Sostenibilidad del Territorio y desarrollar los instrumentos previstos en ella.
@@ -6573,7 +6633,7 @@ En definitiva, Andalucía debe adoptar enfoques más avanzados e innovadores, pa
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Impulsar una política de ciudades
 **** Intro 0504                                                   :ignore:
@@ -6593,7 +6653,7 @@ Adicionalmente, también se deben apoyar las “agendas metropolitanas” en And
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 
@@ -6603,7 +6663,7 @@ Lograr que las ciudades andaluzas sean más inclusivas, seguras, resilientes y s
 
 **** Política de ciudades y áreas metropolitanas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6673,7 +6733,7 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Implementar la Agenda Urbana de Andalucía 2030 en todas sus dimensiones (espacial, económica, social, ambiental, gobernanza) y requerir que las ciudades andaluzas hagan una adaptación de la misma a sus correspondientes ámbitos locales.
@@ -6695,7 +6755,7 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ** Gobernanza
 *** Intro                                                          :ignore:
@@ -6756,7 +6816,7 @@ Conseguir una Administración más eficiente, abierta, inclusiva, menos burocrat
 
 **** La simplificación y agilización administrativa
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6789,7 +6849,7 @@ En Andalucía, destaca también la aprobación del Decreto-ley 3/2021, de 16 de 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Proseguir e intensificar la evaluación de los procedimientos administrativos y actuaciones de simplificación y reducción de trabas administrativas para detectar las opciones existentes y alcanzar compromisos vinculantes.
@@ -6810,7 +6870,7 @@ En Andalucía, destaca también la aprobación del Decreto-ley 3/2021, de 16 de 
 
 **** La regulación y la calidad institucional
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6871,7 +6931,7 @@ Por último, la calidad de la Administración también se debe complementar con 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Realizar auditorías periódicas sobre los procesos y procedimientos administrativos para racionalizar y agilizar los mismos, mejorando la interoperabilidad tanto entre los centros directivos de las distintas Consejerías de la Administración Autonómica como  con otras Administraciones.
@@ -6897,7 +6957,7 @@ Por último, la calidad de la Administración también se debe complementar con 
 {{{fin(tcolorbox)}}}
 **** Los recursos humanos en la Administración
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -6920,7 +6980,7 @@ Por otro lado, la *profesionalización del personal directivo público* requiere
 
 La existencia de unas *Relaciones de Puestos de Trabajo* (RPT) anticuadas, rígidas y no adaptadas a las nuevas necesidades operativas de una Administración cada vez más tecnificada y digitalizada requiere de una revisión global y continua que la haga más flexible.
 
-La mayor *participación de las empleadas y empleados públicos* y su capacitación para tomar decisiones permitirá la adquisición de responsabilidad, una menor resistencia al cambio, fomentará la comunicación, el desarrollo de la responsabilidad en grupos y, en definitiva, redundará en un mejor servicio a la sociedad.
+La mayor *participación de las empleadas y empleados públicos* y su capacitación para tomar decisiones permitirá la adquisición de responsabilidad, una menor resistencia al cambio fomentará la comunicación, el desarrollo de la responsabilidad en grupos y, en definitiva, redundará en un mejor servicio a la sociedad.
 
 Por último, la productividad del personal al servicio de la Administración está relacionada con la *formación a lo largo de su vida laboral*. Dicha adecuación de competencias y habilidades puede actualizarse tanto a través de la formación organizada por el Instituto Andaluz de Administración Pública (IAAP), como mediante el acceso a otra formación reglada académica y debe ser tenida en cuenta a la hora de aspirar a promociones y concursos. En este punto también cabe recordar la contribución del IAAP al aprendizaje organizacional a través de procesos de innovación y gestión de conocimientos y el desarrollo de competencias directivas.
 
@@ -6928,7 +6988,7 @@ Asimismo, cabe recordar el especial esfuerzo necesario en el ámbito de las comp
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Realizar una planificación estratégica en materia de recursos humanos que aborde el conjunto de actuaciones destinadas a su gestión en la Administración General, con el fin último de responder eficaz y eficientemente a las necesidades, problemas y retos de la ciudadanía de los próximos diez años.
@@ -6979,7 +7039,7 @@ En coherencia con este planteamiento, Andalucía desarrollará una estrategia tr
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -6988,7 +7048,7 @@ Reducir la Brecha de Género para evitar desigualdades sociales y económicas.
 
 **** Mercado Laboral
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -7041,7 +7101,7 @@ Un ejemplo de estas acciones positivas, es la iniciativa WomANDigital, promovida
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Implementar Políticas Activas de Empleo que contengan medidas de discriminación positiva que favorezcan la creación y el mantenimiento del empleo femenino, mejorando a su vez las condiciones laborales.
@@ -7057,7 +7117,7 @@ Un ejemplo de estas acciones positivas, es la iniciativa WomANDigital, promovida
 {{{fin(tcolorbox)}}}
 **** Políticas de Conciliación Laboral, Familiar y Personal
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -7092,7 +7152,7 @@ Esta realidad social explica por qué son las mujeres, en su inmensa mayoría, l
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Incrementar los servicios de asistencia al cuidado de hijos y personas dependientes en los entornos laborales.
@@ -7110,7 +7170,7 @@ Esta realidad social explica por qué son las mujeres, en su inmensa mayoría, l
 {{{fin(tcolorbox)}}}
 **** Empoderamiento de la mujer
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -7151,7 +7211,7 @@ De este modo, se concluye que aunque ha habido un avance importante, aún persis
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Evaluar y difundir los progresos alcanzados y las brechas persistentes en materia de igualdad para una mayor concienciación.
@@ -7167,7 +7227,7 @@ De este modo, se concluye que aunque ha habido un avance importante, aún persis
 {{{fin(tcolorbox)}}}
 **** Educación en Igualdad
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
@@ -7201,7 +7261,7 @@ Al mismo tiempo, *la coeducación* juega un papel primordial en la erradicación
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Formar al profesorado en perspectiva de género para que puedan educar en igualdad.
@@ -7240,7 +7300,7 @@ Asimismo, existe un convencimiento de los beneficios de facilitar y promover la 
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Metas)}}}
@@ -7253,7 +7313,7 @@ Facilitar la participación de la ciudadanía en los asuntos públicos, con el m
 
 **** Cooperación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -7308,7 +7368,7 @@ Todas estas razones explican que la política pública de la Junta de Andalucía
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Fortalecer la cooperación intergubernamental con el Estado, instando, en alianza con otras CC.AA., al Gobierno de España para que convierta las Conferencias Sectoriales y la Conferencia de Presidentes en instrumentos vivos y habituales de la cooperación multilateral.
@@ -7334,12 +7394,12 @@ Todas estas razones explican que la política pública de la Junta de Andalucía
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 **** Participación
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -7382,7 +7442,7 @@ Dicho reconocimiento debe estar reflejado en una norma reguladora, similar a la 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Impulsar el cumplimiento de la Ley de Participación Ciudadana de Andalucía, así como de la Ley de Transparencia de Andalucía, incidiendo en el carácter complementario de ambos textos legales y sus estrechos lazos con la consecución de una buena gobernanza en Andalucía.
@@ -7400,7 +7460,7 @@ Dicho reconocimiento debe estar reflejado en una norma reguladora, similar a la 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 *** Favorecer la rendición de cuentas y la evaluación de políticas públicas
 **** Intro 0604                                                   :ignore:
@@ -7426,7 +7486,7 @@ Un elemento complementario y muy importante en el reforzamiento de la transparen
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
@@ -7435,7 +7495,7 @@ Convertir la evaluación de las políticas públicas en una práctica continua e
 
 **** La rendición de cuentas y la evaluación de políticas públicas
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -7481,7 +7541,7 @@ En cualquier caso, la experiencia acumulada en estos años, pese a no ser muy di
 :END:
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Aprobar una Ley andaluza de evaluación de políticas públicas, que aborde los siguientes aspectos clave:
@@ -7527,12 +7587,12 @@ En cualquier caso, la experiencia acumulada en estos años, pese a no ser muy di
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 **** Transparencia e inteligencia de Gobierno
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 :PROPERTIES:
@@ -7561,7 +7621,7 @@ Por tanto, y desde la perspectiva de la transparencia y la calidad de gobierno, 
 
 ***** Actuaciones
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 1. Constituir al IECA como un centro seguro de tratamiento de datos, a modo de “Oficina del Dato”, con la competencia para establecer las claves identificativas individuales anonimizadas, a fin de que permita la integración de la información de origen administrativo de base poblacional, empresarial y de vivienda y la generación de conjuntos de datos útiles para la difusión y reutilización, en coordinación con los departamentos sectoriales responsables.
@@ -7573,7 +7633,7 @@ Por tanto, y desde la perspectiva de la transparencia y la calidad de gobierno, 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
-:UNNUMBERED: t
+:UNNUMBERED: nil
 :END:
 
 
