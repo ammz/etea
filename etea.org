@@ -4121,8 +4121,6 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 
 2. Asesoramiento a las entidades locales en los proyectos de despliegues de redes de banda ancha de última generación y en la adopción de estrategias de Territorio Inteligente.
 
-3. Establecer proyectos piloto para el despliegue en zonas que se determinen especialmente necesitadas de conexión por motivos demográficos (despoblación) y/o sostenibilidad (turismo de naturaleza, entre otras actividades).
-
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
 :PROPERTIES:
