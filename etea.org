@@ -1241,13 +1241,13 @@ En este sentido, la economía digital concentra la parte de los sectores económ
 
 2. Potenciar la Compra Pública de Innovación y la Compra Pública pre-comercial, para contribuir a la innovación empresarial.
 
-3. Potenciar y seleccionar los ecosistemas de innovación, atendiendo a criterios científico-técnicos, socioeconómicos, de internacionalización y de integración territorial sostenible.
+3. Seleccionar y potenciar los ecosistemas de innovación, atendiendo a criterios científico-técnicos, socioeconómicos, de internacionalización y de integración territorial sostenible.
 
 4. Potenciar y consolidar el ecosistema de Inteligencia Artificial en Andalucía, en cuyo eje vertebrador se situará el /European Digital Innovation Hub “AIR-Andalusia”/.
 
 5. Generar un ecosistema de datos, con especial foco en la apertura de datos del sector público y su puesta en valor.
 
-6. Consolidar la iniciativa FIWARE Andalucía para que permita a los emprendedores y a las empresas andaluzas desarrollar e incorporar soluciones inteligentes en distintos ámbitos (como las /Smart cities/ , la Industria 4.0 o el /Smart Agrifood/) siguiendo las mejores prácticas y estándares europeos.
+6. Consolidar la iniciativa FIWARE Andalucía para que permita a los emprendedores y a las empresas andaluzas desarrollar e incorporar soluciones inteligentes en distintos ámbitos (como las /Smart cities/, la Industria 4.0 o el /Smart Agrifood/) siguiendo las mejores prácticas y estándares europeos.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -1476,7 +1476,7 @@ Finalmente, tal y como se recoge en el II Diagnóstico de la situación de la mu
 
 1. Reforzar el conjunto de actuaciones dirigidas a la mejora de las capacidades y competencias de los profesionales del sector tecnológico andaluz, así como a facilitar el desarrollo de los futuros profesionales que está demandando la Economía Digital.
 
-2. Impulsar el desarrollo de una oferta tecnológica andaluza en tecnologías digitales habilitadoras, Big Data, Ciberseguridad, Inteligencia Artificial, Internet de las Cosas, Redes 5G, Robótica, entre otras, a través de la innovación y la especialización tecnológica.
+2. Fomentar el desarrollo de una oferta tecnológica andaluza en tecnologías digitales habilitadoras, Big Data, Ciberseguridad, Inteligencia Artificial, Internet de las Cosas, Redes 5G, Robótica, entre otras, a través de la innovación y la especialización tecnológica.
 
 3. Impulsar el desarrollo de acciones dirigidas a apoyar la presencia de las empresas tecnológicas andaluzas en los mercados internacionales.
 
@@ -2550,7 +2550,7 @@ El cambio climático es un problema global de nuestro tiempo y sus consecuencias
 
 El principal motor del cambio climático es el efecto invernadero, producido por algunos gases que provocan el calentamiento global de la Tierra. Según datos de Eurostat, el 79% de las emisiones de gases de efecto invernadero en la Unión Europea son debidas a la quema de combustibles para usos energéticos y/o de transporte.
 
-Los niveles de dióxido de carbono CO_{2} y de otros gases de efecto invernadero (GEI) en la atmósfera han subido vertiginosamente en los últimos años, provocando incrementos en la temperatura media. Los principales problemas de contaminación están asociados a elevados niveles de partículas, óxidos de nitrógeno y ozono. Esta situación es similar a la de otros países europeos, si bien España, y especialmente Andalucía, se ve afectada por las circunstancias climatológicas existentes de alta insolación, estabilidad atmosférica, bajas precipitaciones y menor latitud, próxima al continente africano.
+Los niveles de dióxido de carbono CO_{2} y de otros gases de efecto invernadero (GEI) en la atmósfera han subido vertiginosamente en los últimos años, provocando incrementos en la temperatura media. Los principales problemas de contaminación están asociados a elevados niveles de partículas, óxidos de nitrógeno y ozono. Esta situación es similar a la de otros países europeos, si bien España, y especialmente Andalucía, se ve afectada por las circunstancias climatológicas existentes de alta insolación, estabilidad atmosférica, bajas precipitaciones y menor latitud.
 
 La confirmación de que las emisiones de gases a nivel mundial aumentan de forma insostenible, junto a la creciente concienciación de la ciudadanía y sus responsables políticos, motivaron el Acuerdo Climático de París, adoptado en diciembre de 2015 por 195 países. En el mismo se regularon las emisiones de gases de efecto invernadero a partir del año 2020, con el objetivo de mantener el incremento medio de la temperatura del planeta muy por debajo de los 2 °C durante el presente siglo, respecto a niveles preindustriales, comprometiéndose a hacer lo posible para limitar el aumento a 1,5 °C, para ayudar a los países más vulnerables.
 
@@ -2558,7 +2558,7 @@ Además, y según el principio de transición justa, debe protegerse adecuadamen
 
 Con el fin de regular las actuaciones a realizar en Andalucía para implementar este Acuerdo, se aprobó la Ley 8/2018, de 8 de octubre, de medidas frente al cambio climático y para la transición hacia un nuevo modelo energético en Andalucía, que establece en su artículo 8.1 que el Plan Andaluz de Acción por el Clima (en adelante PAAC), constituye el instrumento general de planificación en materia de cambio climático en nuestra región. El PAAC, en elaboración, con un periodo de vigencia desde su aprobación hasta el año 2030, incluye tres Programas: el Programa de Mitigación de Emisiones para la Transición Energética, el Programa de Adaptación y el Programa de Comunicación y Participación.
 
-Para luchar contra el cambio climático, mediante la descarbonización del actual modelo económico, la Ley 2/2007, de 27 de marzo, de fomento de las energías renovables y del ahorro y eficiencia energética de Andalucía, así como la Estrategia Energética de Andalucía 2030, formulada en marzo de 2021, establecen las actuaciones que propiciarán la transición energética en Andalucía, con reducciones del consumo de energía primaria y con incrementos del uso de fuentes de energía renovable.
+Para luchar contra el cambio climático, mediante la descarbonización del actual modelo económico, la Ley 2/2007, de 27 de marzo, de fomento de las energías renovables y del ahorro y eficiencia energética de Andalucía, establecen las actuaciones que propiciarán la transición energética en Andalucía, con objeto de fomentar el uso de las energías renovables, promover el ahorro y la eficiencia energética.
 
 Por otra parte, el cambio climático se refleja en una mayor incidencia de fenómenos climáticos extremos, como el aumento de sequías, precipitaciones torrenciales, inundaciones, incendios forestales, tormentas y olas de frío y de calor, cuyos impactos habrá que minimizar.
 
@@ -2591,7 +2591,7 @@ Las emisiones de gases en Andalucía, según el Inventario Nacional de Gases de 
 
 Para reducir estas emisiones en Andalucía el PAAC establece como uno de sus objetivos estratégicos la descarbonización. En concreto, propone disminuir las emisiones GEI difusas un 39% en 2030 con respecto a datos de 2005. Este objetivo podrá ser revisado durante la vigencia del Plan para aumentarlo hasta un 41%, en función de los compromisos o cambios en la normativa internacional, de los objetivos de la Unión Europea, de la normativa básica estatal, de la reducción de emisiones conseguida o de los impactos económicos y sociales generados por la adopción de las medidas previstas en el Programa de Mitigación de Emisiones para la Transición Energética.
 
-Por otra parte, las medidas adoptadas para frenar la pandemia producida por la COVID-19 han generado una importante disminución en la emisión de CO_{2} en 2020, si bien estos impactos positivos han sido solo temporales. Una vez se supere la emergencia sanitaria, las estrategias y planes de los distintos sectores habrán de ser revisados, así como los programas de gasto y de inversión pública. Ello supone una oportunidad para lograr una transición hacia modelos de desarrollo menos contaminantes.
+Por otra parte, las medidas adoptadas para frenar la pandemia producida por la COVID-19 han generado una importante disminución en la emisión de CO_{2} en 2020, si bien estos impactos positivos han sido solo temporales. Una vez se supere la emergencia sanitaria, las estrategias y planes de los distintos sectores habrán de ser revisados, así como los programas de gasto y de inversión pública. Ello supone una oportunidad para lograr una transición hacia modelos de desarrollo más sostenibles.
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
@@ -2611,9 +2611,9 @@ Transformación ordenada de nuestra economía hacia una economía baja en carbon
 ***** Texto                                                      :ignore:
 Los *niveles de dióxido de carbono (CO_2) y de otros gases de efecto invernadero en la atmósfera han subido vertiginosamente* en los últimos años provocando una subida de temperatura.
 
-Los principales problemas de contaminación están asociados a elevados niveles de partículas, óxidos de nitrógeno y ozono. Esta situación es similar a la de otros países europeos, si bien España, y especialmente Andalucía, se ve afectada por las circunstancias climatológicas existentes de alta insolación, estabilidad atmosférica, bajas precipitaciones y proximidad al continente africano.
+Los principales problemas de contaminación están asociados a elevados niveles de partículas, óxidos de nitrógeno y ozono. Esta situación es similar a la de otros países europeos, si bien España, y especialmente Andalucía, se ve afectada por las circunstancias climatológicas existentes de alta insolación, estabilidad atmosférica y bajas precipitaciones.
 
-Las emisiones de GEI se dividen en dos grandes grupos: las procedentes de actividades afectadas por el Régimen de Comercio de Derechos de Emisión (RCDE) del sector industrial, y las procedentes del sector difuso, que incluye el resto de emisiones de gases de efecto invernadero y que se deben principalmente a los siguientes sectores: transporte, agricultura, sector industrial no afectado por el RCDE, residencial, comercial e institucional, tratamiento de residuos y gases fluorados.
+Las emisiones de GEI se dividen en dos grandes grupos: las procedentes de actividades afectadas por el Régimen de Comercio de Derechos de Emisión (RCDE) del sector industrial, y las procedentes del sector difuso, que incluye el resto de las emisiones de gases de efecto invernadero y que se deben principalmente a los siguientes sectores: transporte, agricultura, sector industrial no afectado por el RCDE, residencial, comercial e institucional, tratamiento de residuos y gases fluorados.
 
 Las emisiones del sector difuso son ligeramente superiores a las emisiones incluidas en el RCDE, suponiendo, como promedio de los años 2005-2018, el 54% de las emisiones de gases de efecto invernadero en Andalucía. Además, éstas representan un 16,5% sobre el total de las emisiones difusas de España en el mismo periodo y un 1,25% sobre el total de las emisiones difusas de la Unión Europea.
 
@@ -2663,15 +2663,15 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 
 3. Priorizar en las convocatorias públicas la investigación, la innovación y la transferencia de conocimiento centradas en aquellas actividades que reduzcan la emisión de GEI.
 
-4. Fomentar el cambio modal del transporte de mercancías y personas hacia modos de transporte más eficientes o de consumo de energía nulo, como el ferrocarril y el transporte marítimo en entornos interurbanos y la bicicleta y andar en entornos urbanos.
+4. Fomentar el cambio modal del transporte de mercancías y personas hacia modos de transporte más eficientes, como el ferrocarril y el transporte marítimo, frente al avión y la carretera. Así como, el uso del transporte público, la bicicleta y el transporte a pie de las personas en los entornos urbanos.
 
 5. Incorporar a la Red de Transporte Público vehículos de bajas emisiones, con la adquisición o transformación de vehículos energéticamente eficientes para flotas públicas, especialmente las que prestan servicios de transporte de pasajeros.
 
-6. Fomentar soluciones tecnológicas, desde el teletrabajo a las videoconferencias, que permitan reducir la necesidad de transporte de las personas.
+6. Fomentar soluciones tecnológicas, desde el teletrabajo a las videoconferencias, o los servicios de carsharing, que permitan reducir la necesidad de transporte de las personas.
 
 7. Incorporar en los Pliegos de Prescripciones Técnicas medidas para la reducción de emisiones y eficiencia energética en las concesiones de transporte público.
 
-8. Impulsar la movilidad y el transporte sostenible en la administración de la Junta de Andalucía, incluyendo la consideración del cambio climático en la planificación estratégica de la movilidad y el transporte.
+8. Impulsar la movilidad y el transporte sostenible en la administración de la Junta de Andalucía, incluyendo la consideración del cambio climático en la planificación estratégica de la movilidad y el transporte, haciendo efectiva la Ley de Movilidad Sostenible (actualmente en tramitación).
 
 9. Realizar actuaciones de plantaciones y restauraciones paisajísticas en las infraestructuras viarias para aumentar la capacidad de sumideros de CO_{2}.
 
@@ -2683,11 +2683,11 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 
 13. Impulsar la investigación de procesos innovadores (nuevos materiales, captura y el almacenamiento) y dispositivos de combustión industrial bajos en carbono, para la reducción de los contaminantes atmosféricos.
 
-14. Limitar las modificaciones de suelo no urbanizable en las que existan sumideros de carbono con fines comerciales.
+14. Evitar, y excepcionalmente compensar, las modificaciones de suelo en las que existan sumideros de carbono con fines comerciales.
 
-15. Establecer criterios vinculantes para la implantación eficiente de grandes superficies minoristas, fijando un tope máximo de emisiones de CO_{2} producidos tanto por el tráfico generado como por la propia instalación de la gran superficie minorista.
+15. Inclusión en los planes urbanísticos y de ordenación del territorio de consideraciones para la mitigación de las emisiones de GEI y la mejora de la eficiencia energética.
 
-16. Primar la ubicación de las nuevas zonas comerciales de modo que se pueda acceder a ellas a pie desde las zonas residenciales.
+16. Fomentar la aplicación de los principios de la economía circular en la gestión de restaurantes e instalaciones hoteleras, y en el diseño de edificios en los sectores turístico y comercial, así como en los edificios de titularidad pública.
 
 17. Desarrollar Planes de Calidad del Aire y fortalecer la Red de Vigilancia y Control de la Calidad del Aire de Andalucía, de acuerdo con lo previsto en la Estrategia Andaluza de Calidad del Aire y las obligaciones legales.
 
@@ -2849,9 +2849,9 @@ Además, se debe invertir en sistemas y aparatos para el consumidor final que co
 
 8. Incentivar las inversiones en tecnologías que mejoren los sistemas de transformación, transmisión y distribución de la energía para reducir las pérdidas.
 
-9. Promover la instalación y renovación de sistemas de climatización de edificios y viviendas preferentemente vinculados a energías renovables.
+9. Promover la instalación y renovación de los equipos domésticos, la iluminación y los sistemas de climatización de edificios y viviendas preferentemente vinculados a energías renovables.
 
-10. Estimular la inversión privada en el desarrollo de proyectos y actuaciones de eficiencia energética, mediante incentivos económicos y la generación de confianza.
+10. Estimular la inversión privada en el desarrollo de proyectos y actuaciones de eficiencia energética, mediante la concesión de incentivos económicos, la generación de confianza y la simplificación y agilidad administrativa.
 
 11. Ofrecer un servicio de asesoramiento a los potenciales inversores o usuarios interesados sobre los sectores con mayor potencia de mejora energética, la utilización de las mejores tecnologías disponibles, así como la puesta en valor de las tecnologías andaluzas.
 
@@ -2877,9 +2877,15 @@ Por tanto, Andalucía ha evolucionado desde un sistema centralizado de generaci�
 
 Las energías renovables han ido ganando protagonismo en la matriz de demanda de energía de Andalucía, pasando de suponer un 5% del consumo primario de energía, excluyendo usos no energéticos en 2006 (año de menor aporte renovable) al 21% en 2019. Además, se ha reducido de forma drástica la demanda de carbón, suponiendo solo el 3,9% del total del consumo energético de la comunidad.
 
+Este proceso de transición y adaptación a nuevas fuentes de energía va a acelerarse en Andalucía con el cierre de las centrales térmicas de Carboneras (Almería), Puente Nuevo-Valle del Guadiato (Córdoba) y Los Barrios (Cádiz). De este modo, nuestra Comunidad Autónoma afronta el reto de impulsar la generación de alternativas económicas que compensen el cese de actividad de las mencionadas plantas de generación de energía eléctrica y de explotaciones mineras de carbón.
+
+Este adaptación se enmarca en el contexto de las actuaciones previstas en la Estrategia de Transición Justa del Gobierno de España, que tiene como principal objetivo maximizar las oportunidades de empleo y minimizar los impactos negativos de la trasición hacia un modelo de desarrollo bajo en carbono, encontrándose apoyada en el Fondo de Transición Justa, el instrumento financiero dentro de la política de cohesión diseñado para ayudar a los territorios más afectados por dicho proceso de transición a la neutralidad climática.
+
 La mayor parte del crecimiento de la energía renovable mundial se ha producido en el sector de la electricidad, debido a la rápida expansión de la energía eólica y solar, que ha sido posible gracias al apoyo sostenido de las políticas y la significativa reducción de los costes en la última década, especialmente de los paneles solares. Mientras, el uso de la energía renovable en la calefacción y el transporte se está quedando rezagado.
 
-La *progresiva sustitución de las fuentes de energía convencionales* (agotables y contaminantes), *por fuentes de energía renovables* (no agotables o con una capacidad de regeneración tal a corto plazo que permite su utilización en el tiempo de manera predecible, y mucho menos contaminantes) es un componente ineludible de este proceso de cambio de sistema energético. Andalucía es rica en fuentes de energía renovables. Puede ser por tanto un territorio idóneo para realizar la transformación del modelo energético acordada en la Unión Europea. En este sentido el desarrollo de la cadena de valor del hidrógeno renovable se presenta como una oportunidad para Andalucía.
+La *progresiva sustitución de las fuentes de energía convencionales* (agotables y contaminantes), *por fuentes de energía renovables* (no agotables o con una capacidad de regeneración tal a corto plazo que permite su utilización en el tiempo de manera predecible, y mucho menos contaminantes) es un componente ineludible de este proceso de cambio de sistema energético. A modo de ejemplo, el desarrollo de la cadena de valor del hidrógeno renovable se presenta como una oportunidad para la región.
+
+Andalucía es rica en fuentes de energía renovables. Puede ser, por tanto, un territorio idóneo para realizar la transformación del modelo energético acordada en la Unión Europea. No obstante, se debe estar atentos a la tendencia de concentración en grandes multinacionales de la instalación de parques energéticos sin tener en consideración factores ambientales, paisajísticos y su afección sobre la agricultura y el suelo.
 
 Es necesario fomentar el incremento del uso de fuentes de energía renovables, la disminución de la dependencia de los derivados de petróleo y la mejora al acceso a unos servicios energéticos asequibles y de calidad, que incrementen la calidad de vida de la población y la competitividad de las empresas.
 
@@ -2926,7 +2932,7 @@ Andalucía se fija como objetivo aportar, a partir de fuentes de energía renova
 :UNNUMBERED: nil
 :END:
 
-1. Potenciar el aprovechamiento de las energías renovables y el desarrollo sostenible de las redes energéticas.
+1. Potenciar y priorizar la producción y utilización de energías de fuentes renovables, junto a los biocombustibles, combustibles sintéticos, hidrógeno y otros gases renovables, así como el desarrollo sostenible de las redes energéticas.
 
 2. Establecer medidas disuasorias tendentes a un modelo energético en el que el consumo de combustibles fósiles sea mínimo.
 
@@ -2934,13 +2940,17 @@ Andalucía se fija como objetivo aportar, a partir de fuentes de energía renova
 
 4. Incentivar el desarrollo de tecnologías limpias que permitan la aplicación de los principios de economía circular.
 
-5. Implantar energías renovables en grandes edificios públicos como ejemplos de autoconsumo.
+5. Promover la instalación y renovación de sistemas de climatización de edificios y viviendas preferentemente vinculados a energías renovables.
 
-6. Impulsar el papel de la administración autonómica como facilitadora de la transición energética.
+6. Implantar energías renovables en grandes edificios públicos como ejemplos de autoconsumo.
 
-7. Propiciar un suministro de calidad mediante un modelo energético sostenible.
+7. Impulsar el papel de la administración autonómica como facilitadora de la transición energética, dotando de ayudas económicas a los consumidores y, en coordinación con la Administración local, efectuar una planificación ordenada de los nuevos parques de energía renovable que atienda al interés general.
 
-8. Intensificar la industrialización energética.
+8. Definir convenios de transición justa en los territorios más afectados por el proceso de descarbonización, en colaboración con otras administraciones públicas y con los agentes económicos y sociales para el desarrollo de actividades relacionadas con las energías renovables y la eficiencia energética, la movilidad sostenible, la rehabilitación de edificios, la economía circular, la eco-innovación, la restauración de ecosistemas, la biodiversidad, la adaptación al cambio climático, la agricultura ecológica o de secano, la ganadería extensiva o el turismo sostenible, entre otros.
+
+9. Propiciar un suministro seguro y de calidad mediante un modelo energético sostenible y competitivo, que evite la brecha energética.
+
+10. Intensificar la industrialización energética.
 
 {{{fin(tcolorbox)}}}
 
@@ -3128,7 +3138,7 @@ La Junta de Andalucía tiene como objetivo en materia de adaptación el reducir 
 - Plan Estratégico de puertos y áreas logísticas de Andalucía (En elaboración-integrado en Extenda).
 - Plan Vive en Andalucía, de Vivienda, Rehabilitación y Regeneración Urbana de Andalucía 2020-2030.
 
-**** Comunicación y Participación
+**** Comunicación, colaboración y participación
 :PROPERTIES:
 :UNNUMBERED: nil
 :CUSTOM_ID: intro-0204-03
@@ -3179,37 +3189,35 @@ Los objetivos de descarbonización de la economía y de lucha y adaptación al c
 
 1. Coordinar las políticas de I+D+i en cambio climático y transición energética de las Administraciones Públicas con el resto de las políticas sectoriales andaluzas y con los objetivos perseguidos internacionalmente y por la Unión Europea.
 
-2. Fomento de la Compra Pública Innovadora (CPI) para una colaboración público-privada y la investigación e innovación empresarial, con movilización de la inversión privada.
+2. Fomento de la Compra Pública Innovadora (CPI) para incentivar la investigación e innovación empresarial, con movilización de la inversión privada.
 
-3. Fomentar la colaboración público-privada y la investigación e innovación en el tejido empresarial andaluz.
+3. Facilitar el acceso del público a los datos y la información, suministrando la información sobre las iniciativas y políticas relativas al cambio climático, y sobre los resultados de las medidas adoptadas.
 
-4. Facilitar el acceso del público a los datos y la información, suministrando la información sobre las iniciativas y políticas relativas al cambio climático, y sobre los resultados de las medidas adoptadas.
+4. Mantener la Red de Información Ambiental de Andalucía (REDIAM), que tiene como objeto la integración, normalización y difusión de toda la información sobre el medio ambiente andaluz generada por todo tipo de centros productores de información ambiental en Andalucía, y del Portal Andaluz del Cambio Climático.
 
-5. Mantener la Red de Información Ambiental de Andalucía (REDIAM), que tiene como objeto la integración, normalización y difusión de toda la información sobre el medio ambiente andaluz generada por todo tipo de centros productores de información ambiental en Andalucía, y del Portal Andaluz del Cambio Climático.
+5. Impulsar programas de divulgación, concienciación y sensibilización de la ciudadanía sobre el cambio climático y sus efectos, especialmente en colegios y centros educativos.
 
-6. Impulsar programas de divulgación, concienciación y sensibilización de la ciudadanía sobre el cambio climático y sus efectos, especialmente en colegios y centros educativos.
+6. Promover, facilitar, desarrollar y aplicar programas de educación y capacitación sobre el cambio climático en todos los programas educativos financiados por la Junta de Andalucía.
 
-7. Promover, facilitar, desarrollar y aplicar programas de educación y capacitación sobre el cambio climático en todos los programas educativos financiados por la Junta de Andalucía.
+7. Promover, facilitar, desarrollar y aplicar programas de formación sobre el cambio climático para los grupos que tengan una función clave, como el personal científico, técnico y directivo, los periodistas, los docentes y los dirigentes a nivel local, o regional, según proceda.
 
-8. Promover, facilitar, desarrollar y aplicar programas de formación sobre el cambio climático para los grupos que tengan una función clave, como el personal científico, técnico y directivo, los periodistas, los docentes y los dirigentes a nivel local, o regional, según proceda.
+8. Realizar acciones de formación profesional para personas empleadas y desempleadas, por la Consejería de Empleo, Formación y Trabajo Autónomo, entre las que existen especialidades sobre temas relacionados con el cambio climático y la transición energética.
 
-9. Realizar acciones de formación profesional para personas empleadas y desempleadas, por la Consejería de Empleo, Formación y Trabajo Autónomo, entre las que existen especialidades sobre temas relacionados con el cambio climático y la transición energética.
+9. Elaborar y actualizar periodicamente el Plan Andaluz de Formación Ambiental, con acciones formativas dirigidas a andaluces que desarrollan sus actividades en los sectores agrario, forestal y ambiental, así como otros actores sociales que se relacionan con la conservación y restauración del medio natural y los espacios protegidos y la promoción de la sostenibilidad, en los aspectos de gestión, información y sensibilización.
 
-10. Elaborar y actualizar periodicamente el Plan Andaluz de Formación Ambiental, con acciones formativas dirigidas a andaluces que desarrollan sus actividades en los sectores agrario, forestal y ambiental, así como otros actores sociales que se relacionan con la conservación y restauración del medio natural y los espacios protegidos y la promoción de la sostenibilidad, en los aspectos de gestión, información y sensibilización.
+10. Impulsar las actuaciones de educación ambiental frente al cambio climático en el marco del Programa ALDEA, que pretende tomar conciencia de la problemática socio-ambiental del cambio climático en el ámbito escolar y trasladarla al entorno más próximo de la comunidad educativa y con el Programa para la promoción de Hábitos de Vida Saludable (capacita al alumnado en la toma de decisiones para que la elección más sencilla sea la más saludable, favorecer y fortalecer el vínculo con la Comunidad fomentando entornos más sostenibles y saludables).
 
-11. Impulsar las actuaciones de educación ambiental frente al cambio climático en el marco del Programa ALDEA, que pretende tomar conciencia de la problemática socio-ambiental del cambio climático en el ámbito escolar y trasladarla al entorno más próximo de la comunidad educativa y con el Programa para la promoción de Hábitos de Vida Saludable (capacita al alumnado en la toma de decisiones para que la elección más sencilla sea la más saludable, favorecer y fortalecer el vínculo con la Comunidad fomentando entornos más sostenibles y saludables).
+11. Promover la creación de una Plataforma Educativa contra el cambio climático, dirigido a todos los sectores de la comunidad educativa.
 
-12. Promover la creación de una Plataforma Educativa contra el cambio climático, dirigido a todos los sectores de la comunidad educativa.
+12. Desarrollar, en el marco competencial andaluz, las líneas del Plan de Acción de Educación para la Sostenibilidad (PAEAS) 2021-2025, de ámbito nacional, cuyos ejes temáticos incluyen el cambio climático y transición energética.
 
-13. Desarrollar, en el marco competencial andaluz, las líneas del Plan de Acción de Educación para la Sostenibilidad (PAEAS) 2021-2025, de ámbito nacional, cuyos ejes temáticos incluyen el cambio climático y transición energética.
+13. Promover la participación de la ciudadanía en el examen del problema del cambio climático y sus efectos sobre los ecosistemas, por ejemplo, mediante voluntariado orientado a la ejecución de campañas de concienciación ciudadana, y en la adopción de medidas de respuesta adecuadas, facilitando la retroinformación, el debate y el establecimiento de alianzas.
 
-14. Promover la participación de la ciudadanía en el examen del problema del cambio climático y sus efectos sobre los ecosistemas, por ejemplo, mediante voluntariado orientado a la ejecución de campañas de concienciación ciudadana, y en la adopción de medidas de respuesta adecuadas, facilitando la retroinformación, el debate y el establecimiento de alianzas.
+14. Poner a disposición de la ciudadanía, a través de página web, los anuncios de apertura de información pública de diferentes procedimientos publicados en BOJA y boletines provinciales, los de los planes y programas, las evaluaciones ambientales estratégicas de planes y programas, así como la relación de otros documentos que puedan encontrase en fase de información pública, para facilitar a todas las personas interesadas tanto su consulta como la formulación de alegaciones.
 
-15. Poner a disposición de la ciudadanía, a través de página web, los anuncios de apertura de información pública de diferentes procedimientos publicados en BOJA y boletines provinciales, los de los planes y programas, las evaluaciones ambientales estratégicas de planes y programas, así como la relación de otros documentos que puedan encontrase en fase de información pública, para facilitar a todas las personas interesadas tanto su consulta como la formulación de alegaciones.
+15. Poner en marcha de forma efectiva el Consejo Andaluz del Clima, en tramitación, como órgano de participación con representación de diferentes administraciones públicas y de los agentes sociales y económicos.
 
-16. Crear el Consejo Andaluz del Clima, en tramitación, como órgano de participación con representación de diferentes administraciones públicas y de los agentes sociales y económicos.
-
-17. Fomentar la cooperación extrarregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
+16. Fomentar la cooperación extrarregional con la Unión Europea con proyectos e Iniciativas como Interreg, LIFE y Climate KIC, así como otros proyectos de interés.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -3313,7 +3321,7 @@ Las *aguas subterráneas* contribuyen a la regulación de los desequilibrios de 
 
 3. Realizar actuaciones para proteger el dominio público hidráulico, que incluye el agua, el patrimonio hídrico sobre el que discurre y sus zonas de protección.
 
-4. Poner en marcha planes hidrológicos para un conocimiento detallado de la realidad y programas para que los ciudadanos y ciudadanas, cualesquiera que sean su capacidad económica y su localidad de residencia, dispongan de un suministro mínimo de agua.
+4. Poner en marcha planes hidrológicos para un conocimiento detallado de la realidad y programas para que los ciudadanos y ciudadanas, cualesquiera que sean su capacidad económica y su localidad de residencia, dispongan de un suministro mínimo de agua, con especial atención a los grupos vulnerables.
 
 5. Aprobar los Planes Especiales de actuación en situaciones de alerta y eventual sequía de las cuencas internas andaluzas.
 
@@ -3321,7 +3329,7 @@ Las *aguas subterráneas* contribuyen a la regulación de los desequilibrios de 
 
 7. Mejorar el aprovechamiento del agua precipitada que además de poder ser reutilizada, reduciría daños e inundaciones en episodios de fuertes precipitaciones.
 
-8. Invertir para incrementar los recursos hídricos procedentes de la desalación.
+8. Invertir para incrementar los recursos hídricos procedentes de la desalación, cuando no exista una alternativa más sostenible.
 
 9. Realizar inversiones para fomentar el uso de aguas regeneradas basadas en el empleo de energías renovables.
 
@@ -3332,6 +3340,8 @@ Las *aguas subterráneas* contribuyen a la regulación de los desequilibrios de 
 12. Establecer umbrales y horizontes temporales para la reducción de las pérdidas de agua en todas las fases del ciclo y para todos los usos.
 
 13. Favorecer la implementación de sistemas tarifarios que generen los incentivos necesarios para un uso eficiente de los recursos hídricos.
+
+14. Efectuar el desarrollo reglamentario previsto en la Ley de Aguas de Andalucía (Ley 9/2010, de 30 de julio).
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -3381,7 +3391,7 @@ El *precio del agua*, según la Directiva Marco del Agua (CE, 2000), cumple un d
 
 2. Apoyar la implantación de nuevas técnicas y tecnologías más eficientes en la agricultura y la industria, incluyendo la modernización de los regadíos.
 
-3. Poner en marcha un modelo de gestión integral de recursos hídricos basado en la demanda.
+3. Poner en marcha un modelo de gestión integral de recursos hídricos.
 
 4. Elaborar un sistema tarifario adecuado para recuperar, en la medida de las capacidades económicas, los costes de la gestión del agua, incluidos los costes ambientales, y que al tiempo incentive el ahorro, bonificando el uso responsable del recurso, y actuando en consecuencia sobre el derroche.
 
@@ -3446,7 +3456,7 @@ La necesidad de puesta en marcha, ampliación y mejora de un número importante 
 
 4. Utilizar algas para el tratamiento de aguas residuales y la producción de biogás.
 
-5. Incrementar la vigilancia e inspección sobre los vertidos directos de contaminantes en las aguas subterráneas.
+5. Incrementar la vigilancia e inspección sobre los vertidos directos de contaminantes en las aguas superficiales y subterráneas, y revisar su régimen sancionador.
 
 6. Invertir para ampliar y mejorar las estaciones depuradoras de aguas residuales (EDARs).
 
@@ -3471,7 +3481,7 @@ La necesidad de puesta en marcha, ampliación y mejora de un número importante 
 - Transición a una economía circular
 {{{finlineas}}}
 {{{ods(1 2 6 7 12 13 14 15)}}}
-En los últimos años, distintos organismos internacionales han alertado acerca del aumento en la generación de residuos, con un consiguiente incremento del número de vertederos. A su vez, las emisiones producidas en los procesos de tratamiento de estos residuos, incluyendo las emisiones gaseosas derivadas de la combustión de estos residuos así como los lixiviados de vertedero resultantes de la percolación de aguas pluviales a través de la masa de los residuos depositados en celdas de vertido provocan un impacto ambiental negativo.
+En los últimos años, distintos organismos internacionales han alertado acerca del aumento en la generación de residuos, con un consiguiente incremento del número de vertederos. A su vez, las emisiones producidas en los procesos de tratamiento de estos residuos, incluyendo las emisiones gaseosas derivadas de la combustión de estos residuos, así como los lixiviados de vertedero resultantes de la percolación de aguas pluviales a través de la masa de los residuos depositados en celdas de vertido provocan un impacto ambiental negativo.
 
 De este modo, resulta incuestionable la negativa influencia que tiene la creciente cantidad de residuos sobre el cambio climático. Asimismo, existe un consenso en admitir que esta evolución es consecuencia del todavía vigente e insostenible  modelo de economía lineal.
 
@@ -3551,7 +3561,7 @@ De hecho, en 1997 (primer año de la serie de datos disponibles), la relación e
 
 2. Establecer medidas que recompensen la disminución de la peligrosidad en los residuos generados, especialmente en los procesos de soporte sanitario.
 
-3. Aplicar el principio de «quien contamina, paga» a los generadores de residuos.
+3. Impulsar una fiscalidad que fomente la valorización de residuos y la producción sostenible.
 
 4. Atender las conclusiones del Grupo de Trabajo de Envases y Residuos de la Comisión Nacional de Residuos, sobre la posible viabilidad de volver a implantar el pago obligatorio a cargo de los consumidores por el uso de determinados envases, cuyo importe será abonado tras su retorno.
 
@@ -3625,7 +3635,7 @@ Por otra parte, el éxito de la implementación de las nuevas directrices en mat
 
 2. Atender las exigencias reguladas que se incorporen a la normativa sectorial en la materia, en particular, en lo relativo a fiscalidad  relativa a la gestión de residuos, así como la obligación de recogida separada de biorresiduo y de residuos peligrosos domésticos y de limitación u prohibición de eliminación de determinados residuos.
 
-3. Realizar inversiones para garantizar y optimizar la gestión eficiente de los recursos y de los residuos, procurando el estricto cumplimiento del orden jerárquico establecido en la directiva comunitaria en materia de residuos, de acuerdo con el Plan Integral de Residuos de Andalucía. Hacia una Economía Circular (PIRec 2030).
+3. Realizar inversiones para garantizar y optimizar la gestión eficiente de los recursos y de los residuos, procurando el cumplimiento del orden jerárquico establecido en la directiva comunitaria en materia de residuos, de acuerdo con el Plan Integral de Residuos de Andalucía. Hacia una Economía Circular (PIRec 2030).
 
 4. Apoyar la I+D+i y potenciar el ecodiseño para conseguir que los plásticos, procedentes principalmente de la agricultura y de los materiales sanitarios (guantes, mascarillas, EPIs, entre otros) se reciclen con mayor facilidad.
 
@@ -3703,7 +3713,7 @@ En resumen, la economía circular va a dar respuesta a los siete ámbitos de act
 
 2. Favorecer la simbiosis entre los distintos sectores de forma que los recursos generados y no aprovechados en unas actividades se conviertan en materias primas de otras.
 
-3. Fomentar la utilización como inputs, por parte de las empresas, de materias primas secundarias de otras empresas, aprovechando al máximo los recursos materiales y energéticos contenidos en los residuos.
+3. Fomentar en las empresas la utilización como inputs de materias primas secundarias de otras empresas, así como la valorización energética de residuos en fábricas, aprovechando al máximo los recursos materiales y energéticos contenidos en los residuos.
 
 4. Realizar campañas de divulgación y sensibilización para fomentar una mayor participación de las empresas andaluzas en la economía circular.
 
@@ -3882,7 +3892,7 @@ Adicionalmente, cabría mencionar otras fuentes de contaminación, que tienen un
 
  3. Fomentar la corresponsabilidad, la movilización de los actores sociales implicados, la gestión participativa y la permeabilidad en la toma de decisiones que tengan una repercusión directa en la biodiversidad.
 
- 4. Incrementar la dotación de infraestructuras medioambientales que contribuyan a la preservación y conservación del medio ambiente.
+ 4. Incrementar la dotación de infraestructuras medioambientales, medios técnicos y humanos, que contribuyan a la preservación y conservación del medio ambiente.
 
  5. Realizar actuaciones preventivas en materia de lucha contra los incendios forestales, contra las plagas y especies invasoras.
 
@@ -4053,7 +4063,7 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 
 3. Favorecer e impulsar la puesta a disposición de los operadores de telecomunicaciones de las infraestructuras físicas públicas de las distintas Admninistraciones Públicas.
 
-5. Continuar con el desarrollo de proyectos tractores y relevantes como la conectividad inalámbrica en todas las sedes de la Junta de Andalucía, las "Escuelas Conectadas", innovación de las infraestructuras tecnológicas de la RCJA.
+5. Continuar con el desarrollo de proyectos tractores y relevantes como la conectividad inalámbrica en todas las sedes de la Junta de Andalucía, las “Escuelas Conectadas”, innovación de las infraestructuras tecnológicas de la RCJA.
 
 6. Proporcionar “bonos de conectividad” para financiar el acceso a la red de colectivos vulnerables en riesgo de exclusión por la dificultad de acceso a la conectividad por motivos económicos. La necesidad de este tipo de medidas se ha hecho más patente en un contexto de educación semipresencial debido al impacto de la COVID-19 o de consultas sanitarias telemáticas.
 
@@ -4096,7 +4106,7 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 
 :fig-0301B2:
 :F: Secretaría de Estado de Telecomunicaciones e Infraestructuras Digitales, Mº de Asuntos Económicos y Transformación Digital. Informe de cobertura en Banda Ancha en España en el año 2020 :F:
-:U::U:
+:U:En %:U:
 :N::N:
 :E::E:
 #+CAPTION: Diferencial de cobertura rural vs. total en España
@@ -4108,7 +4118,7 @@ Estas discrepancias entre lo rural y urbano en materia de conectividad deben cor
 :U::U:
 :N::N:
 :E::E:
-#+CAPTION: Cobertura rural por tecnología a 30 de junio de 2019
+#+CAPTION: Cobertura rural por tecnología a 30 de junio de 2020
 [[./graficos/0301B3.pdf]]
 :END:
 
@@ -4272,7 +4282,6 @@ Destaca la fortaleza y el potencial del sistema portuario andaluz, debido a la e
 
 Siguiendo las recomendaciones europeas, se debe priorizar el *traspaso de parte del transporte de mercancías* (de distancias superiores a 300 Km) *a los modos ferroviario y marítimo*, por las evidentes consecuencias que el transporte por carretera tiene en accidentalidad, sobrecarga de las infraestructuras, costes elevados de abastecimiento y distribución (costes logísticos) o costes ambientales derivados.
 
-***** Gráficos B                                                 :ignore:
 
 :fig-0302B1:
 :F: Consejería de Fomento, Infraestructuras y Ordenación del Territorio.:F:
@@ -5872,7 +5881,7 @@ Para todo ello *es imprescindible la generación del conocimiento y la implantac
 
 3. Desarrollar actuaciones preventivas para disminuir las enfermedades crónicas de los andaluces.
 
-4. Desarrollar planes de salud pública dirigidos a evitar problemas de salud prevalentes en la población andaluza (obesidad, o tabaquismo, consumo excesivo de alcohol y adicciones sin sustancias, envejecimiento, Alzheimer y otras demencias, entre otros), as
+4. Desarrollar planes de salud pública dirigidos a evitar problemas de salud prevalentes en la población andaluza (obesidad, o tabaquismo, consumo excesivo de alcohol y adicciones sin sustancias, envejecimiento, Alzheimer y otras demencias, entre otros).
 
 5. Desarrollar planes y programas de actividad físico-deportiva para poblaciones con necesidades específicas: personas con discapacidad, obesidad, personas con diferentes enfermedades, entre otras.
 
@@ -6166,7 +6175,7 @@ A este capital territorial ya se habían referido, aún sin nombrarlo, grandes e
 
 Más recientemente, diversos trabajos de investigación han puesto de manifiesto que las políticas públicas que tratan de fomentar el desarrollo territorial y limitar las desigualdades, para cumplir su propósito, deberían ayudar primero a desarrollar el capital territorial de dicha región. También concluyen que el uso únicamente de incentivos económicos fiscales o financieros para estimular a empresas a invertir en áreas, donde no lo harían en ausencia de incentivos, no tiene por qué garantizar el desarrollo a largo plazo, dado que no asegura que las inversiones estén ajustadas al capital territorial.
 
-Por todo ello, parece justificado que un eje estratégico para la política económica de Andalucía sea aumentar su capital territorial, entendiendo que este engloba diferentes componentes (natural, físico-construido, humano, social y de imagen) y que en el caso de nuestra región tiene un papel fundamental por varias razones:
+Por todo ello, parece justificado que un eje estratégico para la política económica de Andalucía sea aumentar su capital territorial, tal cmoo se menciona en el Informe "/Territorial Economy, OECD Territorial Outlook, 2001/", entendiendo que este engloba diferentes componentes (natural, físico-construido, humano, social y de imagen) y que en el caso de nuestra región tiene un papel fundamental por varias razones:
 
 1) Por su posición geoestratégica, entre dos continentes (Europa y África) y entre el Océano Atlántico y el Mar Mediterráneo, que aporta una aventajada situación para la integración de Andalucía en la esfera internacional (flujo de mercancías y orientaciones culturales, entre otras).
 
@@ -6182,7 +6191,7 @@ En este punto, y con el objetivo de promover el desarrollo sostenible, la cohesi
 
 Este tipo de estrategias de desarrollo en la escala territorial intermedia coincide con la propuesta de la Comisión Europea, para la política de cohesión en el marco financiero plurianual 2021-2027, como respuesta al Objetivo estratégico 5 de la UE: /“Una Europa más próxima a sus ciudadanos, que fomente el desarrollo integrado y sostenible de las zonas urbanas, rurales y costeras y las iniciativas locales”/.
 
-De este modo, el desarrollo de Andalucía en su conjunto se nutrirá de los logros de este tipo de estrategias para las diferentes subregiones de nuestra Comunidad Autónoma, al igual que de la existencia de un sistema urbano equilibrado. Para alcanzar el ambicioso objetivo de la reducción de los desequilibrios territoriales existentes dentro de Andalucía, se requiere una atención diferencial y especializada a todos aquellos ámbitos supramunicipales que conforman un área coherente, por sus características físicas, funcionales, y socioeconómicas o por la existencia de fórmulas de cooperación intermunicipal institucionalizadas o informales. Solo desde esta perspectiva, puede afrontarse el reto de un desarrollo urbano y rural integrado y sostenible, acorde a sus características singulares: sociales, medioambientales, demográficas, su patrimonio cultural y el resto de rasgos diferenciales.
+De este modo, el desarrollo de Andalucía en su conjunto se nutrirá de los logros de este tipo de estrategias para las diferentes subregiones de nuestra Comunidad Autónoma, al igual que de la existencia de un sistema urbano equilibrado. Para alcanzar el ambicioso objetivo de la reducción de los desequilibrios territoriales y sociales existentes dentro de Andalucía, se requiere una atención diferencial y especializada a todos aquellos ámbitos supramunicipales que conforman un área coherente, por sus características físicas, funcionales, y socioeconómicas o por la existencia de fórmulas de cooperación intermunicipal institucionalizadas o informales. Solo desde esta perspectiva, puede afrontarse el reto de un desarrollo urbano y rural integrado y sostenible, acorde a sus características singulares: sociales, medioambientales, demográficas, su patrimonio cultural y el resto de rasgos diferenciales.
 {{{fincol}}}
 
 *** Afrontar el “desafío” demográfico
@@ -6203,7 +6212,7 @@ En general, la cuestión demográfica tiene claras implicaciones económicas y s
 
 En el caso de Andalucía, los efectos derivados del progresivo envejecimiento y la baja tasa de natalidad, unidos a otros rasgos específicos de los flujos de población, deben analizarse desde un enfoque territorial, ya que existen grandes diferencias entre ámbitos comarcales o subregionales dentro del territorio andaluz, lo que genera impactos económicos, sociales y ambientales distintos, precisando respuestas diferenciadas.
 
-En cualquier caso, el ensanchamiento de la pirámide demográfica en los tramos de edad madura y las conocidas dificultades de los jóvenes para encontrar empleo, independizarse y tener hijos, ponen de manifiesto la necesidad de nuevas políticas sociales para la población joven.
+En cualquier caso, el ensanchamiento de la pirámide demográfica en los tramos de edad madura y las conocidas dificultades de los jóvenes para encontrar empleo, independizarse y tener hijos, ponen de manifiesto la necesidad de nuevas políticas sociales y económicas para la población joven.
 
 Estas tendencias pueden hacerse más evidentes en determinados ámbitos rurales, donde asegurar una perspectiva de vida personal y laboral a los jóvenes y a las mujeres puede ser una poderosa arma contra la despoblación.
 
@@ -6214,7 +6223,7 @@ Estas tendencias pueden hacerse más evidentes en determinados ámbitos rurales,
 :END:
 
 {{{initcb(Meta)}}}
-Asegurar la sostenibilidad económica y social de los distintos territorios de Andalucía, atendiendo a sus características demográficas.
+Asegurar la sostenibilidad económica, social y medioambiental de los distintos territorios de Andalucía, atendiendo a sus características demográficas.
 {{{fintcb}}}
 
 **** Envejecimiento de la población
@@ -6226,7 +6235,7 @@ Asegurar la sostenibilidad económica y social de los distintos territorios de A
 :CUSTOM_ID: intro-0501-01
 :END:
 
-El *envejecimiento progresivo de la población que muestra la pirámide demográfica* está, en gran medida, explicado por el aumento de la esperanza de vida y el descenso de la natalidad. Este descenso es consecuencia del retraso de la emancipación de los jóvenes, la maternidad tardía y el menor número de hijos por mujer. Factores que a su vez dependen de, entre otras variables, la alta temporalidad del empleo y otras condiciones laborales, por la falta de amplitud del mercado de la vivienda y por las insuficientes medidas de apoyo a la conciliación familiar.
+El *envejecimiento progresivo de la población que muestra la pirámide demográfica* está, en gran medida, explicado por el aumento de la esperanza de vida y el descenso de la natalidad. Este descenso es consecuencia del retraso de la emancipación de los jóvenes, la maternidad tardía y el menor número de hijos por mujer. Factores que a su vez dependen de, entre otras variables, la alta temporalidad del empleo y otras condiciones laborales, por dificultades en el acceso a la vivienda y por las insuficientes medidas de apoyo a la conciliación familiar.
 
 Por otra parte, el ensanchamiento progresivo de la mitad superior de la pirámide demográfica implica un incremento de la proporción de personas mayores, que necesitan y necesitarán más atención y cuidados, en relación con la población potencialmente activa, es decir, un aumento de las ratios de dependencia.
 
@@ -6258,9 +6267,9 @@ En Andalucía, la *tasa de natalidad* se ha reducido más rápidamente que en Es
 :UNNUMBERED: nil
 :END:
 
-1. Fomentar medidas de conciliación familiar y laboral (por ejemplo, servicios de ayuda al cuidado de hijos, racionalización de los horarios escolares, mayores apoyos fiscales, subsidios o desgravaciones por gastos asociados al cuidado de los hijos, como el de guardería) que favorezcan el nacimiento y crianza de los hijos.
+1. Fomentar medidas de conciliación familiar y laboral que favorezcan el nacimiento y la crianza de los hijos.
 
-2. Implementar políticas de apoyo a la familia, especialmente a la natalidad (por ejemplo, ayudas al tercer hijo y por partos múltiples).
+2. Implementar políticas de apoyo a la natalidad.
 
 3. Incrementar las acciones dirigidas a personas mayores, en coordinación con otras administraciones (central y locales), en materia de envejecimiento activo y atención a la dependencia en todo el territorio. Estas actuaciones implicarán, entre otras, propuestas de desarrollos digitales que faciliten dicho envejecimiento activo y saludable a través de la práctica físico-deportiva, apoyen el cuidado y autocuidado, fomenten el deporte entre las personas mayores, al tiempo que contribuyan a prevenir la soledad, fomentar la comunicación entre las personas, al mantenimiento de la memoria y frenar el deterioro cognitivo.
 
@@ -6284,7 +6293,7 @@ En Andalucía, la *tasa de natalidad* se ha reducido más rápidamente que en Es
 
 En los últimos años, en Andalucía se ha observado un importante flujo de salida de población. En concreto, la emigración con destino a otra región española presenta un saldo negativo, es decir, *la cifra de emigraciones supera a la de inmigraciones* desde 2011, y llegó a ser especialmente acusada en 2016 y 2017.
 
-También, la *emigración de población joven andaluza*, frecuentemente con una elevada capacitación educativa que, por falta de perspectivas profesionales, decide trabajar fuera de nuestra Comunidad Autónoma (resto de España y el extranjero) ha aumentado en los últimos años, con la consecuente pérdida de capital humano y el menoscabo del crecimiento potencial de nuestra economía.
+También, la *emigración de población joven andaluza*, frecuentemente con una elevada capacitación educativa que, por falta de perspectivas profesionales, decide trabajar fuera de nuestra Comunidad Autónoma (resto de España y el extranjero) ha aumentado en los últimos años, con la consecuente pérdida de capital humano y de talento, y el menoscabo del crecimiento potencial de nuestra economía.
 
 En este sentido, la estadística sobre las variaciones residenciales desde Andalucía al extranjero revela un importante aumento de la emigración en los tramos todavía jóvenes de población (de 20 a 39 años), desde el comienzo de la anterior crisis económica, si bien las salidas al extranjero fueron especialmente intensas entre los años 2013-2017 y para la población con edades comprendidas entre los 30 y 39 años.
 
@@ -6325,11 +6334,11 @@ Dada la dificultad de contar con datos estadísticos de migración irregular lle
 :UNNUMBERED: nil
 :END:
 
-1. Facilitar el regreso de la población andaluza residente en el exterior que desee volver a Andalucía, con actuaciones que incentiven, especialmente, el retorno del talento andaluz en el extranjero o en otras regiones españolas.
+1. Facilitar el regreso de la población andaluza residente en el exterior que desee volver a Andalucía, con actuaciones que incentiven, especialmente, el retorno del talento andaluz en el extranjero o en otras regiones españolas, mediante una reforma integral de los actuales programas.
 
-2. Financiar la contratación por parte de las empresas de una mayor proporción de población joven en sus plantillas, así como establecer ayudas en materia de autoempleo juvenil (menores de 35 años), aprovechando la financiación europea, en particular el Fondo Social Europeo.
+2. Incentivar la contratación por parte de las empresas de una mayor proporción de población joven en sus plantillas, así como establecer ayudas en materia de autoempleo juvenil (menores de 35 años), aprovechando la financiación europea, en particular el Fondo Social Europeo y los Fondos Next Generation UE.
 
-3. Intensificar los trabajos de coordinación con la UE y las autoridades españolas para canalizar una migración regular y ordenada, y, facilitando su arraigo en la sociedad andaluza. En concreto, en el ámbito de la Comunidad Autónoma se prestará atención a la implantación, seguimiento y evaluación del IV Plan Integral para la Inmigración en Andalucía (PIPIA).
+3. Intensificar los trabajos de coordinación con la UE y las autoridades españolas para canalizar una migración regular y ordenada, garantizando el respeto a los derechos humanos y facilitando su arraigo en la sociedad andaluza. En concreto, en el ámbito de la Comunidad Autónoma se prestará atención a la implantación, seguimiento y evaluación del IV Plan Integral para la Inmigración en Andalucía (PIPIA).
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -6383,11 +6392,13 @@ Andalucía es una comunidad autónoma muy poblada y con saldo vegetativo positiv
 
 4. Fomentar y facilitar la implantación de actividades industriales y de aprovechamiento de los recursos naturales minerales que fijen población a los territorios rurales con empleos de calidad, innovadores y de larga duración.
 
-5. Favorecer la distribución directa de productos del medio rural en los ámbitos urbanos, especialmente en las grandes ciudades, mediante plataformas digitales y mercados de productores en fines de semana.
+5. Favorecer la distribución directa de productos de cercanía del medio rural en los ámbitos urbanos, especialmente en las grandes ciudades, mediante plataformas digitales y mercados de productores en fines de semana.
 
 6. Intensificar la conectividad para acelerar la transformación digital en el medio rural. (ver Prioridad: 0301)
 
 7. Apoyar el desarrollo de proyectos que garanticen la elección de residencia efectiva de las mujeres en el territorio rural y/o urbano.
+
+8. Impulsar el teletrabajo en zonas rurales o de segundas residencial estacionales, para fijar población.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -6447,7 +6458,7 @@ Asimismo, hay que tener en cuenta que el *carácter estacional de ciertas produc
 - Dotación de infraestructuras y equipamientos
 {{{finlineas}}}
 {{{ods(3 4 6 8 9)}}}
-El desarrollo social y económico del territorio junto con la protección de éste y la coordinación de las políticas públicas sectoriales con incidencia territorial constituyen los principios en los que se basa la política de ordenación del territorio.
+El desarrollo social y económico del territorio junto con la protección de éste y la coordinación de las políticas públicas sectoriales con incidencia territorial constituyen los elementos básicos para la política de ordenación del territorio.
 
 Dicho desarrollo requiere de un conjunto de infraestructuras y equipamientos, con una localización específica en los distintos ámbitos o áreas subregionales y municipios que componen Andalucía.
 
@@ -6479,7 +6490,7 @@ En términos generales, la dotación de infraestructuras y equipamientos hace re
 
 El papel fundamental de dichos equipamientos se ha puesto de manifiesto en los anteriores bloques temáticos de esta Estrategia. Así, por ejemplo, en el de “Conectividad” se ha destacado la función de las comunicaciones digitales y físicas, en el de “Bienestar” se ha evidenciado la necesidad de servicios educativos, de salud o atención social. Ahora, esta significación se trata desde una perspectiva territorial, no sectorial, así el foco se pone en la contribución de las infraestructuras y equipamientos a la articulación, la cohesión territorial y la competitividad regional, configurada por el sistema de ciudades (como centros de dotaciones, equipamientos y servicios), las vías de comunicación terrestres principales y las áreas logísticas y puertos.
 
-El concepto de cohesión territorial incluye entre sus significados el de equidad social, por lo que para alcanzar dicha cohesión debe garantizarse las *condiciones de accesibilidad (medida en tiempo) a las infraestructuras, equipamientos y servicios básicos en las diferentes partes del territorio regional*, que debe ser equilibrado y reflejar las menores disparidades posibles. La creación de condiciones de accesibilidad a los equipamientos (educativos, sanitarios, judiciales, culturales, deportivos y también ambientales) en la práctica totalidad del territorio andaluz es un requisito de calidad de vida y bienestar de los ciudadanos. No obstante, aún existen problemas tanto en áreas urbanas como rurales de Andalucía y se *precisan más esfuerzos* para logar una equidad social en términos territoriales.
+El concepto de cohesión territorial incluye entre sus significados el de equidad social, por lo que para alcanzar dicha cohesión debe garantizarse las *condiciones de accesibilidad (medida en tiempo) a las infraestructuras, equipamientos y servicios básicos en las diferentes partes del territorio regional*, que debe ser equilibrado y reflejar las menores disparidades posibles. La creación de condiciones de accesibilidad a los equipamientos (educativos, sanitarios, judiciales, culturales, deportivos y también ambientales) en la práctica totalidad del territorio andaluz es un requisito de calidad de vida y bienestar de la ciudadanía. No obstante, aún existen problemas tanto en áreas urbanas como rurales de Andalucía y se *precisan más esfuerzos* para logar una equidad social en términos territoriales. Igualmente, se debe garantizar el acceso universal a todos estos equipamientos para aquellas personas con movilidad reducida.
 
 Atendiendo a la *información disponible* por el Instituto de Estadística y Cartografía de Andalucía (IECA), *resulta posible conocer la distribución de la población y la dotación de equipamientos y servicios básicos* en el territorio regional y las diferencias entre distintos ámbitos.
 
@@ -6533,9 +6544,9 @@ La conectividad de los territorios rurales, preferentemente con cobertura de ban
 
 4. Desarrollar una Comisión-Ponencia Interdepartamental, asesorada con expertos externos en evaluación de infraestructuras, que ayude a priorizar las inversiones en infraestructuras en función de criterios objetivos de Análisis Coste Beneficio Social.
 
-5. Realizar inversiones en infraestructuras y equipamientos en aquellos ámbitos territoriales donde se detecten déficits estructurales, atendiendo a una priorización en los ámbitos educativos, sanitarios, sociales, judiciales, del transporte, telecomunicaciones, vivienda, culturales, deportivos, turísticos o comerciales.
+5. Realizar inversiones en infraestructuras y equipamientos en aquellos ámbitos territoriales donde se detecten déficits estructurales, atendiendo a una priorización en los ámbitos educativos, sanitarios, sociales, judiciales, del transporte, telecomunicaciones, vivienda, culturales, deportivos, turísticos, industriales o comerciales, garantizando la accesibilidad universal.
 
-6. Incluir el enfoque territorial en las políticas de digitalización y de conectividad, para disminuir los desequilibrios y mejorar la accesibilidad a los servicios públicos.
+6. Incluir el enfoque territorial en el conjunto de políticas regionales, espcialmente, en las políticas de digitalización y de conectividad, para disminuir los desequilibrios y mejorar la accesibilidad a los servicios públicos.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -6593,6 +6604,8 @@ El POTA preveía el desarrollo de instrumentos para el seguimiento y evaluación
 
 Adicionalmente, conviene señalar *el limitado recorrido de la Estrategia del Paisaje de Andalucía*, a pesar de que la excelencia paisajística, en términos de diseño e integración en el territorio, constituye un valor económico indirecto, que contribuye positivamente a la imagen corporativa de los espacios que ocupan, no solo barrios en ciudades y en municipios rurales, también centros de investigación, logísticos, parques empresariales, entre otros enclaves.
 
+Asimismo, dentro de los diferentes instrumentos de la planificación ambiental de la Junta de Andalucía, han de reforzarse aquellos que tienen una relación directa con el desarrollo local integrado y endógeno. Entre ellos destacan los Planes de Desarrollo Sostenibles (PDS), cuya finalidad es impulsar el desarrollo de actividades productivas sostenibles en los espacios naturales protegidos.
+
 Por último, en Andalucía al igual que la mayoría de las regiones europeas se ha producido en las últimas décadas un excesivo consumo de suelo para urbanización, que resulta insostenible, coincidiendo con instrumentos urbanísticos y de ordenación territorial poco operativos. Por ello, la Ley para la Sostenibilidad del Territorio unificará la actual legislación de ordenación del territorio y el bloque normativo de la legislación urbanística en un solo texto legislativo. Su propósito es resolver las dificultades que han ido afrontado ambas disciplinas en los últimos años, dotar de garantía jurídica al desarrollo de los instrumentos de planificación, gestión y disciplina territorial y urbanística, avanzar en la autonomía local y afianzar las medidas de simplificación y agilización administrativas en el marco de estas disciplinas.
 
 En definitiva, Andalucía debe adoptar enfoques más avanzados e innovadores, para activar el capital territorial propio de cada espacio subregional, conocimiento y bienes, a través de soluciones diseñadas a medida. Dichas soluciones pueden ser estrategias a la escala específica del territorio (regional, subregional y local), encaminadas al desarrollo y la competitividad a largo plazo de esa área geográfica, junto con *el establecimiento de acuerdos o convenios con otras Comunidades Autónomas españolas o regiones de países vecinos* (como Portugal o Marruecos, por ejemplo).
@@ -6618,15 +6631,17 @@ En definitiva, Andalucía debe adoptar enfoques más avanzados e innovadores, pa
 
 3. Incrementar el número de POTS de nueva formulación en desarrollo del POTA y culminar los que actualmente están pendientes de aprobación, en los términos previstos en la ley citada (en tramitación).
 
-4. Desarrollar las previsiones de la Ley de Impulso para la Sostenibilidad del territorio de Andalucía en materia de paisaje.
+4. Desarrollar las previsiones de la futura Ley de Impulso para la Sostenibilidad del territorio de Andalucía en materia de paisaje y protección del litoral.
 
 5. Propiciar desde el urbanismo y la ordenación del territorio la movilidad sostenible a través de la apuesta por la ciudad compacta, la mezcla de usos y proximidad a los servicios a escala de supermanzanas y barrios.
 
 6. Adaptar los contenidos de los POTS y de los PGOU a las orientaciones en materia de cambio climático y de una economía baja en carbono como vectores del desarrollo urbano-territorial sostenible, con objeto de facilitar, en el medio rural, el desarrollo de actividades económicas compatibles.
 
-7. Fortalecer la cooperación de Andalucía con las CC.AA. españolas vecinas y con el Magreb, desarrollando estrategias, proyectos y otras iniciativas encaminadas al desarrollo económico y al desarrollo urbano-territorial sostenible.
+7. Fomentar el desarrollo de actividades productivas sostenibles en los entornos naturales protegidos.
 
-8. Impulsar iniciativas y proyectos industriales y de desarrollo de las infraestructuras locales ligadas a los procesos de transición justa.
+8. Fortalecer la cooperación de Andalucía con las CC.AA. españolas vecinas y con el Magreb, desarrollando estrategias, proyectos y otras iniciativas encaminadas al desarrollo económico y al desarrollo urbano-territorial sostenible.
+
+9. Impulsar iniciativas y proyectos industriales y de desarrollo de las infraestructuras locales ligadas a los procesos de transición justa.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -6708,8 +6723,7 @@ Debido al alto impacto del desarrollo de diferentes tecnologías (5G, IoT, big d
 
 En los últimos años se ha venido impulsando el proceso de transformación de las ciudades y municipios de Andalucía a través de un modelo cohesionado, colaborativo y sostenible, liderado por la Junta de Andalucía y en colaboración con las diputaciones provinciales y la Federación andaluza de Municipios y Provincias.
 
-Cabe esperar que las entidades locales de Andalucía, como principales destinatarias de estos planteamientos, sean también parte fundamental en la materialización de las diversas estrategias diseñadas en los niveles superiores de gobierno (nacional y regional). La función de las ciudades será llevar a cabo una adaptación a los principios y contenidos de estas agendas, de acuerdo a las necesidades de su territorio o ciudad.
-
+Cabe esperar que las entidades locales de Andalucía, como principales destinatarias de estos planteamientos, sean también parte fundamental en la materialización de las diversas estrategias diseñadas en los niveles superiores de gobierno (nacional y regional). La función de las ciudades será llevar a cabo una adaptación a los principios y contenidos de estas agendas, de acuerdo a las necesidades de su territorio, conforme a los principios de ciudad justa, verde y productiva de la Nueva Carta de Leipzig, que abarca el concepto de "Ciudad Amable".
 
 :fig-0504A1:
 :F: Agenda Urbana de Andalucía. Elaborado a partir del Censo de Población 2001:F:
@@ -6740,13 +6754,13 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 
 3. Creación y fomento de la marca «Ciudad Industrial».
 
-4. Favorecer y apoyar los procesos de cooperación entre los municipios de las distintas áreas metropolitanas de Andalucía, a fin de crear y consolidar mecanismos informales de gobernanza metropolitana.
+4. Favorecer y apoyar los procesos de cooperación entre los municipios de las distintas áreas metropolitanas de Andalucía, a fin de crear y consolidar mecanismos institutcionalizados o informales de gobernanza metropolitana.
 
 5. Impulsar la elaboración en cada área metropolitana de Planes Estratégicos Metropolitanos en el marco de amplias alianzas de cooperación entre los actores públicos y privados de distintos municipios.
 
-6. Propiciar e incentivar la cooperación entre las áreas metropolitanas andaluzas de las diferentes provincias en materia de ordenación del territorio y urbanismo, movilidad y transporte metropolitanos, suelo y vivienda, servicios públicos, sostenibilidad urbana, desarrollo de actividades productivas, innovación e investigación.
+6. Propiciar e incentivar la cooperación entre las áreas metropolitanas andaluzas de las diferentes provincias en materia de ordenación del territorio y urbanismo, movilidad y transporte metropolitanos, suelo y vivienda, servicios públicos, sostenibilidad urbana, desarrollo de actividades productivas, innovación e investigación, entre otras.
 
-7. Fomentar la creación y el funcionamiento de redes de cooperación entre ciudades medias para emprender iniciativas conjuntas de relevancia económica (desarrollo de sistemas productivos locales o parques empresariales compartidos, entre otros).
+7. Fomentar la creación y el funcionamiento de redes de cooperación entre ciudades medias para emprender iniciativas conjuntas de relevancia económica (desarrollo de sistemas productivos locales, plataformas logísticas o parques empresariales compartidos, entre otros).
 
 8. Desarrollar iniciativas que propicien la adopción de estrategias de Ciudad o Territorio Inteligentes (Smart) en los municipios de Andalucía.
 
@@ -6761,9 +6775,9 @@ Cabe esperar que las entidades locales de Andalucía, como principales destinata
 {{{inicol(2)}}}
 Para los responsables de la política económica de Andalucía, la mejora de la gobernanza y la calidad institucional debe ser un elemento transversal a la acción de gobierno. Dichas mejoras son la base y salvaguarda del Estado Democrático y Social de Derecho.
 
-Por tanto, la gobernanza se configura como un bloque fundamental de la Planificación económica regional, basándose en la mejora de la regulación, para promover una Administración más dinámica, menos burocrática y más innovadora, en el rediseño de los servicios públicos, para situar a la ciudadanía en el centro, en el uso de las nuevas tecnologías, para hacerla más cercana y eficiente, y, por supuesto, en la rendición de cuentas, mediante un sistema eficiente y proactivo de evaluación de las políticas públicas.
+Por tanto, la gobernanza se configura como un bloque fundamental de la Planificación económica regional, basándose en la mejora de la regulación, para promover una Administración más dinámica, menos burocrática y más innovadora, en el refuerzo e inpulso de los servicios públicos, para situar a la ciudadanía en el centro, en el uso de las nuevas tecnologías, para hacerla más cercana y eficiente, y, por supuesto, en la rendición de cuentas, mediante un sistema eficiente y proactivo de evaluación de las políticas públicas.
 
-Al mismo tiempo, la igualdad de género y la cultura de calidad en unas instituciones inclusivas y transparentes guardan una estrecha vinculación, ya que ambas --además de ser prioridades para la política económica de las sociedades modernas y, en particular, para Andalucía-- responden al mismo reto, el de conseguir una sociedad más justa, próspera e inclusiva. Es por ello, que se incluye en esta área estratégica, denominada “Gobernanza”, un eje prioritario dedicado a avanzar en la perspectiva de género en las políticas públicas.
+Al mismo tiempo, la igualdad de género y la cultura de calidad en unas instituciones inclusivas y transparentes guardan una estrecha vinculación, ya que ambas --además de ser prioridades para la política económica de las sociedades modernas y, en particular, para Andalucía-- responden al mismo reto, el de conseguir una sociedad más justa, próspera, igualitaria e inclusiva. Es por ello, que se incluye en esta área estratégica, denominada “Gobernanza”, un eje prioritario dedicado a avanzar en la perspectiva de género en las políticas públicas.
 
 El Banco Mundial define la gobernanza como el marco de procesos e instituciones a través de las cuales se determina la forma en la que se ejerce el poder en un país o región para desarrollar sus recursos económicos y sociales. Y adicionalmente, entiende la buena gobernanza o el buen gobierno (/good governance/) como la eficacia y transparencia en: 1) los métodos de elección, control y reemplazo de los gobernantes, es decir la estabilidad institucional, 2) la capacidad del gobierno para administrar recursos y aplicar políticas (o dicho de otro modo, el marco regulatorio y eficacia del gobierno) y 3) el respeto a los ciudadanos, donde podríamos encuadrar la transparencia, la participación y la garantía del estado de derecho.
 
@@ -6771,13 +6785,13 @@ Por tanto, se debe entender la gobernanza como “un método o mecanismo para tr
 
 En la actualidad, la gobernanza se ha convertido, en las sociedades avanzadas, en un paradigma que orienta la acción de los gobiernos y administraciones de los Estados y con el que están comprometidas también las Naciones Unidas (Agenda 2030), la OCDE (Informes periódicos sobre la gobernanza pública en sus países miembros) y la UE, tal y como muestra la publicación del Libro Blanco de la Gobernanza Europea.
 
-En definitiva y como conclusión de este repaso conceptual, la gobernanza se entiende como un estilo (o arte) de gobernar, en el que la producción de las políticas públicas no es el resultado únicamente de la toma de decisiones de los gobiernos y administraciones en las materias en las que son titulares de competencias. Ahora, se concibe como el resultado de un esfuerzo colectivo de trabajo en red, tanto entre los gobiernos y administraciones de diferentes niveles como entre éstas y los agentes económicos y sociales relevantes (/stakeholders/), la sociedad civil y la ciudadanía.
+En definitiva y como conclusión de este repaso conceptual, la gobernanza se entiende como un estilo (o arte) de gobernar, en el que la producción de las políticas públicas no es el resultado únicamente de la toma de decisiones de los gobiernos y administraciones en las materias en las que son titulares de competencias. Ahora, se concibe como el resultado de un esfuerzo colectivo de trabajo en red, tanto entre los gobiernos y administraciones de diferentes niveles como entre éstas y los agentes económicos y sociales, la sociedad civil y la ciudadanía en general.
 
-De este modo, la gobernanza implica, por un lado, que la capacidad de un gobierno depende de las relaciones entre este conjunto de actores públicos y privados y, por otro, que la interdependencia de los asuntos públicos precisa que todos ellos participen y cooperen, no solo en el proceso de toma de decisiones sino también en la gestión, asumiendo responsabilidades.
+De este modo, la gobernanza implica, por un lado, que la capacidad de un gobierno depende de las relaciones entre este conjunto de interlocutores sociales y, por otro, que la interdependencia de los asuntos públicos precisa que todos ellos participen y cooperen, no solo en el proceso de toma de decisiones sino también en la gestión, asumiendo responsabilidades.
 
 Para la política económica de la Junta de Andalucía resulta fundamental el trabajo en red entre los gobiernos y administraciones a nivel local, regional y nacional, es decir, las llamadas relaciones intergubernamentales en la terminología del Derecho y de las Ciencias Políticas y de la Administración. En este punto conviene tener presente que, en el contexto político-institucional del Estado de las Autonomías, la implementación efectiva de las políticas públicas en Andalucía no solo precisa del ejercicio de las competencias regionales, sino que también requiere con frecuencia de actuaciones en las que las competencias son del Estado o de los Entes locales.
 
-Precisamente, las políticas públicas de la Junta de Andalucía se despliegan en este contexto de gobernanza multinivel, en el que también interviene la UE, y, por tanto, dependen de la calidad de las relaciones intergubernamentales, que operan a través de tres mecanismos: la coordinación, la colaboración y la cooperación. En este sentido, el enfoque de la gobernanza supone el encuentro o la unión de lo que el marco constitucional-estatutario y las leyes han establecido una división en el reparto competencial entre Entes locales, CC.AA. y el Estado. Esta división plantea en la práctica dificultades para abordar frecuentes situaciones de concurrencia entre competencias y, sobre todo, no resulta idónea para resolver los actuales retos de las sociedades modernas, que se caracterizan por su gran complejidad y su transversalidad (por ejemplo, la perspectiva de género, la transformación digital o el cambio climático).
+Precisamente, las políticas públicas de la Junta de Andalucía se despliegan en este contexto de gobernanza multinivel, en el que también interviene la UE, y, por tanto, dependen de la calidad de las relaciones intergubernamentales, que operan a través de tres mecanismos: la coordinación, la colaboración y la cooperación. En el marco constitucional-estatutario y las leyes han establecido una división en el reparto competencial entre los entes locales, las CC.AA. y el Estado. Esta división plantea en la práctica dificultades para abordar situaciones de concurrencia entre competencias y la resolución de algunos de los retos de las sociedades modernas, que se caracterizan por su gran complejidad y su transversalidad (por ejemplo, la perspectiva de género, la transformación digital o el cambio climático). Es por ello por lo que se requiree una gobernanza multinivel para aplicar políticas de forma más efectiva y eficiente, apelando a una responsabilidad compartida.
 
 Frente a ello, la gobernanza multinivel, que constituye la manifestación democrática del principio de transversalidad y complejidad, es un sistema en el que diferentes niveles institucionales no monopolizan sino comparten decisiones sobre las áreas competenciales. La cooperación intergubernamental proporciona la visión integrada y la interacción inteligente (coherencia y sinergia) de las políticas públicas, desarrolladas por cada administración, en el ejercicio de las competencias atribuidas. Todo ello es relevante como pauta de una buena gobernanza siempre, aunque ahora parece más importante que nunca, en el contexto de la crisis sanitaria y económica causada por la pandemia de la COVID-19. Este adverso escenario requiere que todas las administraciones sumen sus esfuerzos, con una lógica cooperativa y lealtad institucional al servicio siempre de la ciudadanía.
 
@@ -6797,11 +6811,11 @@ Por último, no cabe duda de que esta misma visión integrada y proclive a la in
 - Los recursos humanos en la Administración
 {{{finlineas}}}
 {{{ods(16 17)}}}
-Esta primera prioridad constituye un vector fundamental para lograr una mejora de la gobernanza, dado que es aceptado que los términos calidad institucional, calidad de la gobernanza y calidad de las instituciones están intrínsecamente unidos, hasta el punto de ser sinónimos. Bajo esta perspectiva, la simplicidad y estabilidad de las normas (regulación), el buen funcionamiento de los organismos reguladores, la eficiencia de la administración pública y la calidad en la prestación de servicios son condición necesaria para elevar la calidad institucional.
+Esta primera prioridad constituye un vector fundamental para lograr una mejora de la gobernanza, dado que es aceptado que los términos calidad institucional, calidad de la gobernanza y calidad de las instituciones están intrínsecamente unidos, hasta el punto de ser sinónimos. Bajo esta perspectiva, la simplicidad y estabilidad de las normas (regulación), el buen funcionamiento de los organismos reguladores, la eficiencia y la eficacia de la administración y la calidad de los servicios públicos son condición necesaria para elevar la calidad institucional.
 
 Estos elementos incidirán positivamente en la mejora de la gobernanza y, al mismo tiempo, tendrán un impacto favorable, aunque indirecto, sobre la productividad del país, a medio y largo plazo. Estos efectos se deben a que la mayor seguridad jurídica, la eliminación de trabas administrativas y la mejor regulación incentivan la inversión nacional y extranjera, a facilitar el emprendimiento, la innovación y a mejorar la asignación de los recursos privados y públicos, dirigiéndolos hacia las actividades más productivas.
 
-De este modo, Andalucía sabe que, contribuyendo a la mejora de la eficiencia de la Administración regional, a la simplificación y a una regulación menos compleja, está sentando las bases para lograr un necesario incremento de la inversión y la productividad y, en definitiva, para alcanzar mayores cotas de producción y empleo.
+De este modo, Andalucía sabe que, contribuyendo a la mejora de la eficiencia de la Administración regional, a la simplificación y a una regulación menos compleja, está sentando las bases para lograr un necesario incremento de la inversión y la productividad y, en definitiva, para alcanzar mayores cotas de producción y empleo, así como una mejor atención a las personas, propiciando que dicho empleo sea de calidad.
 
 Asimismo, es preciso entender el papel de la administración como una fuerza impulsora y facilitadora, que no se limita a una regulación directa, de arriba hacia abajo, con un carácter controlador, sino que aplica instrumentos innovadores (información, sensibilización, educación, asesoramiento, incentivos económicos, entre otros) en sus relaciones con los agentes económicos y sociales y la ciudadanía.
 
@@ -6829,8 +6843,6 @@ De este modo, la simplificación de procedimientos implica la agilización de la
 
 Con este convencimiento, se quiere impulsar un cambio en la cultura de la Administración, que la haga más ágil, accesible y proactiva, que asuma la reducción de barreras y de trabas administrativas para hacer más cómodas y rápidas las relaciones con los operadores económicos y la ciudadanía.
 
-A modo de ejemplo, en nuestra Comunidad Autónoma se ha comprobado que la tramitación de los expedientes sometidos a Autorización Ambiental Integrada y/o Unificada (AAI y/o AAU), que deberían resolverse, según la norma, en plazos de 10 meses y 8 meses respectivamente, requieren de un tiempo medio de casi dos años. Aunque se trata de un procedimiento complejo, en el que confluyen la intervención de distintas Administraciones Públicas que han de velar por el ejercicio de sus respectivas competencias, mediante un ejercicio de simplificación, reducción de plazos, agilización y coordinación de los diferentes trámites que lo integran, se conseguiría evitar estas dilaciones.
-
 Ciertamente, *en los últimos años se han logrado avances en la simplificación y agilización administrativa*, como pone de manifiesto la aprobación del Decreto-ley 2/2020, de 9 de marzo, de mejora y simplificación de la regulación para el fomento de la actividad productiva de Andalucía, *pero los esfuerzos en esta materia deben proseguir*, en línea con las propuestas del Plan para la Mejora de la Regulación Económica en Andalucía, y seguir avanzando en la convergencia con otras regiones de Europa, que destacan por sus buenas prácticas en este ámbito.
 
 De hecho, cabe destacar que la Comisión Europea ha recomendado a distintos países miembros de la UE, y entre ellos a España, el deber de plasmar, de forma explícita, su compromiso con los principios de la mejora de la regulación en sus Programas Nacionales de Reforma, especificando la aprobación de acciones de simplificación administrativa.
@@ -6850,9 +6862,9 @@ En Andalucía, destaca también la aprobación del Decreto-ley 3/2021, de 16 de 
 :UNNUMBERED: nil
 :END:
 
-1. Proseguir e intensificar la evaluación de los procedimientos administrativos y actuaciones de simplificación y reducción de trabas administrativas para detectar las opciones existentes y alcanzar compromisos vinculantes.
+1. Proseguir e intensificar el seguimiento y la evaluación de los procedimientos administrativos y actuaciones de simplificación y reducción de trabas administrativas para detectar las opciones existentes y alcanzar compromisos vinculantes.
 
-2. Implementar las actuaciones contenidas en el Plan para la Mejora de la Regulación Económica en Andalucía y, en particular, de acuerdo con la metodología de la Agencia de la Competencia y de la Regulación Económica de Andalucía (ACREA), avanzar en la reducción de trabas administrativas que afectan a los sectores económicos más importantes y/o emergentes en Andalucía.
+2. Implementar las actuaciones contenidas en el Plan para la Mejora de la Regulación Económica en Andalucía, a través de la Mesa para la Mejora de la Regulación Económica, y, en particular, de acuerdo con la metodología de la Agencia de la Competencia y de la Regulación Económica de Andalucía (ACREA), avanzar en la reducción de trabas administrativas que afectan a los sectores económicos más importantes y/o emergentes en Andalucía.
 
 3. Efectuar campañas de divulgación y transparencia sobre trabajos, informes o estudios que contengan estimaciones del coste de las trabas administrativas, a fin de concienciar y crear un estado de opinión sobre el ahorro anual que para los operadores económicos y la ciudadanía implica la reducción de trámites y la agilización de los procedimientos.
 
@@ -6901,13 +6913,13 @@ Esta baja calidad regulatoria tiene un impacto negativo sobre Andalucía y otras
 
 Adicionalmente, tanto en Andalucía como en España, en general, el Indicador de Confianza Empresarial (ICE) que elaboran el INE y el IECA incorpora un módulo, que tiene una parte dedicada a la percepción de la buena regulación. En concreto, se cuestiona sobre los recursos dedicados a la resolución de trámites con las administraciones; sobre los trámites añadidos que deben cursarse para operar y también sobre el beneficio debido a sustitución de autorizaciones previas por declaraciones responsables. Los resultados de este indicador señalan que hay un *margen amplio de mejora para agilizar los procedimientos* para operar en un mercado o industria.
 
-Por otro lado, la buena gobernanza y la calidad de la regulación también atañe *al funcionamiento interno de la Administración* y, en cierto modo, a su “sistema administrativo”. Sin duda, el ritmo actual de los cambios sociales, tecnológicos y económicos exige que todas las administraciones públicas, no solo la regional, se adapten a las nuevas realidades.
+Por otro lado, la buena gobernanza y la calidad de la regulación también atañe *al funcionamiento interno de la Administración* y, en cierto modo, a su “sistema administrativo”, lo que dificulta y ralentiza la resolución de trámites y procedimientos para el conjunto de la ciudadanía (por ejemplo: el reconocimiento de la situación de dependencia y el derecho a distintas prestaciones como la Renta Mínima de Inserción). Es por ello, que resulta necesario realizar una revisión y evaluación de los trámites y plazos del Registro de Procedimientos de la Junta de Andalucía que afectan tanto a la ciudadanía como a los operadores económicos. Adicionalmente, el ritmo actual de los cambios sociales, tecnológicos y económicos exige que todas las administraciones públicas, no solo la regional, se adapten a las nuevas realidades.
 
 En este punto, conviene destacar el importante papel que debe desempeñar la *digitalización de la Administración* y la prestación de servicios en línea (/online/) para elevar la calidad de la gobernanza regional. Aunque esta materia ya ha sido tratada en una línea de actuación de la prioridad 0102 (“Impulsar la digitalización”), cabe mencionar en este apartado que el informe de la Comisión Europea /“eGovernment in Spain”[fn:28]/, publicado en diciembre de 2018, hace una serie de recomendaciones que siguen vigentes y que pueden ser aplicables a Andalucía.
 
 Asimismo, habría que considerar las infraestructuras, equipamientos y herramientas necesarias para poder ofrecer estos servicios online con garantías de calidad. En este sentido, conviene citar el informe elaborado en el 2019, por el /Joint Research Centre/ (JRC) de la Comisión Europea: /“The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations”/[fn:29]. En dicho documento se aportan recomendaciones para superar el atraso de la incorporación de la componente geoespacial en la digitalización de las administraciones, dado que no hay evaluación valida de políticas, sino se refiere a un espacio geográfico multiescalar.
 
-Por último, la calidad de la Administración también se debe complementar con *la implicación de los propios ciudadanos y de las organizaciones de la sociedad civil y del ámbito académico y empresarial*, por su experiencia y pericia (/expertise/) en distintos ámbitos del sector público. En este sentido, la Administración “deja de asumir” toda la responsabilidad y la comparte, a través de la co-generación y co-elaboración con dichos expertos que hacen labores de asesoramiento (/think tanks/) con recursos propios o, en todo caso, con fondos públicos provenientes de convocatorias competitivas que se basen en criterios de mérito objetivos y cuantificables.
+Por último, la calidad de la Administración también se debe complementar con *la implicación de los propios ciudadanos y de las organizaciones de la sociedad civil y del ámbito académico y empresarial*, por su experiencia y pericia (/expertise/) en distintos ámbitos del sector público. En este sentido, la Administración “deja de asumir” toda la responsabilidad y la comparte, a través de la co-generación y co-elaboración con dichos expertos del sistema andaluz del conocimiento.
 
 :fig-0601B1:
 :F: University of Gothenburg:F:
@@ -6940,7 +6952,7 @@ Por último, la calidad de la Administración también se debe complementar con 
 
 4. Realizar pruebas de autodiagnóstico para conocer lo que necesitan y esperan los ciudadanos, las empresas y otras administraciones de los servicios públicos, por ejemplo, utilizando encuestas, grupos de trabajo temáticos, entre otras.
 
-5. Revisar toda la cartera de servicios para comprobar solapamientos, rigideces e ineficiencias.
+5. Revisar toda la cartera de servicios para comprobar solapamientos, rigideces e ineficiencias, incluyendo los trámites y plazos del Registro de Procedimientos de la Junta de Andalucía, valorando el grado de incidencia real de los mismos mediante robustas metodologías y criterios cualitativos y cuantitativos de evaluación.
 
 6. Implantar el registro “solo una vez” y la prestación automática de servicios.
 
@@ -6950,7 +6962,7 @@ Por último, la calidad de la Administración también se debe complementar con 
 
 9. Aplicar el principio “digital por defecto”.
 
-10. Potenciar el asesoramiento externo de las políticas públicas de la Junta de Andalucía por instituciones especializadas, a modo de laboratorio de ideas y lugares de pensamiento estratégico (think tanks).
+10. Potenciar el asesoramiento externo de las políticas públicas de la Junta de Andalucía por instituciones especializadas del sistema andaluz del conocimiento, a modo de laboratorio de ideas y lugares de pensamiento estratégico (/think tanks/).
 
 {{{fin(tcolorbox)}}}
 **** Los recursos humanos en la Administración
@@ -6962,7 +6974,7 @@ Por último, la calidad de la Administración también se debe complementar con 
 :CUSTOM_ID: texto-0601-04
 :END:
 
-La consecución de una Administración pública más eficiente viene determinada, en gran medida, por la *disponibilidad, capacitación y el sistema de incentivos de los recursos humanos*, es decir, de las empleadas y empleados públicos, así como por una *distribución equilibrada* de personal y equipamientos por departamentos y funciones.
+La consecución de un sector público (Administración y Entes instrumentales)  más eficiente y eficaz viene determinada, en gran medida, por la *disponibilidad, capacitación y el sistema de incentivos de los recursos humanos*, es decir, de las empleadas y empleados públicos, así como por una *distribución equilibrada* de personal y equipamientos por departamentos y funciones.
 
 Dado que los empleados constituyen el principal activo de las Administraciones públicas, tendencias como el envejecimiento del funcionariado y el pendiente relevo generacional, o la creciente automatización de los procesos rutinarios, requieren la capacidad de anticiparse y responder a estas cuestiones estratégicas. De este modo, resulta necesario disponer de una función pública cualificada y con un alto rendimiento y adaptada a las necesidades actuales de la sociedad.
 
@@ -6978,32 +6990,32 @@ Por otro lado, la *profesionalización del personal directivo público* requiere
 
 La existencia de unas *Relaciones de Puestos de Trabajo* (RPT) anticuadas, rígidas y no adaptadas a las nuevas necesidades operativas de una Administración cada vez más tecnificada y digitalizada requiere de una revisión global y continua que la haga más flexible.
 
-La mayor *participación de las empleadas y empleados públicos* y su capacitación para tomar decisiones permitirá la adquisición de responsabilidad, una menor resistencia al cambio fomentará la comunicación, el desarrollo de la responsabilidad en grupos y, en definitiva, redundará en un mejor servicio a la sociedad.
+La mayor *participación de las empleadas y empleados públicos*, incluidos sus representantes sindicales, y su capacitación para tomar decisiones permitirá la adquisición de responsabilidad, una menor resistencia al cambio fomentará la comunicación, el desarrollo de la responsabilidad en grupos y, en definitiva, redundará en un mejor servicio a la sociedad.
 
 Por último, la productividad del personal al servicio de la Administración está relacionada con la *formación a lo largo de su vida laboral*. Dicha adecuación de competencias y habilidades puede actualizarse tanto a través de la formación organizada por el Instituto Andaluz de Administración Pública (IAAP), como mediante el acceso a otra formación reglada académica y debe ser tenida en cuenta a la hora de aspirar a promociones y concursos. En este punto también cabe recordar la contribución del IAAP al aprendizaje organizacional a través de procesos de innovación y gestión de conocimientos y el desarrollo de competencias directivas.
 
-Asimismo, cabe recordar el especial esfuerzo necesario en el ámbito de las competencias digitales que requieren los empleados del sector público para adaptarse a la nueva Administración electrónica (e-goverment), dinámica e innovadora, que aspira a alcanzar mayores niveles de eficiencia.
+Asimismo, cabe recordar el especial esfuerzo necesario en el ámbito de las competencias digitales que requieren los empleados del sector público para adaptarse a la nueva Administración electrónica (e-goverment), dinámica e innovadora, que aspira a alcanzar mayores niveles de eficacia y eficiencia.
 
 ***** Actuaciones
 :PROPERTIES:
 :UNNUMBERED: nil
 :END:
 
-1. Realizar una planificación estratégica en materia de recursos humanos que aborde el conjunto de actuaciones destinadas a su gestión en la Administración General, con el fin último de responder eficaz y eficientemente a las necesidades, problemas y retos de la ciudadanía de los próximos diez años.
+1. Realizar una planificación estratégica en materia de recursos humanos que aborde el conjunto de actuaciones destinadas a su gestión en la Administración General, reduciendo la temporalidad y atendiendo los cuellos de botella, con el fin último de responder eficaz y eficientemente a las necesidades, problemas y retos de la ciudadanía de los próximos diez años.
 
 2. Aprobar la ley de función pública y finalizar su desarrollo reglamentario.
 
-3. Elaborar un estatuto propio para el personal directivo público, donde primen los principios de profesionalidad, idoneidad, mérito y capacidad.
+3. Elaborar un estatuto propio para el personal directivo público, en consonancia con el Estatuto Básico del Empleado Público, donde primen los principios de profesionalidad, idoneidad, mérito y capacidad.
 
 4. Rediseñar la relación de los puestos (RPT) en función de las necesidades reales, atendiendo al enriquecimiento de tareas y responsabilidades, permitiendo una adecuación y equilibrio más ágil a las necesidades.
 
 5. Establecer un nuevo sistema de carrera profesional, que contemple la promoción horizontal y una evaluación del desempeño, que incentive la motivación, la excelencia y la mayor participación del empleado público en la toma de decisiones.
 
-6. Mejorar la formación del personal funcionario a lo largo de su carrera profesional, adecuándose a la transformación digital y fomentando el trabajo en equipo, la colaboración y la gestión del conocimiento, incluidas las redes de aprendizaje y el aprendizaje intergeneracional.
+6. Mejorar la formación del personal al servicio de la Administración Pública a lo largo de su carrera profesional, adecuándose a la transformación digital y fomentando el trabajo en equipo, la colaboración y la gestión del conocimiento, incluidas las redes de aprendizaje y el aprendizaje intergeneracional.
 
 7. Velar por la consecución de objetivos en materia de conciliación, de modo que sea compatible la responsabilidad en el trabajo y las necesidades familiares, estableciendo horarios flexibles y ayudas al cuidado de ancianos y niños.
 
-8. Avanzar en la aplicación del teletrabajo, con una evaluación por resultados, por sus ventajas para la conciliación de la vida laboral con la vida familiar y sus beneficios en términos económicos, ambientales y para la salud.
+8. Avanzar en la aplicación del teletrabajo y en la Ley que lo regula, con una evaluación por resultados, por sus ventajas para la conciliación de la vida laboral con la vida familiar y sus beneficios en términos económicos, ambientales y para la salud.
 
 10. Proseguir impulsando la innovación entre los recursos humanos de la Administración, mediante itinerarios formativos y laboratorios de innovación y programas de autodiagnostico en unidades administrativas, entre otras.
 
@@ -7033,7 +7045,7 @@ Desde entonces, se ha avanzado en esta materia, aunque siguen existiendo desigua
 
 Para la Junta de Andalucía, avanzar en la igualdad  de oportunidades a partir de los Presupuesto Públicos con perspectiva de género (PPG) no es sólo una cuestión de justicia social, sino una condición imprescindible para la lograr la eficacia y eficiencia de los recursos públicos y un crecimiento económico sostenible e inclusivo a largo plazo. El principal objetivo de los PPG, es valorar la incidencia de las políticas presupuestarias desde dicha perspectiva, así como visibilizar las medidas que, a través de dichas políticas, se ponen en marcha desde la administración pública andaluza cada año para corregir los desequilibrios existentes entre mujeres y hombres.
 
-En coherencia con este planteamiento, Andalucía desarrollará una estrategia transversal que incluye el Informe de Impacto de Género, Auditorías de Presupuesto y Género de los programas presupuestarios y planes anuales de sensibilización y de formación en Presupuesto y Género.
+En coherencia con este planteamiento, Andalucía desarrollará una estrategia transversal que incluye el Informe de Impacto de Género, Auditorías de Presupuesto y Género de los programas presupuestarios y planes anuales de sensibilización y de formación en Presupuesto y Género. Adicionalmente, cabe recordar el papel del Instituto Andaluz de la Mujer (IAM) como coordinador de las principales políticas en materia de igualdad entre hombre y mujeres que son competencia de la Comunidad Autónoma.
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
@@ -7041,7 +7053,7 @@ En coherencia con este planteamiento, Andalucía desarrollará una estrategia tr
 :HTML_CONTAINER_CLASS: objetivo
 :END:
 {{{initcb(Meta)}}}
-Reducir la Brecha de Género para evitar desigualdades sociales y económicas.
+Reducir la Brecha de Género para evitar desigualdades sociales, laborales y económicas.
 {{{fintcb}}}
 
 **** Mercado Laboral
@@ -7104,26 +7116,28 @@ Un ejemplo de estas acciones positivas, es la iniciativa WomANDigital, promovida
 
 1. Implementar Políticas Activas de Empleo que contengan medidas de discriminación positiva que favorezcan la creación y el mantenimiento del empleo femenino, mejorando a su vez las condiciones laborales.
 
-2. Fomentar acciones formativas que permitan un mayor acceso de la mujer al mercado laboral, especialmente en competencias digitales y en sectores emergentes (por ejemplo, el sector TIC).
+2. Fomentar acciones formativas que permitan un mayor acceso de la mujer al mercado laboral, especialmente en competencias digitales y en sectores tradicionalmente masculinizados.
 
 3. Potenciar los programas que impulsen el trabajo autónomo, el emprendimiento y cooperativismo de mujeres como una opción de creación de empleo.
 
-4. Impulsar el diseño de Planes de Igualdad en los centros de trabajo para la reducción de las desigualdades entre hombres y mujeres, y para facilitar la promoción de estas últimas a los puestos directivos.
+4. Impulsar el diseño de Planes de Igualdad en los centros de trabajo (tanto públicos como privados) para la reducción de las desigualdades entre hombres y mujeres, y para facilitar la promoción de estas últimas a los puestos directivos.
 
 5. Colaborar con los agentes económicos y sociales más representativos, para desarrollar programas específicos dirigidos a la eliminación de la discriminación salarial por razón de género.
 
+6. Potenciar el papel del Consejo Andaluz de Relaciones Laborales (CARL), como instrumento que impulse medidas de igualdad, conciliación y corresponsabilidad en el ámbito de la negociación colectiva.
+
 {{{fin(tcolorbox)}}}
-**** Políticas de Conciliación Laboral, Familiar y Personal
+**** Políticas de conciliación laboral y corresponsabilidad
 :PROPERTIES:
 :UNNUMBERED: nil
 :END:
 ***** Texto                                                      :ignore:
 
-Una de las herramientas más eficaces para la reducción efectiva de las desigualdades existentes entre hombres y mujeres son las políticas de conciliación o políticas de familias.
+Una de las herramientas más eficaces para la reducción efectiva de las desigualdades existentes entre hombres y mujeres son las políticas de conciliación o conciliación responsable.
 
 Estas son un factor determinante si se quiere lograr una mayor inserción de la mujer en el mercado laboral o que éstas alcancen puestos de trabajo de responsabilidad en las empresas o centros de trabajo. En definitiva, si se quiere alcanzar la igualdad real y no solo la formal.
 
-Facilitar el teletrabajo, la flexibilidad horaria, trabajar por objetivos o tener guarderías y ludotecas en el centro de trabajo o cerca de ellos, así como servicios de familia en los centros educativos, son solo algunas de las medidas que se pueden adoptar para *facilitar la conciliación de la vida laboral, familiar y personal*. Diversos estudios ponen de manifiesto que cuanto más generosas son las prestaciones o servicios para el cuidado de hijos, mayores o personas con discapacidad, más elevada es la tasa femenina de actividad en el mercado laboral.
+La ampliación de los permisos de maternidad y paternidad, la mayor disponibilidad de guarderías (de 0 a 3 años), la flexibilización horaria para cuidados familiares, los permisos o la adaptación de la jornada laboral, son solo algunas de las medidas que deben adoptarse para facilitar la conciliación responsable. En este sentido, diversos estudios ponen de manifiesto que cuanto más generosas son las prestaciones o servicios para el cuidado de hijos, mayores o personas con discapacidad, más elevada es la tasa femenina de actividad en el mercado laboral.
 
 Sin embargo, existe otro factor que no depende directamente de estas políticas y que influye en las desigualdades entre hombres y mujeres, como es el *cambio de mentalidad en la sociedad y en las relaciones de pareja y familia*. Avanzar en igualdad significa una mayor implicación de los hombres en las tareas del hogar o el cuidado de hijos y personas dependientes. Según la /“Encuesta Social sobre Conciliación en el Hogar: hábitos y actitudes de la población andaluza”/ realizada por el IECA y referida al año 2019, los hombres siguen dedicando menos horas al día a las tareas del hogar y al cuidado de los hijos que las mujeres.
 
@@ -7153,17 +7167,21 @@ Esta realidad social explica por qué son las mujeres, en su inmensa mayoría, l
 :UNNUMBERED: nil
 :END:
 
-1. Incrementar los servicios de asistencia al cuidado de hijos y personas dependientes en los entornos laborales.
+1. Incrementar los servicios de asistencia al cuidado de hijos y personas dependientes.
 
-2. Ampliar los servicios extraescolares en las etapas de primer y segundo ciclo de educación infantil.
+2. Ampliar la red de centros públicos de atención a menores que atiendan a la población infantil de 0 a 3 años.
 
-3. Establecer compensaciones horarias que permitan flexibilidad en los horarios de trabajo.
+3. Evaluar la conveniencia de ampliar los servicios extraescolares en las etapas de primer y segundo ciclo de educación infantil.
 
-4. Fomentar el teletrabajo, por objetivos de forma prioritaria entre los trabajadores y trabajadoras con menores y personas dependientes a su cargo.
+4. Establecer compensaciones horarias que permitan flexibilidad en los horarios de trabajo.
 
-5. Diseñar fórmulas para cofinanciar los servicios de cuidados familiares entre la Administración, empleador y empleado.
+5. Facilitar el teletrabajo para aquellos trabajadores y trabajadoras, que lo soliciten, con menores y personas dependientes a su cargo, mediante acuerdos particulares o en convenios con las empresas.
 
-6. Realizar campañas de sensibilización para propiciar un cambio de mentalidad en la sociedad y en las relaciones de pareja y familia, incentivando esta cultura desde las escuelas.
+6. Fomentar medidas de flexibilización horaria, bolsas de horas de cuidados, mejora de los permisos o adaptación de jornada, entre otras iniciativas que faciliten la conciliación y fomenten la corresponsabilidad, en el marco de la negociación colectiva y adaptadas a la realidad de cada empresa, centro de trabajo o sector.
+
+7. Diseñar fórmulas para cofinanciar los servicios de cuidados familiares entre la Administración, las empresas y las personas trabajadoras.
+
+8. Realizar campañas de sensibilización para propiciar un cambio de mentalidad en la sociedad y en las relaciones de pareja y familia, incentivando esta cultura desde las escuelas.
 
 {{{fin(tcolorbox)}}}
 **** Empoderamiento de la mujer
@@ -7214,11 +7232,11 @@ De este modo, se concluye que aunque ha habido un avance importante, aún persis
 
 1. Evaluar y difundir los progresos alcanzados y las brechas persistentes en materia de igualdad para una mayor concienciación.
 
-2. Realizar campañas de sensibilización y divulgación para promover la igualdad de género en puestos de responsabilidad y directivos dentro del mundo económico y empresarial.
+2. Realizar campañas de sensibilización y divulgación para promover la igualdad de género en puestos de responsabilidad y directivos dentro del mundo político, económico y empresarial.
 
 3. Diseñar convocatorias de ayudas y subvenciones que incorporen requisitos y criterios de género que faciliten a la mujer el acceso a los recursos financieros cuando quieran poner en marcha un proyecto empresarial.
 
-4. Potenciar, dentro de la Administración de la Junta de Andalucía, los planes de formación del personal en materia de igualdad de mujeres y hombres, así como realizar actividades de sensibilización para el personal que desempeñe funciones de dirección.
+4. Potenciar, dentro de la Administración de la Junta de Andalucía, los planes de formación del personal en materia de igualdad de mujeres y hombres, así como realizar actividades de sensibilización para el personal que desempeñe funciones de dirección, bajo la coordinación y asesoramiento del Instituto Andaluz de la Mujer (IAM) a la Unidades de Igualdad de Género de las distintas Consejerías.
 
 5. Establecer mecanismos regulatorios que contribuyan a una representación equilibrada entre hombres y mujeres en los niveles medios de la administración.
 
@@ -7294,7 +7312,7 @@ Otro elemento básico para entender la calidad de la gobernanza y lograr una Adm
 
 Con estos criterios se identifica la acción del Gobierno de Andalucía y por ello considera una prioridad estratégica el potenciar la leal cooperación (intergubernamental/interadministrativa, interdepartamental, territorial y pública-privada), por sus efectos positivos en la implementación de las políticas públicas.
 
-Asimismo, existe un convencimiento de los beneficios de facilitar y promover la participación en sentido amplio (social, institucional, de los agentes económicos y sociales), a fin de alcanzar resultados óptimos en sus políticas públicas, gracias a la aportación e implicación de las organizaciones sociales, los agentes económicos y, en general, de la sociedad andaluza.
+Asimismo, existe un convencimiento de los beneficios de facilitar y promover la participación en sentido amplio (social, institucional, de los agentes económicos y sociales), a fin de alcanzar resultados óptimos en sus políticas públicas, gracias a la aportación e implicación de los agentes económicos y sociales, así como, en general, de la sociedad andaluza.
 
 **** Objetivo                                                     :ignore:
 :PROPERTIES:
@@ -7326,7 +7344,7 @@ Igualmente, resulta de gran importancia la manera en la que funcionan estos tres
 
 Otra modalidad relevante de la cooperación es la *cooperación territorial*. Ésta se refiere a la voluntad de los entes locales andaluces de abordar conjuntamente tareas de interés común, por ejemplo, en materia de transporte o gestión de residuos, por diferentes vías cooperativas formales (mancomunidades o consorcios) o informales (redes de ciudades, Consejos de Alcaldes, entre otros). El uso infrecuente y restringido que se ha hecho de estas fórmulas de cooperación ya ha sido tratado en el bloque estratégico 5.
 
-Por otra parte, cabe mencionar la *cooperación pública-privada*, entendiendo por ésta no solo las iniciativas comprendidas dentro de la definición clásica (es decir, el acuerdo o convenio que liga al sector público y la empresa privada para la construcción y mantenimiento de infraestructuras y la prestación de servicios), sino también cualquier relación cooperativa para la consecución de determinados objetivos, como, por ejemplo, el uso de fondos mixtos de inversión para el desarrollo de la I+D, las startups o la digitalización. 
+Por otra parte, cabe mencionar la *cooperación pública-privada*, entendiendo por ésta no solo las iniciativas comprendidas dentro de la definición clásica (es decir, el acuerdo o convenio que liga al sector público y la empresa privada para la construcción y mantenimiento de infraestructuras y la prestación de servicios), sino también cualquier relación cooperativa para la consecución de determinados objetivos, como, por ejemplo, el uso de fondos mixtos de inversión para el desarrollo de la I+D, las startups o la digitalización.
 
 En todos estos casos de cooperación, tanto en Andalucía, como en general en España, se observan grandes deficiencias que atestiguan el *escaso grado de desarrollo de la cultura de cooperación*, siempre basada en un firme principio de lealtad institucional, en un estado como el español cuasi-federal.
 
@@ -7346,13 +7364,13 @@ La *cooperación pública-privada*, también llamada colaboración privada-públ
 
 Tal y como se señala en el Libro Verde la Comisión Europea sobre la colaboración público-privada (COM(2004) 327 final), las operaciones de esta cooperación público-privada (CPP) se caracterizan, habitualmente, por una serie de elementos comunes, como la duración relativamente larga de la relación, el volumen de financiación del proyecto (a menudo, garantizado por el sector público), el importante papel del operador económico, que participa en diferentes etapas del proyecto (diseño, realización, ejecución y financiación) y la distribución de los riesgos entre el socio público y el privado, al que se le transfieren riesgos que habitualmente soporta el sector público.
 
-Las administraciones públicas europeas, españolas, y también en Andalucía (la autonómica y la local), han recurrido de forma creciente a operaciones de CPP para realizar proyectos de infraestructura, en particular en los sectores del transporte, la sanidad pública, la educación y la seguridad pública. No obstante, más recientemente, esta cooperación debe entenderse en un sentido más amplio, como una actuación conjunta del sector público y del sector privado, que mejora los resultados obtenidos separadamente por cada una de las partes, que permite activar recursos privados para fines de interés general y optimiza el capital colectivo disponible. Bajo este enfoque, se pretende aumentar las inversiones destinadas a las infraestructuras de la red transeuropea, así como al ámbito de la innovación, la investigación y el desarrollo.
+Las administraciones públicas europeas, españolas, y también en Andalucía (la autonómica y la local), han recurrido de forma creciente a operaciones de CPP para realizar proyectos de infraestructura, en particular en los sectores del transporte, la sanidad pública, la educación y la seguridad pública. No obstante, más recientemente, se considera que esta cooperación debe entenderse en un sentido más amplio, como una actuación conjunta del sector público y del sector privado, que mejore los resultados obtenidos separadamente por cada una de las partes, que permite activar recursos privados para fines de interés general y optimiza el capital colectivo disponible. Bajo este enfoque, se pretende aumentar las inversiones destinadas a las infraestructuras de la red transeuropea, así como al ámbito de la innovación, la investigación y el desarrollo.
 
 Pero conviene tener presente que no es fácil para el sector público lograr un acuerdo de CPP para un proyecto que combine la mejor relación calidad/precio y, al mismo tiempo, preservar los objetivos de interés público. La experiencia demuestra que es conveniente determinar, en cada caso, si la opción de colaboración ofrece una plusvalía real en relación con las demás posibilidades, como la adjudicación más clásica de un contrato, tal y como recuerda el Libro Verde de la Comisión Europea, antes mencionado.
 
-Precisamente, el interés por la CPP se ha renovado, a raíz de la inclusión de estas fórmulas de cooperación, como una palanca en el Plan de Recuperación, Transformación y Resiliencia, exponiéndose en el texto del Real Decreto-Ley 36/2020, “dado el efecto multiplicador que implica en la economía una movilización de recursos de esta dimensión, la CPP será clave para la ejecución de los distintos proyectos tractores contemplados en el Plan de Recuperación, Transformación y Resiliencia, siendo necesario adaptar el marco normativo de los instrumentos de la colaboración público-privada a fórmulas que, manteniendo los controles y exigencias comunitarias, permitan fórmulas más flexibles y adaptativas a los requerimientos de los proyectos financiables con el Instrumento Europeo de Recuperación”. 
+Precisamente, el interés por la CPP se ha renovado, a raíz de la inclusión, como una palanca, de estas fórmulas de cooperación en el Plan de Recuperación, Transformación y Resiliencia, quedando reflejada en el texto del Real Decreto-Ley 36/2020: /“... dado el efecto multiplicador que implica en la economía una movilización de recursos de esta dimensión, la CPP será clave para la ejecución de los distintos proyectos tractores contemplados en el Plan de Recuperación, Transformación y Resiliencia, siendo necesario adaptar el marco normativo de los instrumentos de la colaboración público-privada a fórmulas que, manteniendo los controles y exigencias comunitarias, permitan fórmulas más flexibles y adaptativas a los requerimientos de los proyectos financiables con el Instrumento Europeo de Recuperación”/. 
 
-Durante los últimos años, en la Junta de Andalucía se han producido avances considerables en la cooperación pública-privada con prácticamente todos los actores relevantes. Sin embargo, al igual que en el resto de España, las “alianzas o partenariados público-privados” han tenido un menor uso que las “externalizaciones”, aunque en muchos casos hubiera sido deseable optar por las primeras.
+Durante los últimos años, en la Junta de Andalucía se han producido avances considerables en la cooperación pública-privada en diferentes ámbitos de actuación. Sin embargo, al igual que en el resto de España, las “alianzas o partenariados público-privados” han tenido un menor uso que las “externalizaciones”, aunque en algunos casos se podría haber optado por las primeras.
 
 En resumen, con el fomento de la coordinación y colaboración y, especialmente la cooperación como principios rectores de su acción política y administrativa, la Junta de Andalucía puede obtener múltiples ventajas, tales como:
 
@@ -7544,7 +7562,7 @@ En cualquier caso, la experiencia acumulada en estos años, pese a no ser muy di
 
 1. Aprobar una Ley andaluza de evaluación de políticas públicas, que aborde los siguientes aspectos clave:
 
-   - El carácter obligatorio de la evaluación para las políticas públicas y sus correspondientes instrumentos, tales como normas, planes, programas, estrategias y grandes proyectos.
+   - El carácter obligatorio de la evaluación para las políticas públicas y sus correspondientes instrumentos, tales como normas, planes, programas, estrategias y grandes proyectos, con participación de los agentes sociales y económicos más representativos.
 
    - La transparencia sobre las conclusiones de los trabajos de evaluación, a las que debe tener libre acceso cualquier persona. Por ejemplo, podría establecerse la obligación de publicar los resultados de las evaluaciones en el Portal de Transparencia de la Junta de Andalucía.
 
@@ -7557,82 +7575,6 @@ En cualquier caso, la experiencia acumulada en estos años, pese a no ser muy di
 2. Apoyar y fortalecer el papel del IAAP, para que pueda desplegar sus principales funciones, en materia de:
 
    - Asesoramiento para la elaboración de Planes Estratégicos.
-
-   - Elaboración de una Guía de Buenas Prácticas (con ejemplos de referencia) para la evaluabilidad de los Planes, actuaciones, normativas y otras acciones de gobierno que tengan una repercusión financiera o presupuestaria.
-
-   - Generar procedimientos, protocolos de trabajo y terminología común que permita no solo el entendimiento entre los agentes implicados sino también la comprensión de la ciudadanía, para cumplir con el principio de la rendición de cuentas.
-
-   - Impulsar las tareas de formación y capacitación en materia de cultura evaluadora, a fin de que las empleadas y empleados públicos sean conscientes de la importancia de la rendición de cuentas.
-
-3. Adaptar los distintos sistemas de información de la Junta de Andalucía, para generar la información que precisan los sistemas de indicadores de las evaluaciones, aprovechando al mismo tiempo la oportunidad que brindan las nuevas tecnologías.
-
-4. Favorecer, mediante la definición de las líneas de investigación de las diferentes convocatorias públicas de apoyo a la investigación, la generación de un tejido de investigadores especialistas en evaluación de políticas públicas independientes que focalicen sus trabajos en Andalucía.
-
-5. Fortalecer el papel del IECA como proveedor de servicios, herramientas e información estadística y geoespacial contextualizada, para que pueda extraer evidencias que informen la toma de decisiones en la planificación, el seguimiento y la evaluación de políticas públicas, así como para valorar el grado de cumplimiento y calidad de los servicios públicos basada en datos estadísticos y geoespaciales. Todo ello requiere:
-
-   - Impulsar instrumentos metodológicos de apoyo en la definición de sistemas de indicadores de contexto, estratégicos, de proceso y de impacto de políticas públicas.
-
-   - Participar en la definición de la información estadística y geoespacial necesaria para valorar el grado de cumplimiento y calidad de los servicios públicos que sean competencia de la Administración de la Junta de Andalucía.
-
-   - Fomentar el uso de los datos integrados y enlazados del Sistema Estadístico y Cartográfico de Andalucía (SECA) en la evaluación de políticas públicas, así como en la valoración del grado de cumplimiento y calidad de los servicios públicos, de acuerdo con la normativa que regule estos servicios y su evaluación en cada caso.
-
-   - Ofrecer sistemas de indicadores y cuadros de mando para el seguimiento y evaluación de políticas públicas, así como para valorar el grado de cumplimiento y calidad de los servicios públicos, de acuerdo con la normativa que regule estos servicios y su evaluación en cada caso.
-
-   - Ofrecer servicios de integración, análisis y generación de muestras e indicadores orientados a la evaluación de políticas públicas, por parte del Instituto de Estadística y Cartografía de Andalucía en colaboración con los departamentos de la Administración de la Junta de Andalucía, de acuerdo con la normativa que regule estos servicios y su evaluación en cada caso.
-
-   - Promover la capacidad de los datos integrados y enlazados del SECA para la elaboración de modelos de microsimulación o algoritmos de perfilado.
-
-{{{fin(tcolorbox)}}}
-***** Planes                                                   :noexport:
-:PROPERTIES:
-:UNNUMBERED: nil
-:END:
-
-**** Transparencia e inteligencia de Gobierno
-:PROPERTIES:
-:UNNUMBERED: nil
-:END:
-***** Texto                                                      :ignore:
-:PROPERTIES:
-:CUSTOM_ID: texto-0603-01
-:END:
-
-El fortalecimiento de un sistema de evaluación de políticas públicas requiere contar con las *infraestructuras de datos y servicios* que proporcionen información accesible, útil y en formatos interoperables que favorezcan su reutilización contribuyendo con ello a la transparencia, la generación de valor y la toma de decisiones basadas en evidencias.
-
-Se trata de infraestructuras de datos que permiten la integración de los sistemas de información y nuevas fuentes de datos, así como el desarrollo de herramientas y servicios seguros que posibilitan el aprovechamiento de toda la inteligencia proporcionada por los datos. Además, estos datos y servicios interoperables, ofrecidos en condiciones no restrictivas de uso, son un elemento fundamental que estimula la prestación de servicios innovadores basados en datos, al tiempo que contribuye a la generación de valor añadido, así como al desarrollo de la investigación y la participación ciudadana.
-
-En Andalucía, el Sistema Estadístico y Cartográfico y el Instituto de Estadística y Cartografía de Andalucía, como coordinador y productor, cuentan con una larga trayectoria de generación de datos estadísticos y geoespaciales que permiten el conocimiento de la realidad territorial, demográfica, social, económica y ambiental de Andalucía.
-
-El contexto derivado de la crisis de la COVID-19 ha hecho más evidente la importancia de los *datos para la toma de decisiones*, tanto en el ámbito sanitario, para conocer el alcance de la pandemia en distintas localizaciones, como en el económico, por la necesidad de conocer el impacto en el empleo, en los hogares andaluces o en la movilidad de los andaluces, por citar algunos ejemplos. El análisis de estos comportamientos, que está basado en la observación y recopilación de datos, constituye una herramienta útil para la toma de decisiones de los responsables políticos.
-
-A esta tendencia, la Administración de la Junta de Andalucía no puede ser ajena, no solo por la instrumentalización de los resultados del análisis de los datos, sino también por el papel en la *producción o generación de datos* que tienen los distintos centros administrativos de la Junta, al igual que otros organismos y agencias de la Administración central.
-
-Esta ingente cantidad de información, que permitiría alimentar la toma de decisiones e implementar mejores políticas públicas, supone una apuesta por la “inteligencia de gobierno”. Al mismo tiempo, estos datos pueden y deben ponerse al servicio de los agentes económicos y sociales y de la ciudadanía en general para su uso, contribuyendo también a una mayor racionalidad en sus elecciones de trabajo, compra, desplazamiento, favoreciendo así el crecimiento económico y a la mejora de bienestar general.
-
-El valor de los datos residen en su uso y en este contexto se enmarca la puesta en marcha en la UE de una /“Estrategia de datos”/[fn:21] en el marco de una iniciativa de Economía de los Datos, que tiene como objetivo convertir a Europa en líder de la sociedad del dato, creando para ello un *mercado único del dato* que permita la libre circulación de éste para el beneficio de empresas, investigadores y administración pública.
-
-Esta estrategia establece el papel relevante de los datos como elemento vital de desarrollo económico, ya que /“constituyen la base de muchos nuevos productos y servicios”/ más personalizados, provocando un shock positivo y transversal en la economía, a la vez que mejora /“no solo la elaboración de políticas sino también de los servicios públicos”/. De este modo, el valor de los datos reside en su uso y reutilización y, especialmente, en el hecho de que esta reutilización es innovadora.
-
-En definitiva, la estrategia aboga por la *innovación basada en datos*, ya que se trata de una fuente extraordinaria de recursos con valor económico, que pueden tener un efecto transformador de la economía, tanto por su potencial uso por el sector privado como por su utilidad para mejorar los servicios públicos, dotando de mayor eficacia y calidad a las Administraciones públicas.
-
-Por tanto, y desde la perspectiva de la transparencia y la calidad de gobierno, Andalucía tiene la oportunidad de abanderar esta transformación, mediante la creación de un sistema integrado de información e indicadores, con el objetivo de permitir el correcto desarrollo y el seguimiento continuo y transparente de las políticas públicas y servir de base para la evaluación de resultados. Esta iniciativa atendería a las propuestas y recomendaciones de la Airef[fn:22] en materia de evaluación de políticas públicas.
-
-***** Actuaciones
-:PROPERTIES:
-:UNNUMBERED: nil
-:END:
-
-1. Constituir al IECA como un centro seguro de tratamiento de datos, a modo de “Oficina del Dato”, con la competencia para establecer las claves identificativas individuales anonimizadas, a fin de que permita la integración de la información de origen administrativo de base poblacional, empresarial y de vivienda y la generación de conjuntos de datos útiles para la difusión y reutilización, en coordinación con los departamentos sectoriales responsables.
-
-2. Promover la constitución de una Infraestructura Interoperable de datos integrados para fines analíticos en el marco del Sistema Estadístico y Cartográfico que genere información para apoyar la toma de decisiones públicas y privadas, con todas las garantías de calidad, seguridad y confidencialidad.
-
-3. Impulsar la investigación poniendo a disposición de los investigadores, de forma segura, la información resultado de la integración de estos registros de datos.
-
-{{{fin(tcolorbox)}}}
-***** Planes                                                   :noexport:
-:PROPERTIES:
-:UNNUMBERED: nil
-:END:
 
 
 * Footnotes
