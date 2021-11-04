@@ -307,7 +307,7 @@ versión actualizada de =etea.sty=.
 #+end_export
 
 
-* Introducción                                                     :noexport:
+* Introducción
 ** Antecedentes
 
 *** Texto                                                          :ignore:
@@ -967,22 +967,17 @@ El cuadro DAFO se presenta en cuatro partes separadas (una por hoja) y comienza 
 
 
 * Parte propositiva
+** Sabana                                                  :ignore:noexport:
+
+#+begin_export latex
+\includepdf[pages={-},pagecommand=\thispagestyle{plain}]{graficos/etea-esquema-ampliado.pdf}
+#+end_export
+
+
 ** LaTeX Preamble ([[file:conf-etea.org::*Configuración parte propositiva][propositiva.sty]])                                 :ignore:
 
 #+begin_export latex
 \input propositiva.sty
-#+end_export
-
-
-** Sabana                                                  :ignore:noexport:
-
-#+begin_SRC latex
-\includepdf[pages={-},pagecommand=\thispagestyle{plain}]{graficos/etea-esquema-ampliado.pdf}
-#+end_SRC
-
-#+RESULTS:
-#+begin_export latex
-\includepdf[pages={-},pagecommand=\thispagestyle{plain}]{graficos/etea-esquema-ampliado.pdf}
 #+end_export
 
 
@@ -1090,7 +1085,7 @@ Esta situación es preocupante, ya que la evidencia empírica muestra que existe
 
 2. Mejorar las condiciones laborales de los investigadores jóvenes, especialmente la estabilidad de los contratos, y promover las condiciones para impulsar su liderazgo.
 
-3. Propiciar la captación de talento investigador tanto nacional como internacional
+3. Propiciar la captación de talento investigador tanto nacional como internacional.
 
 4. Simplificar los trámites administrativos para el óptimo desarrollo de la actividad investigadora.
 {{{fin(tcolorbox)}}}
@@ -2544,7 +2539,7 @@ Adicionalmente, conviene destacar que la actividad de las universidades pública
 ***** Planes                                                   :noexport:
 
 ** Sostenibilidad
-*** Intro                                                 :ignore:noexport:
+*** Intro                                                          :ignore:
 {{{inicol(2)}}}
 El cambio climático es un problema global de nuestro tiempo y sus consecuencias, tanto en ámbitos medio ambientales como económicos y sociales, pueden ser devastadoras si no se reducen drásticamente las emisiones globales de gases de efecto invernadero y la dependencia de los combustibles fósiles.
 
@@ -2572,7 +2567,7 @@ Los responsables de la política económica de Andalucía entienden que es el mo
 
 Por último, dada la gran riqueza y diversidad biológica existente en Andalucía, es fundamental mantener un compromiso para su conservación, implicando a toda la sociedad en su conocimiento y preservación para las generaciones venideras.
 {{{fincol}}}
-*** Reducir las emisiones                                        :noexport:
+*** Reducir las emisiones
 **** Intro 0201                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0201
@@ -2709,7 +2704,7 @@ Por tanto, para luchar contra el cambio climático se deberán realizar actuacio
 - Plan Estratégico de puertos y áreas logísticas de Andalucía (En elaboración-integrado en Extenda).
 - Plan Vive en Andalucía, de Vivienda, Rehabilitación y Regeneración Urbana de Andalucía 2020-2030.
 
-*** Promover la transición energética                            :noexport:
+*** Promover la transición energética
 **** Intro 0202                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0202
@@ -3008,7 +3003,7 @@ La rápida evolución tecnológica y la digitalización, como es el ejemplo del 
 - Estrategia Andaluza de Desarrollo Sostenible 2030.
 - Borrador actualizado del Plan Nacional Integrado Energía y Clima 2021-2030.
 
-*** Impulsar la adaptación al cambio climático                   :noexport:
+*** Impulsar la adaptación al cambio climático
 **** Intro 0203                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0203
@@ -3229,7 +3224,7 @@ Los objetivos de descarbonización de la economía y de lucha y adaptación al c
 - Directrices energéticas de Andalucía. Horizonte 2030.
 - Estrategia Andaluza de Desarrollo Sostenible 2030.
 
-*** Optimizar la gestión de los recursos hídricos                :noexport:
+*** Optimizar la gestión de los recursos hídricos
 **** Intro 0204                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0204
@@ -3468,7 +3463,7 @@ La necesidad de puesta en marcha, ampliación y mejora de un número importante 
 :PROPERTIES:
 :UNNUMBERED: nil
 :END:
-*** Mejorar la gestión de residuos y apoyar la economía circular :noexport:
+*** Mejorar la gestión de residuos y apoyar la economía circular
 **** Intro 0205                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0205
@@ -3737,7 +3732,7 @@ En resumen, la economía circular va a dar respuesta a los siete ámbitos de act
 - Estrategia Andaluza de Desarrollo Sostenible 2030
 - Estrategia Minera de Andalucía 2020
 
-*** Fomentar la protección medioambiental y la biodiversidad     :noexport:
+*** Fomentar la protección medioambiental y la biodiversidad
 **** Intro 0206                                                   :ignore:
 :PROPERTIES:
 :CUSTOM_ID: intro-0206
@@ -4061,11 +4056,11 @@ La Red Corporativa de Telecomunicaciones de la Junta de Andalucía (RCJA), cread
 
 2. Impulsar el despliegue de las redes 5G con el fin de alcanzar los objetivos marcados en los planes y estrategias nacionales y europeos.
 
-3. Favorecer e impulsar la puesta a disposición de los operadores de telecomunicaciones de las infraestructuras físicas públicas de las distintas Admninistraciones Públicas.
+3. Favorecer e impulsar la puesta a disposición de los operadores de telecomunicaciones de las infraestructuras físicas públicas de las distintas Administraciones Públicas.
 
-5. Continuar con el desarrollo de proyectos tractores y relevantes como la conectividad inalámbrica en todas las sedes de la Junta de Andalucía, las “Escuelas Conectadas”, innovación de las infraestructuras tecnológicas de la RCJA.
+4. Continuar con el desarrollo de proyectos tractores y relevantes como la conectividad inalámbrica en todas las sedes de la Junta de Andalucía, las “Escuelas Conectadas”, innovación de las infraestructuras tecnológicas de la RCJA.
 
-6. Proporcionar “bonos de conectividad” para financiar el acceso a la red de colectivos vulnerables en riesgo de exclusión por la dificultad de acceso a la conectividad por motivos económicos. La necesidad de este tipo de medidas se ha hecho más patente en un contexto de educación semipresencial debido al impacto de la COVID-19 o de consultas sanitarias telemáticas.
+5. Proporcionar “bonos de conectividad” para financiar el acceso a la red de colectivos vulnerables en riesgo de exclusión por la dificultad de acceso a la conectividad por motivos económicos. La necesidad de este tipo de medidas se ha hecho más patente en un contexto de educación semipresencial debido al impacto de la COVID-19 o de consultas sanitarias telemáticas.
 
 {{{fin(tcolorbox)}}}
 ***** Planes                                                   :noexport:
@@ -5333,7 +5328,7 @@ Además, en coordinación con el Gobierno central, y con el resto de Comunidades
 :CUSTOM_ID: intro-0402-05
 :END:
 
-La evidencia muestra que la *calidad del profesorado* unido a la estabilidad de las plantillas docentes es la clave del sistema educativo de calidad, que mejora los resultados de los alumnos y con un impacto duradero a lo largo de la vida de los mismos. Sin embargo, los informes de la OCDE sobre esta materia señalan que los docentes españoles, respecto a la media de la OCDE, aunque tienen salarios superiores a la media, han participado menos en programas de inducción a la docencia[fn:13]; reciben menos feedback estructurado sobre su labor como docentes; muy pocos (menos del 5%) tiene un mentor asignado; han participado en menos actividades formativas o de desarrollo profesional y pasan menos tiempo planificando sus clases y más tiempo gestionando sus aulas.
+La evidencia muestra que la *calidad del profesorado* unida a la estabilidad de las plantillas docentes es la clave del sistema educativo de calidad, que mejora los resultados de los alumnos y con un impacto duradero a lo largo de la vida de los mismos. Sin embargo, los informes de la OCDE sobre esta materia señalan que los docentes españoles, respecto a la media de la OCDE, aunque tienen salarios superiores a la media, han participado menos en programas de inducción a la docencia[fn:13]; reciben menos feedback estructurado sobre su labor como docentes; muy pocos (menos del 5%) tiene un mentor asignado; han participado en menos actividades formativas o de desarrollo profesional y pasan menos tiempo planificando sus clases y más tiempo gestionando sus aulas.
 
 Asimismo, en nuestro país, las cuestiones relacionadas con la carrera profesional docente han sido menos desarrolladas, pese a que la evidencia científica muestra que la calidad docente y la colaboración y el aprendizaje entre docentes conforman la combinación de factores que más impacto tienen sobre el aprendizaje. Según los resultados de la encuesta  TALIS 2018 (/Teaching and Learning International Survey/) realizada por la OCDE a docentes, España tiene dos retos fundamentales en cuanto a la profesión docente: fortalecer los procesos de inserción a la docencia (ligados a un componente práctico, o clínico, del desarrollo profesional) y mejorar la colaboración docente. A ello deberíamos unir un sistema de incentivos más estimulantes que ligue claramente las recompensas en función de los resultados de la docencia, una vez descontadas las características socioeconómicas de los alumnos.
 
@@ -7575,7 +7570,12 @@ En cualquier caso, la experiencia acumulada en estos años, pese a no ser muy di
 2. Apoyar y fortalecer el papel del IAAP, para que pueda desplegar sus principales funciones, en materia de:
 
    - Asesoramiento para la elaboración de Planes Estratégicos.
-
+     
+{{{fin(tcolorbox)}}}
+***** Planes                                                   :noexport:
+:PROPERTIES:
+:UNNUMBERED: nil
+:END:
 
 * Footnotes
 [fn:25] Informe de Cobertura de banda ancha en España en el año 2020, publicado en Mayo 2021.
